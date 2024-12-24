@@ -1,24 +1,42 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { FaChevronDown, FaBars, FaRegLightbulb, FaDesktop, FaCheckCircle, FaServer } from "react-icons/fa"; // Import React Icons
 import Button from "../Buttons/Button";
 import { FaRocket, FaPaintBrush, FaBug, FaCogs } from 'react-icons/fa'; // Import icons
 import { NavLink } from "react-router-dom";
+import { IoMdClose } from "react-icons/io";
+
 
 const MegaMenu = () => {
     const [servicesOpen, setServicesOpen] = useState(false);
     const [industriesOpen, setIndustriesOpen] = useState(false);
-    const [mobileMenuOpen, setMobileMenuOpen] = useState(false); // State for mobile menu
+    const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+    const [isSticky, setIsSticky] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            if (window.scrollY > 200) {
+                setIsSticky(true); 
+            } else {
+                setIsSticky(false); 
+            }
+        };
+        window.addEventListener("scroll", handleScroll);
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+        };
+    }, []);
 
     return (
-        <nav className="bg-gray-200 text-gray-800 overflow-hidden p-4 font-poppins">
+        <nav className={`bg-gray-200 text-gray-800  p-4 font-poppins transition-all duration-300 ease-in-out  ${isSticky ? 'fixed top-0 left-0 right-0 z-50 shadow-md' : ''}`}>
             <div className="container mx-auto max-w-[1140px]">
                 {/* Mobile Navbar */}
                 <div className="lg:hidden flex items-center justify-between">
+                <img src="/SaturnXDigitalLogo_Transparent.png" alt="" className="w-20"/>
                     <button onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
-                        <FaBars className="w-6 h-6" />
+                        {mobileMenuOpen ?  <IoMdClose className="w-6 h-6 focus:outline-none"  /> : <FaBars className="w-6 h-6 focus:outline-none" />}
                     </button>
-                    <span className="font-bold text-xl">SaturnX</span>
+                    {/* <span className="font-bold text-xl">SaturnX</span> */}
                 </div>
 
                 {/* Mobile Menu (Visible only on mobile) */}
@@ -132,7 +150,7 @@ const MegaMenu = () => {
                                             alt="Service 1"
                                             className="w-full h-40 object-cover rounded-md"
                                         />
-                                        <h3 className="font-bold text-xl mt-4">Enterprise Software Development</h3>
+                                        <h4 className="font-bold text-xl mt-4">Enterprise Software Development</h4>
                                         <p className="mt-2 text-sm">Leverage our expertise in full life-cycle application design, integration, and management.</p>
                                         <Button mainButton='Read More' />
                                     </div>
@@ -144,7 +162,7 @@ const MegaMenu = () => {
                                             alt="Service 2"
                                             className="w-full h-40 object-cover rounded-md"
                                         />
-                                        <h3 className="font-bold text-xl mt-4">Mobile App Development</h3>
+                                        <h4 className="font-bold text-xl mt-4">Mobile App Development</h4>
                                         <p className="mt-2 text-sm">Go mobile-first with superior digital products, enabling seamless user experiences across all devices.</p>
                                         <Button mainButton='Read More' />
                                     </div>
@@ -156,7 +174,7 @@ const MegaMenu = () => {
                                             alt="Service 3"
                                             className="w-full h-40 object-cover rounded-md"
                                         />
-                                        <h3 className="font-bold text-xl mt-4">Dedicated Development Team</h3>
+                                        <h4 className="font-bold text-xl mt-4">Dedicated Development Team</h4>
                                         <p className="mt-2 text-sm">Scale your delivery capacity and build products faster with the help of our top qualified engineers.</p>
                                         <Button mainButton='Read More' />
                                     </div>
