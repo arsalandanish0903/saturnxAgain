@@ -1,8 +1,10 @@
 import { motion } from 'framer-motion';
 import Button from '../../components/Buttons/Button';
+import AboutBanner from '../../components/AboutBanner/AboutBanner';
 
 const About = () => {
   return (
+    <>
     <div className="bg-gray-200 font-poppins py-16">
       <div className='container mx-auto max-w-[1140px]'>
         {/* Title Section */}
@@ -80,6 +82,7 @@ const About = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

@@ -25,7 +25,7 @@ const OurClients = () => {
   ];
 
   return (
-    <section className="bg-gray-200 py-12 px-6 font-poppins">
+    <section className="bg-white py-12 px-6 font-poppins">
       <div className="container mx-auto max-w-[1140px] text-center">
         <h4 className="text-4xl xl:text-5xl  font-bold text-gray-800 mb-6">Our Clients</h4>
         <p className="text-gray-600 max-w-xl mx-auto mb-10">

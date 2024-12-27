@@ -2,7 +2,7 @@ import React from 'react';
 
 function LifeCycle() {
     return (
-        <div className="bg-gray-200 py-16 px-4 sm:px-6 lg:px-8 font-poppins">
+        <div className="bg-white py-16 px-4 sm:px-6 lg:px-8 font-poppins">
             <div className="container mx-auto max-w-[1140px] text-center">
                 <div className="flex justify-center items-center mb-4">
                     <span className="text-black  md:text-xl font-bold text-lg max-w-lg mx-auto mb-2 capitalize flex items-center">

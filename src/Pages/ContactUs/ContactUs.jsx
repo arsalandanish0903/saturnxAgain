@@ -102,6 +102,7 @@ function ContactUs() {
                 name="name"
                 placeholder="Enter your name"
                 className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm px-10 py-2 text-gray-800 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
+                required
               />
               <FaUser className="absolute top-9 left-3 text-[#0B5FC4]" />
             </div>
@@ -109,6 +110,7 @@ function ContactUs() {
               <label
                 htmlFor="email"
                 className="block text-sm font-medium text-gray-700"
+                required
               >
                 Email
               </label>

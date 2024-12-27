@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { FaChevronDown, FaBars, FaRegLightbulb, FaDesktop, FaCheckCircle, FaServer } from "react-icons/fa"; // Import React Icons
 import Button from "../Buttons/Button";
 import { FaRocket, FaPaintBrush, FaBug, FaCogs } from 'react-icons/fa'; // Import icons
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { IoMdClose } from "react-icons/io";
 
 
@@ -12,13 +12,26 @@ const MegaMenu = () => {
     const [industriesOpen, setIndustriesOpen] = useState(false);
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
     const [isSticky, setIsSticky] = useState(false);
+    const [currentIndex, setCurrentIndex] = useState(0);
+    const industriesMenuImages = [
+        "/collabrative1.jpg",
+        "/banner1.jpg",
+        "/banner2.jpg",
+    ]
+
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setCurrentIndex((prevIndex) => (prevIndex + 1) % industriesMenuImages.length);
+        }, 3000); // Change image every 3 seconds
+        return () => clearInterval(interval);
+    }, [industriesMenuImages.length]);
 
     useEffect(() => {
         const handleScroll = () => {
             if (window.scrollY > 200) {
-                setIsSticky(true); 
+                setIsSticky(true);
             } else {
-                setIsSticky(false); 
+                setIsSticky(false);
             }
         };
         window.addEventListener("scroll", handleScroll);
@@ -32,9 +45,11 @@ const MegaMenu = () => {
             <div className="container mx-auto max-w-[1140px]">
                 {/* Mobile Navbar */}
                 <div className="lg:hidden flex items-center justify-between">
-                <img src="/SaturnXDigitalLogo_Transparent.png" alt="" className="w-20"/>
+                    <NavLink to='/' className="cursor-pointer">
+                        <img src="/SaturnXDigitalLogo_Transparent.png" alt="" className="w-20" />
+                    </NavLink>
                     <button onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
-                        {mobileMenuOpen ?  <IoMdClose className="w-6 h-6 focus:outline-none"  /> : <FaBars className="w-6 h-6 focus:outline-none" />}
+                        {mobileMenuOpen ? <IoMdClose className="w-6 h-6 focus:outline-none" /> : <FaBars className="w-6 h-6 focus:outline-none" />}
                     </button>
                     {/* <span className="font-bold text-xl">SaturnX</span> */}
                 </div>
@@ -43,8 +58,8 @@ const MegaMenu = () => {
                 {mobileMenuOpen && (
                     <div className="lg:hidden">
                         <div className="flex flex-col space-y-4 mt-4">
-                            <a href="#" className="text-lg">Home</a>
-                            <a href="#" className="text-lg">About</a>
+                            <NavLink to='/' className="text-lg">Home</NavLink>
+                            <NavLink to='/about' className="text-lg">About</NavLink>
                             {/* Services with Submenu */}
                             <div className="relative">
                                 <button
@@ -56,9 +71,9 @@ const MegaMenu = () => {
                                 </button>
                                 {servicesOpen && (
                                     <div className="ml-4 mt-2 flex flex-col space-y-2">
-                                        <a href="#" className="text-base">Web Development</a>
-                                        <a href="#" className="text-base">Mobile Development</a>
-                                        <a href="#" className="text-base">UI/UX Design</a>
+                                        <NavLink to='/services' className="text-base">Web Development</NavLink>
+                                        <NavLink to='/services' className="text-base">Mobile Development</NavLink>
+                                        <NavLink to='/services' className="text-base">UI/UX Design</NavLink>
                                     </div>
                                 )}
                             </div>
@@ -89,7 +104,7 @@ const MegaMenu = () => {
                                 )}
                             </div>
                             <NavLink to='/careers' className="text-lg">Careers</NavLink>
-                            <a href="#" className="text-lg">Contact Us</a>
+                            <NavLink to='contactus' className="text-lg">Contact Us</NavLink>
                         </div>
                     </div>
                 )}
@@ -97,11 +112,13 @@ const MegaMenu = () => {
                 {/* Desktop Navbar */}
                 <div className="hidden lg:flex justify-between items-center space-x-8">
                     <div>
-                        <img
-                            src="/SaturnXDigitalLogo_Transparent.png"
-                            alt="SaturnX Logo"
-                            className="w-28"
-                        />
+                        <NavLink to="/">
+                            <img
+                                src="/SaturnXDigitalLogo_Transparent.png"
+                                alt="SaturnX Logo"
+                                className={`${isSticky ? "w-20" : "w-28"}`}
+                            />
+                        </NavLink>
                     </div>
                     <div className="flex gap-16">
 
@@ -216,14 +233,39 @@ const MegaMenu = () => {
                                     initial={{ opacity: 0 }}
                                     animate={{ opacity: 1 }}
                                     transition={{ duration: 0.2 }}
-                                    className="absolute bg-gray-700 text-white w-full mt-2 p-4 left-0"
+                                    className="absolute bg-gray-700 text-white w-full mt-2 left-0 grid grid-cols-3 gap-4 p-4"
                                 >
-                                    <h3 className="font-bold text-xl">Industries</h3>
-                                    <p className="mt-2">Explore the industries we serve: finance, healthcare, retail, and more.</p>
-                                    <img src="https://via.placeholder.com/300" alt="Industry" className="mt-4" />
+                                    {/* Left Image Column */}
+                                    <div className="col-span-1">
+                                        <img
+                                            src={industriesMenuImages[currentIndex]}
+                                            alt="Industry Slider"
+                                            className="w-full h-auto object-cover"
+                                        />
+                                    </div>
+
+                                    {/* Right Columns */}
+                                    <div className="col-span-2 grid grid-cols-2 gap-4">
+                                        {/* Column 1 */}
+                                        <div>
+                                            <h3 className="font-bold text-xl">Industries</h3>
+                                            <p className="mt-2">
+                                                Explore the industries we serve: finance, healthcare, retail, and more.
+                                            </p>
+                                        </div>
+
+                                        {/* Column 2 */}
+                                        <div>
+                                            <h3 className="font-bold text-xl">Our Expertise</h3>
+                                            <p className="mt-2">
+                                                Leverage our deep industry knowledge and innovative solutions to grow your business.
+                                            </p>
+                                        </div>
+                                    </div>
                                 </motion.div>
                             )}
                         </div>
+
 
                         <div className="relative">
                             <NavLink

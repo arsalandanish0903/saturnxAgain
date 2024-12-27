@@ -36,7 +36,7 @@ function FAQAccordion() {
   };
 
   return (
-    <div className="bg-gray-200 py-16 px-4 sm:px-6 lg:px-8 font-poppins">
+    <div className="bg-white py-16 px-4 sm:px-6 lg:px-8 font-poppins">
       <div className="max-w-4xl mx-auto">
         <h4 className="text-3xl sm:text-4xl font-bold text-gray-800 text-center mb-8">
           Frequently Asked Questions

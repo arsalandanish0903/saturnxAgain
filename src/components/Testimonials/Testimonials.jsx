@@ -41,7 +41,7 @@ const Testimonial = () => {
     };
 
     return (
-        <div className="relative w-full bg-gray-200 py-10 px-6 font-poppins">
+        <div className="relative w-full bg-gray-200 lg:py-16 px-6 font-poppins">
             <div className="max-w-[1140px] container mx-auto">
                 <h4 className="text-center py-4 text-4xl font-bold text-gray-800">Reviwes</h4>
                 <div className="px-8 py-16 bg-white rounded-lg shadow-lg overflow-hidden">
@@ -74,7 +74,7 @@ const Testimonial = () => {
                     </div>
                 </div>
                 {/* Arrows at the bottom side, side by side */}
-                <div className="absolute -bottom-4 left-0 right-0 flex justify-center space-x-6">
+                <div className="absolute bottom-4 left-0 right-0 flex justify-center space-x-6">
                     <div
                         className="cursor-pointer"
                         onClick={prevTestimonial}
