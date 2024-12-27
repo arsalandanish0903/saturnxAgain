@@ -5,6 +5,10 @@ import FeatureSection from './FeatureSection/FeatureSection'
 import About from './About/About'
 import WhyChooseUs from './WhyChooseUs/WhyChooseUs'
 import OurClients from './OurClients/OurClients'
+import ServicesSection from '../components/ServicesSection/ServicesSection'
+import LifeCycle from '../components/LifeCycle/LifeCycle'
+import FAQAccordion from '../components/FAQAccordion/FAQAccordion'
+import Testimonials from '../components/Testimonials/Testimonials'
 
 function Home() {
   return (
@@ -12,8 +16,12 @@ function Home() {
         <HeroSection />
         <About />
         <OurServices />
+        <ServicesSection />
+        <LifeCycle />
         <WhyChooseUs />
         <OurClients />
+        <Testimonials />
+        <FAQAccordion />
     </>
   )
 }

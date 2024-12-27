@@ -5,6 +5,7 @@ import About from './Pages/About/About'
 import Home from './Pages/Home';
 import Careers from './Pages/Careers/Careers';
 import ContactUs from './Pages/ContactUs/ContactUs'
+import Services from './Pages/Services/Services';
 function App() {
   return (
     <Router>
@@ -14,6 +15,7 @@ function App() {
           {/* Define child routes */}
           <Route index element={<Home />} />
           <Route path='about' element={<About />} />
+          <Route path='services' element={<Services />} />
           <Route path='careers' element={<Careers />} />
           <Route path='contactus' element={<ContactUs />} />
           {/* Add more routes as needed */}

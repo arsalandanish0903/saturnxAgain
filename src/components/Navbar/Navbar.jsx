@@ -133,9 +133,9 @@ const MegaMenu = () => {
                             onMouseEnter={() => setServicesOpen(true)}
                             onMouseLeave={() => setServicesOpen(false)}
                         >
-                            <a href="#" className="text-lg flex items-center">
+                            <NavLink to='/services' className="text-lg flex items-center">
                                 Services <FaChevronDown className="w-5 h-5 ml-2" />
-                            </a>
+                            </NavLink>
                             {servicesOpen && (
                                 <motion.div
                                     initial={{ opacity: 0 }}
