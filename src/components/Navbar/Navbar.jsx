@@ -88,7 +88,7 @@ const MegaMenu = () => {
                                     </div>
                                 )}
                             </div>
-                            <a href="#" className="text-lg">Careers</a>
+                            <NavLink to='/careers' className="text-lg">Careers</NavLink>
                             <a href="#" className="text-lg">Contact Us</a>
                         </div>
                     </div>
