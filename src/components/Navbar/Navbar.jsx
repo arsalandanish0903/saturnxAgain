@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { FaChevronDown, FaBars, FaRegLightbulb, FaDesktop, FaCheckCircle, FaServer } from "react-icons/fa"; // Import React Icons
 import Button from "../Buttons/Button";
 import { FaRocket, FaPaintBrush, FaBug, FaCogs } from 'react-icons/fa'; // Import icons
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, useNavigate } from "react-router-dom";
 import { IoMdClose } from "react-icons/io";
 import { FaChevronUp } from "react-icons/fa";
 import { FaHardHat, FaHeartbeat, FaTooth, FaShieldAlt, FaShoppingCart } from "react-icons/fa";
@@ -70,6 +70,7 @@ const MegaMenu = () => {
     const toggleAccordion = (index) => {
         setOpenIndex(openIndex === index ? null : index)
     }
+    const navigate = useNavigate()
     return (
         <nav className={`bg-gray-200 text-gray-800  p-4 font-poppins transition-all duration-300 ease-in-out  ${isSticky ? 'fixed top-0 left-0 right-0 z-50 shadow-md' : ''}`}>
             <div className="container mx-auto max-w-[1140px]">
