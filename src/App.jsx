@@ -1,11 +1,7 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout/Layout';
-import About from './Pages/About/About'
 import Home from './Pages/Home';
-import Careers from './Pages/Careers/Careers';
-import ContactUs from './Pages/ContactUs/ContactUs'
-import Services from './Pages/Services/Services';
 import AboutBanner from './components/AboutBanner/AboutBanner';
 import ServicesBanner from './components/ServicesBanner/ServicesBanner';
 import CareersBanner from './components/CareersBanner/CareersBanner';
@@ -17,10 +13,26 @@ import 'aos/dist/aos.css';
 import Dental from './Pages/Dental/Dental';
 import Insurance from './Pages/Insurance/Insurance';
 import Ecommerce from './Pages/Ecommerce/Ecommerce';
+import Loader from './components/Loader/Loader';
 
 AOS.init();
 
 function App() {
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    // Simulate a loading delay (e.g., fetch data or wait for assets to load)
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+    }, 3000); // Adjust the time as needed
+
+    return () => clearTimeout(timer); // Cleanup timeout
+  }, []);
+
+  if (isLoading) {
+    return <Loader />; // Show the loader while loading
+  }
+
   return (
     <Router>
       <Routes>

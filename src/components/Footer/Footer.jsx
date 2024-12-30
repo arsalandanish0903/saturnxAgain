@@ -69,7 +69,7 @@ const Footer = () => {
 
                         <ul class="mt-6 space-y-4">
                             <li>
-                                <a href='javascript:void(0)' class='hover:text-gray-800 text-gray-600 text-sm'>Web Development</a>
+                                <Link to="/services" class='hover:text-gray-800 text-gray-600 text-sm'>Web Development</Link>
                             </li>
                             <li>
                                 <a href='javascript:void(0)' class='hover:text-gray-800 text-gray-600 text-sm'>Pricing</a>
@@ -85,24 +85,6 @@ const Footer = () => {
                             </li>
                         </ul>
                     </div>
-
-                    {/* <div class="max-lg:min-w-[140px]">
-          <h4 class="text-gray-800 font-semibold text-base relative max-sm:cursor-pointer">Platforms</h4>
-          <ul class="space-y-4 mt-6">
-            <li>
-              <a href='javascript:void(0)' class='hover:text-gray-800 text-gray-600 text-sm'>Hubspot</a>
-            </li>
-            <li>
-              <a href='javascript:void(0)' class='hover:text-gray-800 text-gray-600 text-sm'>Integration Services</a>
-            </li>
-            <li>
-              <a href='javascript:void(0)' class='hover:text-gray-800 text-gray-600 text-sm'>Marketing Glossar</a>
-            </li>
-            <li>
-              <a href='javascript:void(0)' class='hover:text-gray-800 text-gray-600 text-sm'>UIPath</a>
-            </li>
-          </ul>
-        </div> */}
 
                     <div class="max-lg:min-w-[140px]">
                         <h4 class="text-gray-800 font-semibold text-base relative max-sm:cursor-pointer">Company</h4>

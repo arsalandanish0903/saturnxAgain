@@ -4,7 +4,7 @@ import Services from "../../Pages/Services/Services";
 function ServicesBanner() {
   return (
     <>
-    <div className="relative h-[400px] bg-cover bg-center" style={{ backgroundImage: "url('/servicesBanner.avif')" }}>
+    <div className="relative h-[400px] bg-cover bg-center" style={{ backgroundImage: "url('/outservices.jpg')" }}>
       {/* Overlay */}
       <div className="absolute inset-0 bg-black bg-opacity-70"></div>
 

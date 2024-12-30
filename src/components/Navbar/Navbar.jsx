@@ -202,6 +202,7 @@ const MegaMenu = () => {
                                         <p className="mt-2 text-sm">Leverage our expertise in full life-cycle application design, integration, and management.</p>
                                         <Button mainButton='Read More' 
                                         className="changeColor"
+                                        btnPath={(navigate) => navigate("/services")}
                                         />
                                     </div>
 
@@ -216,6 +217,7 @@ const MegaMenu = () => {
                                         <p className="mt-2 text-sm">Go mobile-first with superior digital products, enabling seamless user experiences across all devices.</p>
                                         <Button mainButton='Read More' 
                                         className="changeColor"
+                                        btnPath={(navigate) => navigate("/services")}
                                         />
                                     </div>
 
@@ -230,6 +232,7 @@ const MegaMenu = () => {
                                         <p className="mt-2 text-sm">Scale your delivery capacity and build products faster with the help of our top qualified engineers.</p>
                                         <Button mainButton='Read More'
                                         className="changeColor"
+                                        btnPath={(navigate) => navigate("/services")}
                                         />
                                     </div>
 
@@ -250,6 +253,7 @@ const MegaMenu = () => {
                                             <li>
                                                 <Button mainButton='All Services' 
                                                 className="changeColor"
+                                                btnPath={(navigate) => navigate("/services")}
                                                 />
                                             </li>
                                         </ul>

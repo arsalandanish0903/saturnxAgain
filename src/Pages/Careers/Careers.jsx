@@ -6,55 +6,55 @@ const jobListings = [
     title: 'Frontend Developer',
     description:
       'Join our team to create visually stunning, responsive, and dynamic web applications. Collaborate with designers to implement pixel-perfect designs using React JS and Tailwind CSS. Debug and optimize frontend components for performance.',
-    whatsappNumber: '+9923079541',
+    whatsappNumber: '+918788447944',
   },
   {
     title: 'Backend Developer',
     description:
       'Design and maintain scalable server-side applications and APIs. Work with databases to ensure data integrity and performance. Troubleshoot and debug backend systems to deliver a seamless user experience.',
-    whatsappNumber: '+9923079541',
+    whatsappNumber: '+918788447944',
   },
   {
     title: 'Full Stack Developer',
     description:
       'Develop both frontend and backend components of scalable web applications. Work with modern frameworks like React, Node.js, and databases to create robust solutions.',
-    whatsappNumber: '+9923079541',
+    whatsappNumber: '+918788447944',
   },
   {
     title: 'PHP Developer',
     description:
       'Create and maintain dynamic websites and web applications using PHP and Laravel. Work on database-driven projects ensuring high performance and scalability.',
-    whatsappNumber: '+9923079541',
+    whatsappNumber: '+918788447944',
   },
   {
     title: 'MERN Stack Developer',
     description:
       'Develop modern applications using MongoDB, Express, React, and Node.js. Collaborate with a team to design and deploy scalable solutions.',
-    whatsappNumber: '+9923079541',
+    whatsappNumber: '+918788447944',
   },
   {
     title: 'Digital Marketing Specialist',
     description:
       'Plan and execute digital marketing campaigns to drive engagement. Optimize website and content for SEO and SEM strategies. Analyze data to measure the success of campaigns and suggest improvements.',
-    whatsappNumber: '+9923079541',
+    whatsappNumber: '+918788447944',
   },
   {
     title: 'AI/ML Engineer',
     description:
       'Work on exciting AI and machine learning projects, building intelligent solutions. Design and deploy machine learning models for business use cases.',
-    whatsappNumber: '+9923079541',
+    whatsappNumber: '+918788447944',
   },
   {
     title: 'UI/UX Designer',
     description:
       'Design user-friendly and visually stunning interfaces that enhance user experiences. Work with developers to ensure seamless implementation of your designs.',
-    whatsappNumber: '+9923079541',
+    whatsappNumber: '+918788447944',
   },
   {
     title: 'Python Developer',
     description:
       'Build and deploy Python applications for data analysis, web development, or automation. Work on scalable and efficient solutions.',
-    whatsappNumber: '+9923079541',
+    whatsappNumber: '+918788447944',
   },
 ];
 
