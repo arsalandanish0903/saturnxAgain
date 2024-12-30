@@ -89,8 +89,8 @@ const MegaMenu = () => {
                 {mobileMenuOpen && (
                     <div className="lg:hidden">
                         <div className="flex flex-col space-y-4 mt-4">
-                            <NavLink to='/' className="text-lg">Home</NavLink>
-                            <NavLink to='/about' className="text-lg">About</NavLink>
+                            <NavLink to='/' className="text-lg" onClick={() => setMobileMenuOpen(false)}>Home</NavLink>
+                            <NavLink to='/about' className="text-lg" onClick={() => setMobileMenuOpen(false)}>About</NavLink>
                             {/* Services with Submenu */}
                             <div className="relative">
                                 <button
@@ -102,9 +102,9 @@ const MegaMenu = () => {
                                 </button>
                                 {servicesOpen && (
                                     <div className="ml-4 mt-2 flex flex-col space-y-2">
-                                        <NavLink to='/services' className="text-base">Web Development</NavLink>
-                                        <NavLink to='/services' className="text-base">Mobile Development</NavLink>
-                                        <NavLink to='/services' className="text-base">UI/UX Design</NavLink>
+                                        <NavLink to='/services' className="text-base" onClick={() => setMobileMenuOpen(false)}>Web Development</NavLink>
+                                        <NavLink to='/services' className="text-base" onClick={() => setMobileMenuOpen(false)}>Mobile Development</NavLink>
+                                        <NavLink to='/services' className="text-base" onClick={() => setMobileMenuOpen(false)}>UI/UX Design</NavLink>
                                     </div>
                                 )}
                             </div>
@@ -120,22 +120,22 @@ const MegaMenu = () => {
                                 {industriesOpen && (
                                     <div className="grid grid-cols-2 gap-4 p-4 bg-gray-100 rounded-lg mt-2">
                                         <div>
-                                            <h4 className="font-semibold text-base mb-2">Technology</h4>
-                                            <a href="#" className="text-sm block">AI & Machine Learning</a>
-                                            <a href="#" className="text-sm block">Cloud Computing</a>
-                                            <a href="#" className="text-sm block">IoT</a>
+                                            <Link to="/construction" className="text-sm block" onClick={() => setMobileMenuOpen(false)}>Construction</Link>
+                                            <Link to="/healthcare" className="text-sm block" onClick={() => setMobileMenuOpen(false)}>Health Care</Link>
+                                            <Link to="/dental" className="text-sm block" onClick={() => setMobileMenuOpen(false)}>Dental</Link>
+                                            <Link to="/insurance" className="text-sm block" onClick={() => setMobileMenuOpen(false)}>Insurance</Link>
                                         </div>
                                         <div>
-                                            <h4 className="font-semibold text-base mb-2">Retail</h4>
-                                            <a href="#" className="text-sm block">E-commerce</a>
-                                            <a href="#" className="text-sm block">Supply Chain</a>
-                                            <a href="#" className="text-sm block">Customer Experience</a>
+                                            
+                                            <Link to="/ecommerce" className="text-sm block" onClick={() => setMobileMenuOpen(false)}>E-commerce</Link>
+                                            <a href="#" className="text-sm block" onClick={() => setMobileMenuOpen(false)}>Supply Chain</a>
+                                            <a href="#" className="text-sm block" onClick={() => setMobileMenuOpen(false)}>Customer Experience</a>
                                         </div>
                                     </div>
                                 )}
                             </div>
-                            <NavLink to='/careers' className="text-lg">Careers</NavLink>
-                            <NavLink to='contactus' className="text-lg">Contact Us</NavLink>
+                            <NavLink to='/careers' className="text-lg" onClick={() => setMobileMenuOpen(false)}>Careers</NavLink>
+                            <NavLink to='contactus' className="text-lg" onClick={() => setMobileMenuOpen(false)}>Contact Us</NavLink>
                         </div>
                     </div>
                 )}
@@ -159,6 +159,7 @@ const MegaMenu = () => {
                                 className={({ isActive }) =>
                                     `text-lg ${isActive ? 'text-white bg-[#0B5FC4] px-4 py-1 rounded-md' : 'hover:bg-[#0B5FC4] hover:text-white px-4 py-1 rounded-md'}`
                                 }
+                                onClick={() => setMobileMenuOpen(false)}
                             >
                                 Home
                             </NavLink>
@@ -170,6 +171,7 @@ const MegaMenu = () => {
                                 className={({ isActive }) =>
                                     `text-lg ${isActive ? 'text-white bg-[#0B5FC4] px-4 py-1 rounded-md' : 'hover:bg-[#0B5FC4] hover:text-white px-4 py-1 rounded-md'}`
                                 }
+                                onClick={() => setMobileMenuOpen(false)}
                             >
                                 About
                             </NavLink>
@@ -181,7 +183,9 @@ const MegaMenu = () => {
                             onMouseEnter={() => setServicesOpen(true)}
                             onMouseLeave={() => setServicesOpen(false)}
                         >
-                            <NavLink to='/services' className="text-lg flex items-center">
+                            <NavLink to='/services' className="text-lg flex items-center"
+                            onClick={() => setMobileMenuOpen(false)}
+                            >
                                 Services <FaChevronDown className="w-5 h-5 ml-2" />
                             </NavLink>
                             {servicesOpen && (
@@ -295,23 +299,23 @@ const MegaMenu = () => {
                                             <ul className="m-0 p-0 flex flex-col gap-8">
                                                 <li className="flex items-center gap-4">
                                                     <FaHardHat className="text-[#0B5FC4]" size={20}/>
-                                                    <Link to='/construction' className="text-gray-800 hover:text-blue-600">Construction</Link>
+                                                    <Link to='/construction' className="text-gray-800 hover:text-blue-600" onClick={() => setIndustriesOpen(false)}>Construction</Link>
                                                 </li>
                                                 <li className="flex items-center gap-4">
                                                     <FaHeartbeat className="text-[#0B5FC4]" size={20}/>
-                                                    <Link to='/healthcare' className="text-gray-800 hover:text-blue-600">Health Care</Link>
+                                                    <Link to='/healthcare' className="text-gray-800 hover:text-blue-600" onClick={() => setIndustriesOpen(false)}>Health Care</Link>
                                                 </li>
                                                 <li className="flex items-center gap-4">
                                                     <FaTooth className="text-[#0B5FC4]" size={20}/>
-                                                    <Link to='/dental' className="text-gray-800 hover:text-blue-600">Dental</Link>
+                                                    <Link to='/dental' className="text-gray-800 hover:text-blue-600" onClick={() => setIndustriesOpen(false)}>Dental</Link>
                                                 </li>
                                                 <li className="flex items-center gap-4">
                                                     <FaShieldAlt className="text-[#0B5FC4]" size={20}/>
-                                                    <Link to='/insurance' className="text-gray-800 hover:text-blue-600">Insurance</Link>
+                                                    <Link to='/insurance' className="text-gray-800 hover:text-blue-600" onClick={() => setIndustriesOpen(false)}>Insurance</Link>
                                                 </li>
                                                 <li className="flex items-center gap-4">
                                                     <FaShoppingCart className="text-[#0B5FC4]" size={20}/>
-                                                    <Link to='/ecommerce' className="text-gray-800 hover:text-blue-600">Retail & E-commerce</Link>
+                                                    <Link to='/ecommerce' className="text-gray-800 hover:text-blue-600" onClick={() => setIndustriesOpen(false)}>Retail & E-commerce</Link>
                                                 </li>
                                             </ul>
                                         </div>
