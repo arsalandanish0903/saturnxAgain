@@ -3,25 +3,25 @@ import { FaRocket, FaQuestionCircle, FaDollarSign, FaLifeRing } from 'react-icon
 
 const faqData = [
   {
-    icon: <FaRocket className="text-indigo-600 w-6 h-6 mr-4" />,
+    icon: <FaRocket className="text-[#0B5FC4] w-6 h-6 mr-4" />,
     question: 'What services does Saturnx provide?',
     answer:
       'Saturnx specializes in digital marketing, web development, and branding solutions tailored to your business needs. We provide innovative strategies and cutting-edge designs to help your business grow.',
   },
   {
-    icon: <FaQuestionCircle className="text-indigo-600 w-6 h-6 mr-4" />,
+    icon: <FaQuestionCircle className="text-[#0B5FC4] w-6 h-6 mr-4" />,
     question: 'How do I get started with Saturnx?',
     answer:
       'Getting started is easy! Just contact us through our website or send us an email. Our team will guide you through the process and discuss your requirements in detail.',
   },
   {
-    icon: <FaDollarSign className="text-indigo-600 w-6 h-6 mr-4" />,
+    icon: <FaDollarSign className="text-[#0B5FC4] w-6 h-6 mr-4" />,
     question: 'What is your pricing structure?',
     answer:
       'Our pricing is flexible and depends on the services you require. We offer competitive rates and customizable packages to ensure the best value for your investment.',
   },
   {
-    icon: <FaLifeRing className="text-indigo-600 w-6 h-6 mr-4" />,
+    icon: <FaLifeRing className="text-[#0B5FC4] w-6 h-6 mr-4" />,
     question: 'Do you offer support after the project is completed?',
     answer:
       'Yes, we provide ongoing support and maintenance to ensure your project runs smoothly. Our team is always available to assist you with updates or any technical issues.',
@@ -37,7 +37,7 @@ function FAQAccordion() {
 
   return (
     <div className="bg-white py-16 px-4 sm:px-6 lg:px-8 font-poppins">
-      <div className="max-w-4xl mx-auto">
+      <div className="container max-w-[1140px] mx-auto">
         <h4 className="text-3xl sm:text-4xl font-bold text-gray-800 text-center mb-8">
           Frequently Asked Questions
         </h4>

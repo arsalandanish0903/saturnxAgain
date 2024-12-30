@@ -8,7 +8,7 @@ const HeroSection = () => {
       {/* Background Video */}
       <video
         className="absolute inset-0 w-full h-full object-cover"
-        src="191518-890528350_small.mp4"
+        src="/homebanner.mp4"
         autoPlay
         loop
         muted
@@ -27,7 +27,7 @@ const HeroSection = () => {
           transition={{ duration: 1 }}
         >
           Build Bespoke Software Solution for Your{" "}
-          <span className="text-[#0B5FC4]">Business Growth</span>
+          <span className="text-[#F59E0D]">Business Growth</span>
         </motion.h1>
 
         {/* Subheading */}
@@ -39,7 +39,7 @@ const HeroSection = () => {
         >
           From innovative startups to Fortune 500 enterprises, businesses trust
           us to develop, test, upgrade, and scale their{" "}
-          <span className="text-[#0B5FC4]">digital products</span>.
+          digital products.
         </motion.p>
 
         {/* Call-to-Action Button */}
@@ -66,3 +66,4 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
+

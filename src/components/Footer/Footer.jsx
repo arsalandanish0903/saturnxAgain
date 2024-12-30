@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -7,9 +8,9 @@ const Footer = () => {
             <div className='container mx-auto max-w-[1140px]'>
                 <div class="flex flex-wrap justify-between gap-10">
                     <div class="max-w-md">
-                        <a href='javascript:void(0)'>
+                        <Link to="/">
                             <img src="/SaturnXDigitalLogo_Transparent.png" alt="logo" class='w-36' />
-                        </a>
+                        </Link>
                         {/* <div class="mt-6">
             <p class="text-gray-600 leading-relaxed text-sm">ReadymadeUI is a library of pre-designed UI components built for Tailwind CSS. It offers a collection of versatile, ready-to-use components that streamline the development process by providing a wide range of UI elements.</p>
           </div> */}
@@ -108,10 +109,10 @@ const Footer = () => {
 
                         <ul class="space-y-4 mt-6">
                             <li>
-                                <a href='javascript:void(0)' class='hover:text-gray-800 text-gray-600 text-sm'>About us</a>
+                                <Link to="/about" class='hover:text-gray-800 text-gray-600 text-sm'>About us</Link>
                             </li>
                             <li>
-                                <a href='javascript:void(0)' class='hover:text-gray-800 text-gray-600 text-sm'>Careers</a>
+                                <Link to="/careers" class='hover:text-gray-800 text-gray-600 text-sm'>Careers</Link>
                             </li>
                             <li>
                                 <a href='javascript:void(0)' class='hover:text-gray-800 text-gray-600 text-sm'>Blog</a>
