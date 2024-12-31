@@ -75,7 +75,7 @@ const MegaMenu = () => {
         <nav className={`bg-gray-200 text-gray-800  p-4 font-poppins transition-all duration-300 ease-in-out  ${isSticky ? 'fixed top-0 left-0 right-0 z-50 shadow-md' : ''}`}>
             <div className="container mx-auto max-w-[1140px]">
                 {/* Mobile Navbar */}
-                <div className="lg:hidden flex items-center justify-between">
+                <div className={`bg-gray-200 text-gray-800  p-4 font-poppins transition-all duration-300 ease-in-out lg:hidden flex items-center justify-between ${isSticky ? 'fixed top-0 left-0 right-0 z-50 shadow-md' : ''}`}>
                     <NavLink to='/' className="cursor-pointer">
                         <img src="/SaturnXDigitalLogo_Transparent.png" alt="" className="w-20" />
                     </NavLink>
@@ -87,7 +87,7 @@ const MegaMenu = () => {
 
                 {/* Mobile Menu (Visible only on mobile) */}
                 {mobileMenuOpen && (
-                    <div className="lg:hidden">
+                    <div className={`bg-gray-200 text-gray-800  p-4 font-poppins transition-all duration-300 ease-in-out lg:hidden ${isSticky ? 'fixed top-0 left-0 right-0 z-40 mt-24 shadow-md' : ''}`}>
                         <div className="flex flex-col space-y-4 mt-4">
                             <NavLink to='/' className="text-lg" onClick={() => setMobileMenuOpen(false)}>Home</NavLink>
                             <NavLink to='/about' className="text-lg" onClick={() => setMobileMenuOpen(false)}>About</NavLink>
