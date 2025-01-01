@@ -72,7 +72,7 @@ const MegaMenu = () => {
     }
     const navigate = useNavigate()
     return (
-        <nav className={`bg-gray-200 text-gray-800  p-4 font-poppins transition-all duration-300 ease-in-out  ${isSticky ? 'fixed top-0 left-0 right-0 z-50 shadow-md' : ''}`}>
+        <nav className={`bg-gray-200 text-gray-800 z-50  p-4 font-poppins transition-all duration-300 ease-in-out  ${isSticky ? 'fixed top-0 left-0 right-0 z-50 shadow-md' : ''}`}>
             <div className="container mx-auto max-w-[1140px]">
                 {/* Mobile Navbar */}
                 <div className={`bg-gray-200 text-gray-800  p-4 font-poppins transition-all duration-300 ease-in-out lg:hidden flex items-center justify-between ${isSticky ? 'fixed top-0 left-0 right-0 z-50 shadow-md' : ''}`}>
@@ -193,10 +193,10 @@ const MegaMenu = () => {
                                     initial={{ opacity: 0 }}
                                     animate={{ opacity: 1 }}
                                     transition={{ duration: 0.2 }}
-                                    className="absolute bg-white text-black w-full mt-2 p-4 left-0 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4"
+                                    className="absolute bg-gray-200 text-black w-full -z-10 -mt-1 pt-12 pb-4 px-8 left-0 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4"
                                 >
                                     {/* Card 1 */}
-                                    <div className="bg-gray-200 p-4 rounded-lg shadow-md">
+                                    <div className="bg-white p-4 rounded-lg shadow-md">
                                         <img
                                             src="/colleagues-working-project-discussing-details.jpg"
                                             alt="Service 1"
@@ -211,7 +211,7 @@ const MegaMenu = () => {
                                     </div>
 
                                     {/* Card 2 */}
-                                    <div className="bg-gray-200 p-4 rounded-lg shadow-md">
+                                    <div className="bg-white p-4 rounded-lg shadow-md">
                                         <img
                                             src="/representations-user-experience-interface-design.jpg"
                                             alt="Service 2"
@@ -226,7 +226,7 @@ const MegaMenu = () => {
                                     </div>
 
                                     {/* Card 3 */}
-                                    <div className="bg-gray-200 p-4 rounded-lg shadow-md">
+                                    <div className="bg-white p-4 rounded-lg shadow-md">
                                         <img
                                             src="/collabrative1.jpg"
                                             alt="Service 3"
@@ -280,7 +280,7 @@ const MegaMenu = () => {
                                     initial={{ opacity: 0 }}
                                     animate={{ opacity: 1 }}
                                     transition={{ duration: 0.2 }}
-                                    className="absolute bg-white text-white w-full mt-2 left-0 grid items-center justify-center grid-cols-3 gap-4 p-4"
+                                    className="absolute bg-gray-200 text-black -z-10 -mt-1 pt-12 pb-4 px-8 w-full  left-0 grid items-center justify-center grid-cols-3 gap-4 p-4"
                                 >
                                     {/* Left Image Column */}
                                     <div className="col-span-1">
@@ -295,7 +295,7 @@ const MegaMenu = () => {
                                     <div className="col-span-2 grid grid-cols-2 gap-4 py-4">
                                         {/* Column 1 */}
                                         <div>
-                                            <h3 className="font-bold text-xl">Industries</h3>
+                                            <h3 className="font-bold text-xl mb-4">Industries</h3>
                                             <ul className="m-0 p-0 flex flex-col gap-8">
                                                 <li className="flex items-center gap-4">
                                                     <FaHardHat className="text-[#0B5FC4]" size={20}/>
@@ -325,7 +325,7 @@ const MegaMenu = () => {
                                             <ul className="space-y-4">
                                                 {industriesAccordionNavabr.map((service, index) => {
                                                     return (
-                                                        <li key={index} className="border-2 border-gray-200 rounded-md">
+                                                        <li key={index} className="border-2 border-[#0B5FC4] rounded-md">
                                                             <button
                                                                 onClick={() => toggleAccordion(index)}
                                                                 className="flex justify-between items-center w-full hover:border-none p-4 font-semibold text-left text-black hover:bg-[#0B5FC4] hover:text-white focus:outline-none group"
