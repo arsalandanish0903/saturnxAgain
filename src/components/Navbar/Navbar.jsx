@@ -6,7 +6,7 @@ import { FaRocket, FaPaintBrush, FaBug, FaCogs } from 'react-icons/fa'; // Impor
 import { Link, NavLink, useNavigate } from "react-router-dom";
 import { IoMdClose } from "react-icons/io";
 import { FaChevronUp } from "react-icons/fa";
-import { FaHardHat, FaHeartbeat, FaTooth, FaShieldAlt, FaShoppingCart } from "react-icons/fa";
+import { FaHardHat, FaBrain, FaHeartbeat, FaTooth, FaShieldAlt, FaShoppingCart } from "react-icons/fa";
 
 
 
@@ -126,7 +126,7 @@ const MegaMenu = () => {
                                             <Link to="/insurance" className="text-sm block" onClick={() => setMobileMenuOpen(false)}>Insurance</Link>
                                         </div>
                                         <div>
-                                            
+
                                             <Link to="/ecommerce" className="text-sm block" onClick={() => setMobileMenuOpen(false)}>E-commerce</Link>
                                             <a href="#" className="text-sm block" onClick={() => setMobileMenuOpen(false)}>Supply Chain</a>
                                             <a href="#" className="text-sm block" onClick={() => setMobileMenuOpen(false)}>Customer Experience</a>
@@ -184,7 +184,7 @@ const MegaMenu = () => {
                             onMouseLeave={() => setServicesOpen(false)}
                         >
                             <NavLink to='/services' className="text-lg flex items-center"
-                            onClick={() => setMobileMenuOpen(false)}
+                                onClick={() => setMobileMenuOpen(false)}
                             >
                                 Services <FaChevronDown className="w-5 h-5 ml-2" />
                             </NavLink>
@@ -204,9 +204,10 @@ const MegaMenu = () => {
                                         />
                                         <h4 className="font-bold text-xl mt-4">Enterprise Software Development</h4>
                                         <p className="mt-2 text-sm">Leverage our expertise in full life-cycle application design, integration, and management.</p>
-                                        <Button mainButton='Read More' 
-                                        className="changeColor"
-                                        btnPath={(navigate) => navigate("/services")}
+                                        <Button mainButton='Read More'
+                                            className="changeColor"
+                                            btnPath={(navigate) => navigate("/services")}
+                                            setServicesOpen={setServicesOpen}
                                         />
                                     </div>
 
@@ -219,9 +220,10 @@ const MegaMenu = () => {
                                         />
                                         <h4 className="font-bold text-xl mt-4">Mobile App Development</h4>
                                         <p className="mt-2 text-sm">Go mobile-first with superior digital products, enabling seamless user experiences across all devices.</p>
-                                        <Button mainButton='Read More' 
-                                        className="changeColor"
-                                        btnPath={(navigate) => navigate("/services")}
+                                        <Button mainButton='Read More'
+                                            className="changeColor"
+                                            btnPath={(navigate) => navigate("/services")}
+                                            setServicesOpen={setServicesOpen}
                                         />
                                     </div>
 
@@ -235,29 +237,60 @@ const MegaMenu = () => {
                                         <h4 className="font-bold text-xl mt-4">Dedicated Development Team</h4>
                                         <p className="mt-2 text-sm">Scale your delivery capacity and build products faster with the help of our top qualified engineers.</p>
                                         <Button mainButton='Read More'
-                                        className="changeColor"
-                                        btnPath={(navigate) => navigate("/services")}
+                                            className="changeColor"
+                                            btnPath={(navigate) => navigate("/services")}
+                                            setServicesOpen={setServicesOpen}
+                                            
                                         />
                                     </div>
 
                                     <div className="relative flex items-center">
                                         <ul className="m-0 p-0">
                                             <li className="my-4 text-gray-800 flex items-center">
-                                                <FaRocket className="mr-2 text-[#0B5FC4]" size={20} /> Digital Transformation
+                                                <FaRocket className="mr-2 text-[#0B5FC4]" size={20} />
+                                                <Link to="/services"
+                                                    onClick={() => setServicesOpen(false)}
+                                                >
+                                                Digital Transformation
+                                                </Link>
                                             </li>
                                             <li className="my-4 text-gray-800 flex items-center">
-                                                <FaPaintBrush className="mr-2 text-[#0B5FC4]" size={20} /> UI / UX Design
+                                                <FaPaintBrush className="mr-2 text-[#0B5FC4]" size={20} />
+                                                <Link to="/services"
+                                                    onClick={() => setServicesOpen(false)}
+                                                >
+                                                    UI / UX Design
+                                                </Link>
                                             </li>
                                             <li className="my-4 text-gray-800 flex items-center">
-                                                <FaBug className="mr-2 text-[#0B5FC4]" size={20} /> QA & Testing
+                                                <FaBug className="mr-2 text-[#0B5FC4]" size={20} />
+                                                <Link to="/services"
+                                                    onClick={() => setServicesOpen(false)}
+                                                >
+                                                    QA & Testing
+                                                </Link>
                                             </li>
                                             <li className="my-4 text-gray-800 flex items-center">
-                                                <FaCogs className="mr-2 text-[#0B5FC4]" size={20} /> DevOps
+                                                <FaCogs className="mr-2 text-[#0B5FC4]" size={20} />
+                                                <Link to="/services"
+                                                    onClick={() => setServicesOpen(false)}
+                                                >
+                                                    DevOps
+                                                </Link>
+                                            </li>
+                                            <li className="my-4 text-gray-800 flex items-center">
+                                                <FaBrain className="mr-2 text-[#0B5FC4]" size={20} />
+                                                <Link to="/services"
+                                                    onClick={() => setServicesOpen(false)}
+                                                >
+                                                    AI /ML
+                                                </Link>
                                             </li>
                                             <li>
-                                                <Button mainButton='All Services' 
-                                                className="changeColor"
-                                                btnPath={(navigate) => navigate("/services")}
+                                                <Button mainButton='All Services'
+                                                    className="changeColor"
+                                                    btnPath={(navigate) => navigate("/services")}
+                                                    setServicesOpen={setServicesOpen}
                                                 />
                                             </li>
                                         </ul>
@@ -298,23 +331,23 @@ const MegaMenu = () => {
                                             <h3 className="font-bold text-xl mb-4">Industries</h3>
                                             <ul className="m-0 p-0 flex flex-col gap-8">
                                                 <li className="flex items-center gap-4">
-                                                    <FaHardHat className="text-[#0B5FC4]" size={20}/>
+                                                    <FaHardHat className="text-[#0B5FC4]" size={20} />
                                                     <Link to='/construction' className="text-gray-800 hover:text-blue-600" onClick={() => setIndustriesOpen(false)}>Construction</Link>
                                                 </li>
                                                 <li className="flex items-center gap-4">
-                                                    <FaHeartbeat className="text-[#0B5FC4]" size={20}/>
+                                                    <FaHeartbeat className="text-[#0B5FC4]" size={20} />
                                                     <Link to='/healthcare' className="text-gray-800 hover:text-blue-600" onClick={() => setIndustriesOpen(false)}>Health Care</Link>
                                                 </li>
                                                 <li className="flex items-center gap-4">
-                                                    <FaTooth className="text-[#0B5FC4]" size={20}/>
+                                                    <FaTooth className="text-[#0B5FC4]" size={20} />
                                                     <Link to='/dental' className="text-gray-800 hover:text-blue-600" onClick={() => setIndustriesOpen(false)}>Dental</Link>
                                                 </li>
                                                 <li className="flex items-center gap-4">
-                                                    <FaShieldAlt className="text-[#0B5FC4]" size={20}/>
+                                                    <FaShieldAlt className="text-[#0B5FC4]" size={20} />
                                                     <Link to='/insurance' className="text-gray-800 hover:text-blue-600" onClick={() => setIndustriesOpen(false)}>Insurance</Link>
                                                 </li>
                                                 <li className="flex items-center gap-4">
-                                                    <FaShoppingCart className="text-[#0B5FC4]" size={20}/>
+                                                    <FaShoppingCart className="text-[#0B5FC4]" size={20} />
                                                     <Link to='/ecommerce' className="text-gray-800 hover:text-blue-600" onClick={() => setIndustriesOpen(false)}>Retail & E-commerce</Link>
                                                 </li>
                                             </ul>
