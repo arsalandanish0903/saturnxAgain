@@ -14,6 +14,8 @@ import Dental from './Pages/Dental/Dental';
 import Insurance from './Pages/Insurance/Insurance';
 import Ecommerce from './Pages/Ecommerce/Ecommerce';
 import Loader from './components/Loader/Loader';
+import ScrollToTop from './components/ScrollToTop/ScrollToTop';
+
 
 AOS.init();
 
@@ -35,6 +37,7 @@ function App() {
 
   return (
     <Router>
+      <ScrollToTop /> {/* Add ScrollToTop component here */}
       <Routes>
         {/* Wrap all routes in Layout */}
         <Route path="/" element={<Layout />}>

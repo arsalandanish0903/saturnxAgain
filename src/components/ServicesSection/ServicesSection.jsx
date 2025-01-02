@@ -3,6 +3,7 @@ import { FaBrain, FaCode, FaCloud, FaDatabase, FaProjectDiagram } from "react-ic
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Button from '../Buttons/Button';
+import { useNavigate } from 'react-router-dom';
 
 const ServicesSection = () => {
     useEffect(() => {
@@ -49,7 +50,7 @@ Our team of experts collaborates closely with your stakeholders to design and im
             At Saturnx, we aim to be your trusted partner in delivering innovative, reliable, and future-ready software solutions. Whether you’re building a new application from scratch or enhancing an existing one, our SDLC services ensure that your vision is brought to life seamlessly.`,
         },
     ];
-
+    const navigate = useNavigate()
 
     return (
         <section className="bg-gray-200 py-12 relative">
@@ -94,6 +95,7 @@ Our team of experts collaborates closely with your stakeholders to design and im
                                         <p className="text-gray-600 whitespace-pre-wrap">{tab.content}</p>
                                         <Button mainButton="Let's Talk"
                                         className='changeColor'
+                                        btnPath={() => navigate("/contactus")}
                                         />
                                     </div>
                                 )
