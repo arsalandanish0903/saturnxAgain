@@ -98,7 +98,7 @@ const MegaMenu = () => {
                                     onClick={() => setServicesOpen(!servicesOpen)}
                                 >
                                     Services
-                                    <span className="ml-2">{servicesOpen ? '▲' : '▼'}</span>
+                                    <span className="ml-2">{servicesOpen ? <FaChevronUp /> : <FaChevronDown />}</span>
                                 </button>
                                 {servicesOpen && (
                                     <div className="ml-4 mt-2 flex flex-col space-y-2">
@@ -115,21 +115,16 @@ const MegaMenu = () => {
                                     onClick={() => setIndustriesOpen(!industriesOpen)}
                                 >
                                     Industries
-                                    <span className="ml-2">{industriesOpen ? '▲' : '▼'}</span>
+                                    <span className="ml-2">{industriesOpen ? <FaChevronUp /> : <FaChevronDown />}</span>
                                 </button>
                                 {industriesOpen && (
-                                    <div className="grid grid-cols-2 gap-4 p-4 bg-gray-100 rounded-lg mt-2">
-                                        <div>
-                                            <Link to="/construction" className="text-sm block" onClick={() => setMobileMenuOpen(false)}>Construction</Link>
-                                            <Link to="/healthcare" className="text-sm block" onClick={() => setMobileMenuOpen(false)}>Health Care</Link>
-                                            <Link to="/dental" className="text-sm block" onClick={() => setMobileMenuOpen(false)}>Dental</Link>
-                                            <Link to="/insurance" className="text-sm block" onClick={() => setMobileMenuOpen(false)}>Insurance</Link>
-                                        </div>
-                                        <div>
-
-                                            <Link to="/ecommerce" className="text-sm block" onClick={() => setMobileMenuOpen(false)}>E-commerce</Link>
-                                            <a href="#" className="text-sm block" onClick={() => setMobileMenuOpen(false)}>Supply Chain</a>
-                                            <a href="#" className="text-sm block" onClick={() => setMobileMenuOpen(false)}>Customer Experience</a>
+                                    <div className="p-4 rounded-lg mt-2">
+                                        <div className="ml-4 mt-2 flex flex-col space-y-2">
+                                            <Link to="/construction" className="text-base" onClick={() => setMobileMenuOpen(false)}>Construction</Link>
+                                            <Link to="/healthcare" className="text-base" onClick={() => setMobileMenuOpen(false)}>Health Care</Link>
+                                            <Link to="/dental" className="text-base" onClick={() => setMobileMenuOpen(false)}>Dental</Link>
+                                            <Link to="/insurance" className="text-base" onClick={() => setMobileMenuOpen(false)}>Insurance</Link>
+                                            <Link to="/ecommerce" className="text-base" onClick={() => setMobileMenuOpen(false)}>E-commerce</Link>
                                         </div>
                                     </div>
                                 )}
