@@ -23,25 +23,24 @@ function App() {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    // Simulate a loading delay (e.g., fetch data or wait for assets to load)
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 2000); // Adjust the time as needed
+    }, 2000);
 
-    return () => clearTimeout(timer); // Cleanup timeout
+    return () => clearTimeout(timer);
   }, []);
 
   if (isLoading) {
-    return <Loader />; // Show the loader while loading
+    return <Loader />; 
   }
 
   return (
     <Router>
-      <ScrollToTop /> {/* Add ScrollToTop component here */}
+      <ScrollToTop /> 
       <Routes>
-        {/* Wrap all routes in Layout */}
+        
         <Route path="/" element={<Layout />}>
-          {/* Define child routes */}
+          
           <Route index element={<Home />} />
           <Route path='about' element={<AboutBanner />} />
           <Route path='services' element={<ServicesBanner />} />
@@ -52,7 +51,7 @@ function App() {
           <Route path='dental' element={<Dental />} />
           <Route path='insurance' element={<Insurance />} />
           <Route path='ecommerce' element={<Ecommerce />} />
-          {/* Add more routes as needed */}
+          
         </Route>
       </Routes>
     </Router>
