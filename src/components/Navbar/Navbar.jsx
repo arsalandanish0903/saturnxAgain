@@ -72,7 +72,7 @@ const MegaMenu = () => {
     }
     const navigate = useNavigate()
     return (
-        <nav className={`bg-gray-200 text-gray-800 z-50  p-4 font-poppins transition-all duration-300 ease-in-out  ${isSticky ? 'fixed top-0 left-0 right-0 z-50 shadow-md' : ''}`}>
+        <nav className={`bg-gray-200 text-gray-800 z-50  lg:p-4 font-poppins transition-all duration-300 ease-in-out  ${isSticky ? 'fixed top-0 left-0 right-0 z-50 shadow-md' : ''}`}>
             <div className="container mx-auto max-w-[1140px]">
                 {/* Mobile Navbar */}
                 <div className={`bg-gray-200 text-gray-800  p-4 font-poppins transition-all duration-300 ease-in-out lg:hidden flex items-center justify-between ${isSticky ? 'fixed top-0 left-0 right-0 z-50 shadow-md' : ''}`}>
@@ -142,7 +142,7 @@ const MegaMenu = () => {
                             <img
                                 src="/SaturnXDigitalLogo_Transparent.png"
                                 alt="SaturnX Logo"
-                                className={`${isSticky ? "w-20" : "w-28"}`}
+                                className={`${isSticky ? "w-20" : "w-24"}`}
                             />
                         </NavLink>
                     </div>
@@ -179,7 +179,7 @@ const MegaMenu = () => {
                             onMouseLeave={() => setServicesOpen(false)}
                         >
                             <NavLink to='/services' className="text-lg flex items-center"
-                                onClick={() => setMobileMenuOpen(false)}
+                                onClick={() => setMobileMenuOpen(false) || setServicesOpen(false)}
                             >
                                 Services <FaChevronDown className="w-5 h-5 ml-2" />
                             </NavLink>

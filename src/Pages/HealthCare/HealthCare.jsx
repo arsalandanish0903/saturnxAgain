@@ -1,25 +1,33 @@
 import React from 'react';
+import Button from '../../components/Buttons/Button';
 
 function HealthCare() {
     return (
         <div>
             {/* Hero Section */}
-            <div className="relative h-[500px] overflow-hidden font-poppins">
-                <video className="absolute inset-0 w-full h-full object-cover" autoPlay loop muted>
-                    <source src="/healthcare.mp4" type="video/mp4" />
-                    Your browser does not support the video tag.
-                </video>
-                <div className="absolute inset-0 bg-black bg-opacity-10 flex items-center justify-center">
-                    <div className="text-center text-white px-4">
-                        <h1 className="text-4xl md:text-6xl font-bold mb-4" data-aos="fade-up">
-                            Healthcare Software Solutions
-                        </h1>
-                        <p className="text-lg md:text-xl" data-aos="fade-up" data-aos-delay="200">
-                            Empowering the healthcare industry with innovative technology to improve patient care and operational efficiency.
-                        </p>
-                    </div>
+            <div
+            className="h-[500px] bg-cover flex items-center bg-center relative font-poppins"
+            style={{
+                backgroundImage: `url('/healtcarebanner.jpg')`, // Replace with your background image URL
+            }}
+        >
+            {/* Overlay */}
+            <div className="absolute inset-0 bg-black/60"></div>
+            <div className="container mx-auto max-w-[1140px] px-6 lg:px-0">
+                {/* Content */}
+                <div className="relative z-10 max-w-3xl  text-white text-center sm:text-left">
+                    <h2 className="text-3xl sm:text-4xl mb-4">Smart Solutions for Healthcare: Custom Software Development Services</h2>
+                    <p className="text-md sm:text-lg mb-4">
+                    Automating routine tasks reduces administrative burdens, allowing your staff to focus on what truly matters—patient care. From appointment scheduling to billing and documentation, our solutions streamline workflows, minimize errors, and accelerate service delivery.
+                    </p>
+                    <Button
+                        mainButton="Talk To Us"
+                        btnPath="/contactus"
+                        className="mt-4"
+                    />
                 </div>
             </div>
+        </div>
 
             <div className='container mx-auto max-w-[1140px]'>
                 {/* Service Section */}
@@ -48,8 +56,8 @@ function HealthCare() {
                 </div>
             </div>
             <div className='bg-gray-100 py-16 px-4'>
-            <div className='container mx-auto max-w-[1140px] '>
-                {/* Additional Information Section */}
+                <div className='container mx-auto max-w-[1140px] '>
+                    {/* Additional Information Section */}
                     <h4 className="text-3xl font-bold text-center mb-8" data-aos="zoom-in">
                         Why Choose Us?
                     </h4>
@@ -73,7 +81,7 @@ function HealthCare() {
                             </p>
                         </div>
                     </div>
-            </div>
+                </div>
             </div>
         </div>
     );

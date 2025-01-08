@@ -96,7 +96,7 @@ function MainService() {
   };
 
   return (
-    <div className="relative py-16 w-full font-poppins">
+    <div className="relative bg-gray-200 py-16 w-full font-poppins">
       <div className="container mx-auto max-w-[1140px] px-4">
       <h1 class="text-black text-4xl md:text-4xl xl:text-4xl font-semibold text-center mb-4 leading-snug">Services And Solutions We Offer</h1>
         <p className="text-center text-gray-600 mb-8">

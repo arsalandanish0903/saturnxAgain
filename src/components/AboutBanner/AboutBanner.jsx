@@ -1,5 +1,8 @@
 import React from "react";
 import About from "../../Pages/About/About";
+import MissionandVision from "../MissionandVision/MissionandVision";
+import TeamSection from "../TeamSection/TeamSection";
+import ImageGallery from "../ImageGallery/ImageGallery";
 
 function AboutBanner() {
   return (
@@ -15,6 +18,9 @@ function AboutBanner() {
       </div>
     </div>
     <About />
+    <MissionandVision />
+    <TeamSection />
+    <ImageGallery />
     </>
   );
 }

@@ -5,7 +5,7 @@ import Button from "../../components/Buttons/Button";
 function ContactUs() {
   return (
     <div className="relative bg-gray-100 py-16 px-6 lg:px-20 overflow-hidden font-poppins">
-      <div className="relative max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+      <div className="relative max-w-[1140px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         {/* Left Side Content */}
         <div className="text-left z-10">
           <h1 className="text-4xl font-bold text-gray-800 mb-6">

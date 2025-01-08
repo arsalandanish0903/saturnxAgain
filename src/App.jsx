@@ -15,6 +15,9 @@ import Insurance from './Pages/Insurance/Insurance';
 import Ecommerce from './Pages/Ecommerce/Ecommerce';
 import Loader from './components/Loader/Loader';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
+import Logistics from './Pages/Logistics/Logistics';
+import TravelandHospitality from './Pages/TravelandHospitality/TravelandHospitality';
+import Edutech from './Pages/Edutech/Edutech';
 
 
 AOS.init();
@@ -51,7 +54,9 @@ function App() {
           <Route path='dental' element={<Dental />} />
           <Route path='insurance' element={<Insurance />} />
           <Route path='ecommerce' element={<Ecommerce />} />
-          
+          <Route path='/logistics' element={<Logistics />} />
+          <Route path='/travelandhospitality' element={<TravelandHospitality />} />
+          <Route path='/edutech/softwaredevelopment' element={<Edutech />} />
         </Route>
       </Routes>
     </Router>

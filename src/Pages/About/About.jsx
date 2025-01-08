@@ -32,7 +32,7 @@ const About = () => {
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
-          className="text-black text-4xl md:text-5xl xl:text-6xl font-semibold max-w-5xl mx-auto mb-16 leading-snug text-center"
+          className="text-black text-xl md:text-4xl xl:text-4xl font-semibold max-w-5xl mx-auto mb-16 leading-snug text-center"
         >
           We're a creative agency fueling your company's growth.
         </motion.h1>
@@ -58,17 +58,9 @@ const About = () => {
                 initial={{ opacity: 0, x: 50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 1 }}
-                className="text-lg md:text-xl text-gray-800 mb-8"
+                className="text-lg lg:text-lg text-gray-800 mb-8"
               >
-                At <span className="font-bold text-[#0B5FC4]">Saturnx</span>, we are passionate about helping businesses grow in the digital world. We offer tailored marketing strategies that are crafted specifically for your unique needs. Our team uses the latest techniques and insights to improve your online presence and drive measurable results.
-              </motion.p>
-              <motion.p
-                initial={{ opacity: 0, x: 50 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ duration: 1 }}
-                className="text-lg md:text-xl text-gray-800 mb-8"
-              >
-                Whether it's improving your website's user experience, managing your social media presence, or optimizing your digital marketing efforts, Saturnx is here to ensure that your business thrives. Let's build something great together!
+                At <span className="font-bold text-[#0B5FC4]">SaturnX Digital</span>, we’re dedicated to empowering businesses to thrive in today’s dynamic digital landscape. Our expert team crafts innovative, data-driven marketing strategies designed to elevate your brand and amplify your online presence. By leveraging the latest technologies and cutting-edge insights, we deliver impactful solutions that drive growth, enhance customer engagement, and achieve measurable success. Let us take your business to the next level with precision, creativity, and results that speak for themselves.
               </motion.p>
               <motion.button
                 initial={{ scale: 0.8 }}

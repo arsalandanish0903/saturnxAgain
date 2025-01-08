@@ -94,13 +94,19 @@ Our team of experts collaborates closely with your stakeholders to design and im
                                         <hr className="w-16 border-t-2 border-gray-800 my-4" />
                                         <p className="text-gray-600 whitespace-pre-wrap">{tab.content}</p>
                                         <Button mainButton="Let's Talk"
-                                        className='changeColor'
-                                        btnPath={() => navigate("/contactus")}
+                                            className='changeColor'
+                                            btnPath={() => navigate("/contactus")}
                                         />
                                     </div>
                                 )
                         )}
                     </div>
+                </div>
+                <div className='w-full text-center mt-8'>
+                    <Button mainButton="Read More"
+                        className={`changeColor`}
+                        btnPath={() => navigate("/services")}
+                    />
                 </div>
             </div>
         </section>

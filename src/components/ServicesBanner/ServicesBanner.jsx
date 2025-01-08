@@ -1,6 +1,9 @@
 import React from "react";
 import Button from "../Buttons/Button";
 import MainService from "../MainService/MainService";
+import OurTechnologyStack from "../OurTechnologyStack/OurTechnologyStack";
+import WeProvide from "../WeProvide/WeProvide";
+import SuccessSoftware from "../SucessSoftware/SucessSoftware";
 
 function ServicesBanner() {
   return (
@@ -28,6 +31,9 @@ function ServicesBanner() {
         </div>
       </div>
       <MainService />
+      <OurTechnologyStack />
+      <WeProvide />
+      <SuccessSoftware />
     </>
   );
 }
