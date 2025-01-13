@@ -174,7 +174,7 @@ function TravelandHospitality() {
                     <div className="relative z-10 max-w-3xl  text-white text-center sm:text-left">
                         <h2 className="text-3xl sm:text-4xl mb-4">Custom Software Development For Travel And Hospitality</h2>
                         <p className="text-md sm:text-lg mb-4">
-                            Meet your customers' and partners’ needs with our end-to-end technology solutions for hospitality. From impactful mobile applications to comprehensive custom-made systems, leading brands rely on Intellectsoft expertise and engineering experience.
+                        Meet your customers' and partners’ needs with our end-to-end technology solutions for hospitality. From impactful mobile applications to comprehensive custom-made systems, leading brands rely on SaturnX's expertise and engineering experience to enhance their operations and elevate guest experiences.
                         </p>
                         <Button
                             mainButton="Talk To Us"
@@ -276,7 +276,7 @@ function TravelandHospitality() {
                         <span className="block">Technology Solutions</span>
                     </h4>
                     <p className="text-center text-lg text-gray-700 mb-12">
-                        For each hospitality solution, the Intellectsoft team offers a science-led, scalable process dedicated to addressing the client's technology needs in the best possible way. As a result, we have implemented a technical design workshop to create the initial vision of the solution architecture.
+                    For every hospitality solution, the SaturnX team employs a data-driven, scalable approach tailored to meet our clients' unique technology needs. Our innovative technical design workshop transforms initial concepts into a visionary solution architecture, ensuring a seamless and impactful implementation that elevates guest experiences and drives operational excellence.
                     </p>
                     <div className="grid relative py-16 lg:grid-cols-10 md:grid-cols-2 sm:grid-cols-1 grid-cols-1 gap-12 items-center">
                         {/* Left Side: Content */}

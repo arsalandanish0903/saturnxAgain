@@ -105,6 +105,7 @@ const MegaMenu = () => {
                                         <NavLink to='/services' className="text-base" onClick={() => setMobileMenuOpen(false)}>Web Development</NavLink>
                                         <NavLink to='/services' className="text-base" onClick={() => setMobileMenuOpen(false)}>Mobile Development</NavLink>
                                         <NavLink to='/services' className="text-base" onClick={() => setMobileMenuOpen(false)}>UI/UX Design</NavLink>
+                                        <NavLink to='/services' className="text-base" onClick={() => setMobileMenuOpen(false)}>All Services</NavLink>
                                     </div>
                                 )}
                             </div>
@@ -120,11 +121,11 @@ const MegaMenu = () => {
                                 {industriesOpen && (
                                     <div className="p-4 rounded-lg mt-2">
                                         <div className="ml-4 mt-2 flex flex-col space-y-2">
-                                            <Link to="/construction" className="text-base" onClick={() => setMobileMenuOpen(false)}>Construction</Link>
-                                            <Link to="/healthcare" className="text-base" onClick={() => setMobileMenuOpen(false)}>Health Care</Link>
-                                            <Link to="/dental" className="text-base" onClick={() => setMobileMenuOpen(false)}>Dental</Link>
-                                            <Link to="/insurance" className="text-base" onClick={() => setMobileMenuOpen(false)}>Insurance</Link>
-                                            <Link to="/ecommerce" className="text-base" onClick={() => setMobileMenuOpen(false)}>E-commerce</Link>
+                                            <Link to="/construction/software-development" className="text-base" onClick={() => setMobileMenuOpen(false)}>Construction</Link>
+                                            <Link to="/healthcare/software-development" className="text-base" onClick={() => setMobileMenuOpen(false)}>Health Care</Link>
+                                            <Link to="/dental/software-development" className="text-base" onClick={() => setMobileMenuOpen(false)}>Dental</Link>
+                                            <Link to="/insurance/software-development" className="text-base" onClick={() => setMobileMenuOpen(false)}>Insurance</Link>
+                                            <Link to="/ecommerce/software-development" className="text-base" onClick={() => setMobileMenuOpen(false)}>E-commerce</Link>
                                         </div>
                                     </div>
                                 )}
@@ -243,7 +244,7 @@ const MegaMenu = () => {
                                         <ul className="m-0 p-0">
                                             <li className="my-4 text-gray-800 flex items-center">
                                                 <FaRocket className="mr-2 text-[#0B5FC4]" size={20} />
-                                                <Link to="/services"
+                                                <Link to="/digitaltransformation/software-development"
                                                     onClick={() => setServicesOpen(false)}
                                                 >
                                                 Digital Transformation
@@ -251,7 +252,7 @@ const MegaMenu = () => {
                                             </li>
                                             <li className="my-4 text-gray-800 flex items-center">
                                                 <FaPaintBrush className="mr-2 text-[#0B5FC4]" size={20} />
-                                                <Link to="/services"
+                                                <Link to="/uiux/software-development"
                                                     onClick={() => setServicesOpen(false)}
                                                 >
                                                     UI / UX Design
@@ -327,11 +328,11 @@ const MegaMenu = () => {
                                             <ul className="m-0 p-0 flex flex-col gap-8">
                                                 <li className="flex items-center gap-4">
                                                     <FaHardHat className="text-[#0B5FC4]" size={20} />
-                                                    <Link to='/construction' className="text-gray-800 hover:text-blue-600" onClick={() => setIndustriesOpen(false)}>Construction</Link>
+                                                    <Link to='/construction/software-development' className="text-gray-800 hover:text-blue-600" onClick={() => setIndustriesOpen(false)}>Construction</Link>
                                                 </li>
                                                 <li className="flex items-center gap-4">
                                                     <FaHeartbeat className="text-[#0B5FC4]" size={20} />
-                                                    <Link to='/healthcare' className="text-gray-800 hover:text-blue-600" onClick={() => setIndustriesOpen(false)}>Health Care</Link>
+                                                    <Link to='/healthcare/software-development' className="text-gray-800 hover:text-blue-600" onClick={() => setIndustriesOpen(false)}>Health Care</Link>
                                                 </li>
                                                 <li className="flex items-center gap-4">
                                                     <FaTooth className="text-[#0B5FC4]" size={20} />

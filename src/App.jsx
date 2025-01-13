@@ -18,6 +18,9 @@ import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 import Logistics from './Pages/Logistics/Logistics';
 import TravelandHospitality from './Pages/TravelandHospitality/TravelandHospitality';
 import Edutech from './Pages/Edutech/Edutech';
+import Automotive from './Pages/Automotive/Automotive';
+import DigitalTransformation from './Pages/DigitalTransformation/DigitalTransformation';
+import UiUx from './Pages/UiUx/UiUx';
 
 
 AOS.init();
@@ -49,14 +52,17 @@ function App() {
           <Route path='services' element={<ServicesBanner />} />
           <Route path='careers' element={<CareersBanner />} />
           <Route path='contactus' element={<ContactUsBanner />} />
-          <Route path='construction' element={<Construction />} />
-          <Route path='healthcare' element={<HealthCare />} />
-          <Route path='dental' element={<Dental />} />
-          <Route path='insurance' element={<Insurance />} />
-          <Route path='ecommerce' element={<Ecommerce />} />
-          <Route path='/logistics' element={<Logistics />} />
-          <Route path='/travelandhospitality' element={<TravelandHospitality />} />
-          <Route path='/edutech/softwaredevelopment' element={<Edutech />} />
+          <Route path='/construction/software-development' element={<Construction />} />
+          <Route path='/healthcare/software-development' element={<HealthCare />} />
+          <Route path='dental/software-development' element={<Dental />} />
+          <Route path='insurance/software-development' element={<Insurance />} />
+          <Route path='ecommerce/software-development' element={<Ecommerce />} />
+          <Route path='/logistics/software-development' element={<Logistics />} />
+          <Route path='/automotive/software-development' element={<Automotive />} />
+          <Route path='/travelandhospitality/software-development' element={<TravelandHospitality />} />
+          <Route path='/edutech/software-development' element={<Edutech />} />
+          <Route path='/digitaltransformation/software-development' element={<DigitalTransformation />} />
+          <Route path='/uiux/software-development' element={<UiUx />} />
         </Route>
       </Routes>
     </Router>

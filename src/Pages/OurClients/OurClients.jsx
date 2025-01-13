@@ -29,11 +29,11 @@ const OurClients = () => {
     { id: 17, name: 'Brand 17', image: '/maabhawani.png' },
     { id: 18, name: 'Brand 18', image: '/shubhads.png' },
     { id: 19, name: 'Brand 19', image: '/sketches.png' },
-    { id: 20, name: 'Brand 20', image: '/logo18.png' },
-    { id: 21, name: 'Brand 21', image: '/logo19.png' },
-    { id: 22, name: 'Brand 22', image: '/logo22.png' },
-    { id: 23, name: 'Brand 23', image: '/logo23.png' },
-    { id: 24, name: 'Brand 24', image: '/logo24.png' },
+    // { id: 20, name: 'Brand 20', image: '/logo18.png' },
+    // { id: 21, name: 'Brand 21', image: '/logo19.png' },
+    // { id: 22, name: 'Brand 22', image: '/logo22.png' },
+    // { id: 23, name: 'Brand 23', image: '/logo23.png' },
+    // { id: 24, name: 'Brand 24', image: '/logo24.png' },
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);

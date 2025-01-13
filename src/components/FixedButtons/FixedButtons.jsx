@@ -6,7 +6,7 @@ import { FaSuitcase } from "react-icons/fa";
 const FixedButtons = () => {
   const [showChatbot, setShowChatbot] = useState(false);
   const [messages, setMessages] = useState([
-    { sender: "bot", text: "Hello! Welcome to Saturnxa. How can I assist you today?" },
+    { sender: "bot", text: "Hello! Welcome to SaturnX. How can I assist you today?" },
   ]);
   const [input, setInput] = useState("");
 
@@ -26,7 +26,7 @@ const FixedButtons = () => {
 
     return (
       responses[userInput.toLowerCase()] ||
-      "I'm sorry, I didn't understand that. Could you please rephrase or provide more details?"
+      "Please Send us an email at saturnx@gmail.com or call us at 8788447944."
     );
   };
 
@@ -76,7 +76,7 @@ const FixedButtons = () => {
           <div className="flex justify-between items-center bg-[#0B5FC4] text-white p-3 rounded-t-lg">
             <div className="flex items-center gap-2">
               <img src="/SaturnXDigitalLogo_white.png" alt="" className="w-16"/>
-            <h4 className="text-lg font-semibold">Saturnx Chatbot</h4>
+            <h4 className="text-lg font-semibold">SaturnX Chatbot</h4>
             </div>
             <button
               onClick={toggleChatbot}

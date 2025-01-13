@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 const Chatbot = () => {
   const [messages, setMessages] = useState([
-    { sender: "bot", text: "Hello! Welcome to Saturnxa. How can I assist you today?" },
+    { sender: "bot", text: "Hello! Welcome to Saturnx. How can I assist you today?" },
   ]);
   const [input, setInput] = useState("");
 
