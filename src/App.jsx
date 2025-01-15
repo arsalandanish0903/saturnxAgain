@@ -30,19 +30,19 @@ import QaTesting from './Pages/QaTesting/QaTesting';
 AOS.init();
 
 function App() {
-  const [isLoading, setIsLoading] = useState(true);
+  // const [isLoading, setIsLoading] = useState(true);
 
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setIsLoading(false);
-    }, 2000);
+  // useEffect(() => {
+  //   const timer = setTimeout(() => {
+  //     setIsLoading(false);
+  //   }, 2000);
 
-    return () => clearTimeout(timer);
-  }, []);
+  //   return () => clearTimeout(timer);
+  // }, []);
 
-  if (isLoading) {
-    return <Loader />; 
-  }
+  // if (isLoading) {
+  //   return <Loader />; 
+  // }
 
   return (
     <Router>
@@ -56,8 +56,8 @@ function App() {
           <Route path='software-development-services-of-any-type-and-complexity' element={<ServicesBanner />} />
           <Route path='careers' element={<CareersBanner />} />
           <Route path='contactus' element={<ContactUsBanner />} />
-          <Route path='/construction-software-development' element={<Construction />} />
-          <Route path='/healthcare-software-development' element={<HealthCare />} />
+          <Route path='/construction-digital-solutions-provider' element={<Construction />} />
+          <Route path='/healthcare-digital-solutions-provider' element={<HealthCare />} />
           <Route path='dental-software-development' element={<Dental />} />
           <Route path='insurance/software-development' element={<Insurance />} />
           <Route path='ecommerce/software-development' element={<Ecommerce />} />

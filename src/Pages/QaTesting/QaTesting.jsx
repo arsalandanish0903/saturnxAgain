@@ -2,9 +2,9 @@ import React from 'react'
 import Button from '../../components/Buttons/Button'
 
 function QaTesting() {
-    const [accordionIndex, setAccordionIndex] = React.useState(false);
-    const handleClick = () => {
-        setAccordionIndex(!accordionIndex)
+    const [accordionIndex, setAccordionIndex] = React.useState(null);
+    const handleClick = (index) => {
+        setAccordionIndex( accordionIndex === index ? null : index );
     }
     const testingAccordion = [
         {
@@ -196,7 +196,7 @@ function QaTesting() {
                             {testingAccordion.map((accordion, index) => {
                                 return (
                                     <div key={index} className='cursor-pointer'>
-                                        <div onClick={handleClick}>
+                                        <div onClick={() => handleClick(index)}>
                                             <p>{accordion.svg}</p>
                                             <h4 className='text-xl font-bold'>{accordion.title}</h4>
                                         </div>

@@ -1,122 +1,4 @@
-// import React, { useEffect } from 'react';
-// import AOS from 'aos';
-// import 'aos/dist/aos.css';
 
-// function Construction() {
-//   useEffect(() => {
-//     AOS.init({
-//       duration: 1000, // Animation duration in milliseconds
-//       once: true,     // Whether animation should happen only once
-//     });
-//   }, []);
-
-//   return (
-//     <div>
-//       {/* Hero Section */}
-//       <div className="relative h-[500px] font-poppins">
-//         <video className="absolute inset-0 w-full h-full object-cover" autoPlay loop muted>
-//           <source src="/constructionvideo.mp4" type="video/mp4" />
-//           Your browser does not support the video tag.
-//         </video>
-//         <div
-//           className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center"
-//           data-aos="fade-in"
-//         >
-//           <div className="text-center text-white px-4">
-//             <h1 className="text-4xl md:text-6xl font-bold mb-4" data-aos="fade-up">
-//               Construction Software Development
-//             </h1>
-//             <p
-//               className="text-lg md:text-xl"
-//               data-aos="fade-up"
-//               data-aos-delay="200"
-//             >
-//               Innovative solutions tailored for the construction industry to optimize your workflow.
-//             </p>
-//           </div>
-//         </div>
-//       </div>
-
-//       <div className='container mx-auto max-w-[1140px]'>
-//         {/* Service Section */}
-//         <div className="py-16 px-4">
-//           <div className="grid md:grid-cols-2 gap-12 items-center">
-//             {/* Left Side Content */}
-//             <div data-aos="fade-right">
-//               <h4 className="text-3xl font-bold mb-6">
-//                 Our Expertise in Construction Software Development
-//               </h4>
-//               <p className="text-lg mb-4">
-//                 We specialize in developing custom software solutions for the construction industry. Our services include project management tools, resource allocation systems, and real-time analytics to enhance your operations.
-//               </p>
-//               <p className="text-lg">
-//                 With a team of experienced developers and industry experts, we ensure that our solutions are robust, scalable, and tailored to your unique business needs.
-//               </p>
-//             </div>
-
-//             {/* Right Side Image */}
-//             <div data-aos="fade-left">
-//               <img
-//                 src="/constructionAbout.jpg"
-//                 alt="Construction Software"
-//                 className="rounded-lg shadow-lg"
-//               />
-//             </div>
-//           </div>
-//         </div>
-//       </div>
-
-//       <div className="bg-gray-100 py-16 px-4">
-//       <div className='container mx-auto max-w-[1140px]'>
-//         {/* Additional Information Section */}
-
-//         <h4
-//           className="text-3xl font-bold text-center mb-8"
-//           data-aos="zoom-in"
-//         >
-//           Why Choose Us?
-//         </h4>
-//         <div className="grid md:grid-cols-3 gap-8">
-//           <div
-//             className="text-center bg-white p-8 shadow-lg rounded-md"
-//             data-aos="fade-up"
-//           >
-//             <h3 className="text-xl font-bold mb-4">Customized Solutions</h3>
-//             <p>
-//               We design and develop software tailored specifically to your construction business requirements, ensuring a perfect fit for your operations.
-//             </p>
-//           </div>
-//           <div
-//             className="text-center bg-white p-8 shadow-lg rounded-md"
-//             data-aos="fade-up"
-//             data-aos-delay="200"
-//           >
-//             <h3 className="text-xl font-bold mb-4">Advanced Technology</h3>
-//             <p>
-//               Our team leverages the latest technology trends to build robust and future-ready solutions that keep you ahead of the competition.
-//             </p>
-//           </div>
-//           <div
-//             className="text-center bg-white p-8 shadow-lg rounded-md"
-//             data-aos="fade-up"
-//             data-aos-delay="400"
-//           >
-//             <h3 className="text-xl font-bold mb-4">Dedicated Support</h3>
-//             <p>
-//               We provide continuous support and updates to ensure the software remains efficient and meets your evolving needs.
-//             </p>
-//           </div>
-//         </div>
-//       </div>
-//       </div>
-
-
-
-//     </div>
-//   );
-// }
-
-// export default Construction;
 import React from 'react'
 import Button from '../../components/Buttons/Button'
 import ContactUs from '../../Pages/ContactUs/ContactUs'
@@ -191,9 +73,9 @@ function Construction() {
         <div className="container mx-auto max-w-[1140px] px-6 lg:px-0">
           {/* Content */}
           <div className="relative z-10 max-w-3xl  text-white text-center sm:text-left">
-            <h2 className="text-3xl sm:text-4xl mb-4">Construction Software Development</h2>
+            <h2 className="text-3xl sm:text-4xl mb-4"> Revolutionizing the Construction Industry with Digital Solutions</h2>
             <p className="text-md sm:text-lg mb-4">
-            SaturnX specializes in construction software development, offering innovative solutions to streamline project management, enhance collaboration, and boost efficiency. Our cutting-edge technologies empower construction businesses with tailored tools for planning, resource management, and sustainable growth in the digital era. Partner with SaturnX for industry-leading software that transforms your construction processes.
+              Welcome to SaturnX Digital Solution Company, your trusted construction company digital provider! In today’s fast-paced world, the construction industry is undergoing a digital transformation, and we’re here to help your business thrive.
             </p>
             <Button
               mainButton="Contact Us"
@@ -205,8 +87,8 @@ function Construction() {
       </div>
       <div className='relative pt-16 px-6 lg:px-0 font-poppins'>
         <div className='container mx-auto max-w-[1140px]'>
-          <h4 className="text-xl text-center font-bold leading-snug tracking-wide  sm:text-4xl mb-4">Construction Software Development</h4>
-          <p className='text-center '>At SaturnX, we specialize in crafting innovative software solutions designed exclusively for the construction industry. Our goal is to empower your green building business with seamless digitalization, optimized workflows, and unmatched operational efficiency, driving sustainable success in every project.</p>
+          <h4 className="text-xl text-center font-bold leading-snug tracking-wide  sm:text-4xl mb-4">Why Choose SaturnX Digital Solution Company?</h4>
+          <p className='text-center'>As a leader in digital technology, we specialize in offering innovative solutions tailored to the construction sector. Our expertise ensures your company stays ahead of the competition with cutting-edge tools and strategies.</p>
           <div className='grid lg:grid-cols-2 grid-cols-1 items-center my-8 gap-4'>
             <div className='relative'>
               {aboutConstruction.map((item, index) => (
@@ -226,7 +108,6 @@ function Construction() {
         </div>
         <div className='py-16 px-6 lg:px-0 font-poppins relative bg-gray-200 w-full'>
           <div className='container mx-auto max-w-[1140px]'>
-            <h4 className="text-xl text-center font-bold leading-snug tracking-wide sm:text-4xl mb-8">Comprehensive Software Solutions <span className='block'>for Construction</span></h4>
             <div className='grid lg:grid-cols-2 grid-cols-1  my-8 gap-4'>
               <div className='relative'>
                 <img src="/erpsoftware.jpg" alt=""
@@ -241,16 +122,21 @@ function Construction() {
                     <path d="M10.2511 5.9672C10.2511 5.93391 10.2782 5.90723 10.3108 5.90723H12.6892C12.7219 5.90723 12.7489 5.93391 12.7489 5.96719C12.7489 7.64347 14.5639 8.69387 16.0166 7.85461C16.045 7.8382 16.0814 7.84794 16.0977 7.87635L17.2872 9.93795C17.3038 9.9666 17.294 10.0032 17.2653 10.0198C15.8128 10.8589 15.8128 12.9556 17.2653 13.7947C17.294 13.8112 17.3038 13.8479 17.2872 13.8765L16.0977 15.9381C16.0814 15.9665 16.045 15.9763 16.0166 15.9599C14.5639 15.1206 12.7489 16.171 12.7489 17.8473C12.7489 17.8805 12.7219 17.9072 12.6892 17.9072H10.3108C10.2782 17.9072 10.2511 17.8805 10.2511 17.8473C10.2511 16.171 8.43609 15.1206 6.98339 15.9599C6.95498 15.9763 6.91865 15.9665 6.90225 15.9381L5.71276 13.8765C5.69622 13.8479 5.70604 13.8112 5.73469 13.7947C7.18719 12.9556 7.18717 10.8589 5.73469 10.0198L5.48457 10.4527L5.73469 10.0198C5.70604 10.0032 5.69622 9.9666 5.71276 9.93795L6.90225 7.87636C6.91865 7.84794 6.95498 7.83821 6.98339 7.85462C8.4361 8.69388 10.2511 7.64349 10.2511 5.9672Z" stroke="#323232"></path>
                     <path d="M6.08938 2.9107C8.03013 1.79949 10.277 1.32787 12.5058 1.56387C14.7347 1.79987 16.8302 2.73129 18.4901 4.22375C20.15 5.71622 21.2884 7.69255 21.7411 9.86759C22.1938 12.0426 21.9374 14.3039 21.0088 16.3252C20.0803 18.3465 18.5276 20.0233 16.5748 21.1137C14.6221 22.204 12.3702 22.6515 10.144 22.3916C7.91791 22.1317 5.83267 21.1779 4.18918 19.6677C2.54568 18.1575 1.42892 16.1691 1 13.9893" stroke="#2A82F2" stroke-linecap="round" stroke-linejoin="round"></path>
                   </svg>
-                  <h4 className=' text-lg'>Revolutionize Your Construction Business with SaturnX ERP Software</h4>
+                  <h4 className=' text-lg'>Revolutionizing the Construction Industry with Digital Solutions                  </h4>
                 </div>
                 <div className='ml-12'>
-                  <p className='mb-4'> Our Construction ERP Software is designed to streamline your operations, enhance collaboration, and improve overall efficiency. With cutting-edge features tailored to the unique needs of the construction industry, our solution empowers you to:</p>
                   <ul className='m-0 p-0 flex flex-col gap-4'>
                     <li>
-                      <strong>Centralize Project Management:</strong> Track project progress, timelines, and budgets in real time, all from one powerful dashboard.
+                      <strong>Custom Digital Platforms:</strong> From project management software to workflow automation, we provide customized platforms that enhance efficiency.
                     </li>
                     <li>
-                      <strong>Optimize Resource Allocation: </strong> Efficiently manage labor, materials, and equipment, ensuring maximum productivity and minimizing downtime.
+                      <strong>Real-Time Collaboration Tools: </strong> Keep your team connected on-site and off-site with our advanced communication solutions.
+                    </li>
+                    <li>
+                      <strong>AI-Driven Insights: </strong> Leverage data to predict project outcomes, optimize resources, and reduce costs.
+                    </li>
+                    <li>
+                      <strong>SEO and Digital Marketing: </strong> Boost your online presence with targeted strategies designed to attract clients and investors.
                     </li>
                   </ul>
                 </div>
@@ -265,16 +151,22 @@ function Construction() {
                     <path d="M8.5 15.9636C8.5 17.0683 7.60443 17.9636 6.50034 17.9636C5.39548 17.9636 4.5 17.0682 4.5 15.9636C4.5 14.8591 5.39548 13.9636 6.50034 13.9636C7.60443 13.9636 8.5 14.859 8.5 15.9636Z" stroke="#323232"></path>
                     <path d="M5.25114 10.0236C5.25114 9.99031 5.27818 9.96362 5.31084 9.96362H7.6892C7.72185 9.96362 7.74889 9.99031 7.74889 10.0236C7.74889 11.6999 9.56391 12.7503 11.0166 11.911C11.045 11.8946 11.0814 11.9043 11.0977 11.9327L12.2872 13.9943C12.3038 14.023 12.294 14.0596 12.2653 14.0762C10.8128 14.9153 10.8128 17.0119 12.2653 17.8511C12.294 17.8676 12.3038 17.9043 12.2872 17.9329L11.0977 19.9945C11.0814 20.0229 11.045 20.0327 11.0166 20.0163C9.56392 19.177 7.74889 20.2274 7.74889 21.9037C7.74889 21.9369 7.72186 21.9636 7.6892 21.9636H5.31083C5.27817 21.9636 5.25114 21.9369 5.25114 21.9037C5.25114 20.2274 3.43609 19.177 1.98339 20.0163C1.95498 20.0327 1.91865 20.0229 1.90225 19.9945L0.712757 17.9329C0.696223 17.9043 0.706039 17.8676 0.734687 17.8511C2.18719 17.012 2.18717 14.9153 0.734689 14.0762L0.484566 14.5091L0.734688 14.0762C0.706037 14.0596 0.696222 14.023 0.712756 13.9943L1.90225 11.9328C1.91865 11.9043 1.95498 11.8946 1.98339 11.911C3.4361 12.7503 5.25114 11.6999 5.25114 10.0236Z" stroke="#323232"></path>
                   </svg>
-                  <h4 className='text-lg'>Revolutionizing Construction Integrations</h4>
+                  <h4 className='text-lg'>Benefits of Partnering with a Digital Provider for Construction Companies                    </h4>
                 </div>
                 <div className='ml-12'>
-                  <p className='mb-4'> Get Started with SaturnX! Ready to take your construction management to the next level? Contact us today for a demo and discover how SaturnX can help you streamline your operations, enhance collaboration, and improve overall efficiency.</p>
+                  <p className='mb-4'>Partnering with SaturnX Digital Solution Company ensures:                    </p>
                   <ul className='m-0 p-0 flex flex-col gap-4'>
                     <li>
-                      <strong>Real-Time Tracking:</strong> Keep your finger on the pulse of every project with our intuitive dashboard. Monitor progress, timelines, and budgets in real time, ensuring you’re always informed and ready to make data-driven decisions.
+                      <strong>Streamlined Operations:</strong>  Save time with tools that automate repetitive tasks.
                     </li>
                     <li>
-                      <strong>Enhanced Collaboration: </strong> Foster teamwork with integrated communication tools that allow your team to share updates, documents, and feedback seamlessly, regardless of location.
+                      <strong>Improved Accuracy: </strong>Reduce human error with data-driven project management.
+                    </li>
+                    <li>
+                      <strong>Enhanced Customer Experience: </strong>Impress clients with transparent and real-time updates.
+                    </li>
+                    <li>
+                      <strong>Increased ROI: </strong> Our digital strategies help maximize profits on every project.
                     </li>
                   </ul>
                 </div>
@@ -288,6 +180,50 @@ function Construction() {
           </div>
         </div>
       </div>
+      <div className='relative w-full px-6 lg:px-0 py-16 font-poppins'>
+        <div className='container mx-auto max-w-[1140px]'>
+          <div className='my-2 w-full flex flex-col items-center justify-center text-center'>
+            <h4 className="text-2xl lg:text-4xl mb-4 font-bold max-w-4xl">Our Services for Construction Companies</h4>
+            <p className='max-w-3xl'>We understand the unique challenges of the construction industry. Here’s how we help: </p>
+          </div>
+          <div className="bg-gray-50 p-8 rounded-lg shadow-md">
+            <ul className="space-y-6 text-gray-700">
+              <li className="flex items-center gap-4">
+                <img src="/webDevelopment.svg" alt="" />
+                <div>
+                  <span className="font-semibold">Website Development & SEO:</span>
+                  Build a powerful online presence with an SEO-friendly website designed to showcase your projects and expertise.
+                </div>
+              </li>
+              <li className="flex items-center gap-4">
+                <img src="/mobileApp.svg" alt="" />
+                <div>
+                  <span className="font-semibold">Mobile App Solutions:</span>
+                  Provide on-the-go access to project updates, resource tracking, and team communication.
+                </div>
+              </li>
+              <li className="flex items-center gap-4">
+                <img src="/aiandpersonalize.svg" alt="" />
+                <div>
+                  <span className="font-semibold">Cloud-Based Solutions:</span>
+                  Centralize your data with secure and scalable cloud storage.
+                </div>
+              </li>
+              <li className="flex items-center gap-4">
+                <img src="/socialmediafeature.svg" alt="" />
+                <div>
+                  <span className="font-semibold">Digital Marketing Campaigns:</span>
+                  Reach potential clients with targeted ads and social media strategies.
+                </div>
+              </li>
+            </ul>
+          </div>
+
+
+        </div>
+      </div>
+
+
       <ContactUs />
     </>
   )

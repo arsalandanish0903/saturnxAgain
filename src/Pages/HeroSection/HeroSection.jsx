@@ -105,7 +105,7 @@ const cardsData = [
         </clipPath>
       </defs>
     </svg>, content: "Construction",
-    path: "/construction-software-development"
+    path: "/construction-digital-solutions-provider"
   },
   {
     icon: <svg xmlns="http://www.w3.org/2000/svg" width="57" height="56" viewBox="0 0 57 56" fill="none" className="text-white group-hover:text-[#164DA5]">
@@ -120,7 +120,7 @@ const cardsData = [
         </clipPath>
       </defs>
     </svg>, content: "Healthcare & Well Being",
-    path: "/healthcare-software-development"
+    path: "/healthcare-digital-solutions-provider"
   },
   {
     icon: <svg width="57" height="56" viewBox="0 0 57 56" fill="none" xmlns="http://www.w3.org/2000/svg" className="text-white group-hover:text-[#164DA5]">
