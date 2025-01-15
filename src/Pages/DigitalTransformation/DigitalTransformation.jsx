@@ -1,6 +1,7 @@
 import React from 'react'
 import Button from '../../components/Buttons/Button'
 import OurDigitalTransformation from '../../components/OurDigitalTransformation/OurDigitalTransformation'
+import WhyChooseUs from '../WhyChooseUs/WhyChooseUs'
 
 function DigitalTransformation() {
   return (
@@ -29,6 +30,7 @@ function DigitalTransformation() {
             </div>
         </div>
         <OurDigitalTransformation />
+        <WhyChooseUs />
     </>
   )
 }

@@ -21,6 +21,10 @@ import Edutech from './Pages/Edutech/Edutech';
 import Automotive from './Pages/Automotive/Automotive';
 import DigitalTransformation from './Pages/DigitalTransformation/DigitalTransformation';
 import UiUx from './Pages/UiUx/UiUx';
+import EnterpriseSoftware from './Pages/EnterpriseSoftware/EnterpriseSoftware';
+import MobileAppDevelopment from './Pages/MobileAppDevelopment/MobileAppDevelopment';
+import DedicatedDevelopmentTeam from './Pages/DedicatedDevelopmentTeam/DedicatedDevelopmentTeam';
+import QaTesting from './Pages/QaTesting/QaTesting';
 
 
 AOS.init();
@@ -49,20 +53,24 @@ function App() {
           
           <Route index element={<Home />} />
           <Route path='about' element={<AboutBanner />} />
-          <Route path='services' element={<ServicesBanner />} />
+          <Route path='software-development-services-of-any-type-and-complexity' element={<ServicesBanner />} />
           <Route path='careers' element={<CareersBanner />} />
           <Route path='contactus' element={<ContactUsBanner />} />
-          <Route path='/construction/software-development' element={<Construction />} />
-          <Route path='/healthcare/software-development' element={<HealthCare />} />
-          <Route path='dental/software-development' element={<Dental />} />
+          <Route path='/construction-software-development' element={<Construction />} />
+          <Route path='/healthcare-software-development' element={<HealthCare />} />
+          <Route path='dental-software-development' element={<Dental />} />
           <Route path='insurance/software-development' element={<Insurance />} />
           <Route path='ecommerce/software-development' element={<Ecommerce />} />
-          <Route path='/logistics/software-development' element={<Logistics />} />
-          <Route path='/automotive/software-development' element={<Automotive />} />
-          <Route path='/travelandhospitality/software-development' element={<TravelandHospitality />} />
-          <Route path='/edutech/software-development' element={<Edutech />} />
+          <Route path='/logistics-and-automotive-software-solutions' element={<Logistics />} />
+          <Route path='/automotive-software-development' element={<Automotive />} />
+          <Route path='/software-development-for-travel-and-hospitality' element={<TravelandHospitality />} />
+          <Route path='/edutech-software-development' element={<Edutech />} />
           <Route path='/digitaltransformation/software-development' element={<DigitalTransformation />} />
           <Route path='/uiux/software-development' element={<UiUx />} />
+          <Route path='/enterprise-software-development' element={<EnterpriseSoftware />} />
+          <Route path='/mobile-app-development' element={<MobileAppDevelopment />} />
+          <Route path='/dedicated-team-development' element={<DedicatedDevelopmentTeam />} />
+          <Route path='/software-qa-and-testing' element={<QaTesting />} />
         </Route>
       </Routes>
     </Router>

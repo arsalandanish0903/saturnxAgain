@@ -16,7 +16,7 @@ function LogisticsDigitalTransformation() {
       <div className="w-full lg:w-1/2 px-4 lg:px-16 mb-8 lg:mb-0">
         <h1 className="text-3xl font-bold mb-4">Digital Transformation of Your Supply Chain</h1>
         <p className="mb-4">
-          Build a scalable supply chain management system to streamline operations, reduce operating costs, and grow faster. Combine Smart Contracts on blockchain with IoT sensors to automate delivery and introduce pinpoint tracking on the manufacturing line. Use IoT-driven logistics software solutions in warehousing, and optimize processes like inventory management, picking, and auditing.
+        Revolutionize your supply chain with scalable, technology-driven solutions. SaturnX offers supply chain management systems designed to streamline operations, reduce costs, and drive growth. Leverage Smart Contracts on blockchain and IoT sensors for automated delivery and real-time tracking. Optimize warehousing with IoT-powered logistics software to enhance inventory management, picking, and auditing. Empower your business with innovative solutions that transform efficiency and productivity.
         </p>
 
         <div className="space-y-4">

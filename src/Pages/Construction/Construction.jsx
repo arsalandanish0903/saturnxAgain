@@ -193,7 +193,7 @@ function Construction() {
           <div className="relative z-10 max-w-3xl  text-white text-center sm:text-left">
             <h2 className="text-3xl sm:text-4xl mb-4">Construction Software Development</h2>
             <p className="text-md sm:text-lg mb-4">
-              SaturnX is a leading provider of cutting-edge software solutions and sustainable building technologies, empowering businesses worldwide to thrive in a rapidly evolving digital landscape. Our expert team delivers tailored, industry-specific services designed to optimize operational efficiency, enhance collaboration, and drive sustainable growth.
+            SaturnX specializes in construction software development, offering innovative solutions to streamline project management, enhance collaboration, and boost efficiency. Our cutting-edge technologies empower construction businesses with tailored tools for planning, resource management, and sustainable growth in the digital era. Partner with SaturnX for industry-leading software that transforms your construction processes.
             </p>
             <Button
               mainButton="Contact Us"
@@ -206,7 +206,7 @@ function Construction() {
       <div className='relative pt-16 px-6 lg:px-0 font-poppins'>
         <div className='container mx-auto max-w-[1140px]'>
           <h4 className="text-xl text-center font-bold leading-snug tracking-wide  sm:text-4xl mb-4">Construction Software Development</h4>
-          <p className='text-center '>At SaturnX, we specialize in developing comprehensive software solutions tailored specifically for the construction industry. Our mission is to help you seamlessly digitalize your green building business, streamline processes, and achieve exceptional operational efficiency.</p>
+          <p className='text-center '>At SaturnX, we specialize in crafting innovative software solutions designed exclusively for the construction industry. Our goal is to empower your green building business with seamless digitalization, optimized workflows, and unmatched operational efficiency, driving sustainable success in every project.</p>
           <div className='grid lg:grid-cols-2 grid-cols-1 items-center my-8 gap-4'>
             <div className='relative'>
               {aboutConstruction.map((item, index) => (

@@ -102,10 +102,10 @@ const MegaMenu = () => {
                                 </button>
                                 {servicesOpen && (
                                     <div className="ml-4 mt-2 flex flex-col space-y-2">
-                                        <NavLink to='/services' className="text-base" onClick={() => setMobileMenuOpen(false)}>Web Development</NavLink>
-                                        <NavLink to='/services' className="text-base" onClick={() => setMobileMenuOpen(false)}>Mobile Development</NavLink>
-                                        <NavLink to='/services' className="text-base" onClick={() => setMobileMenuOpen(false)}>UI/UX Design</NavLink>
-                                        <NavLink to='/services' className="text-base" onClick={() => setMobileMenuOpen(false)}>All Services</NavLink>
+                                        <NavLink to='/mobile-app-development' className="text-base" onClick={() => setMobileMenuOpen(false)}>Web Development</NavLink>
+                                        <NavLink to='/enterprise-software-development' className="text-base" onClick={() => setMobileMenuOpen(false)}>Enterprise Software Development</NavLink>
+                                        <NavLink to='/dedicated-team-development' className="text-base" onClick={() => setMobileMenuOpen(false)}>Dedicated Development Team</NavLink>
+                                        <NavLink to='/software-development-services-of-any-type-and-complexity' className="text-base" onClick={() => setMobileMenuOpen(false)}>All Services</NavLink>
                                     </div>
                                 )}
                             </div>
@@ -179,7 +179,7 @@ const MegaMenu = () => {
                             onMouseEnter={() => setServicesOpen(true)}
                             onMouseLeave={() => setServicesOpen(false)}
                         >
-                            <NavLink to='/services' className="text-lg flex items-center"
+                            <NavLink to='/software-development-services-of-any-type-and-complexity' className="text-lg flex items-center"
                                 onClick={() => setMobileMenuOpen(false) || setServicesOpen(false)}
                             >
                                 Services <FaChevronDown className="w-5 h-5 ml-2" />
@@ -202,7 +202,7 @@ const MegaMenu = () => {
                                         <p className="mt-2 text-sm">Leverage our expertise in full life-cycle application design, integration, and management.</p>
                                         <Button mainButton='Read More'
                                             className="changeColor"
-                                            btnPath={(navigate) => navigate("/services")}
+                                            btnPath={(navigate) => navigate("/enterprise-software-development")}
                                             setServicesOpen={setServicesOpen}
                                         />
                                     </div>
@@ -218,7 +218,7 @@ const MegaMenu = () => {
                                         <p className="mt-2 text-sm">Go mobile-first with superior digital products, enabling seamless user experiences across all devices.</p>
                                         <Button mainButton='Read More'
                                             className="changeColor"
-                                            btnPath={(navigate) => navigate("/services")}
+                                            btnPath={(navigate) => navigate("/mobile-app-development")}
                                             setServicesOpen={setServicesOpen}
                                         />
                                     </div>
@@ -234,7 +234,7 @@ const MegaMenu = () => {
                                         <p className="mt-2 text-sm">Scale your delivery capacity and build products faster with the help of our top qualified engineers.</p>
                                         <Button mainButton='Read More'
                                             className="changeColor"
-                                            btnPath={(navigate) => navigate("/services")}
+                                            btnPath={(navigate) => navigate("/dedicated-team-development")}
                                             setServicesOpen={setServicesOpen}
                                             
                                         />
@@ -260,7 +260,7 @@ const MegaMenu = () => {
                                             </li>
                                             <li className="my-4 text-gray-800 flex items-center">
                                                 <FaBug className="mr-2 text-[#0B5FC4]" size={20} />
-                                                <Link to="/services"
+                                                <Link to="/software-qa-and-testing"
                                                     onClick={() => setServicesOpen(false)}
                                                 >
                                                     QA & Testing
@@ -328,15 +328,15 @@ const MegaMenu = () => {
                                             <ul className="m-0 p-0 flex flex-col gap-8">
                                                 <li className="flex items-center gap-4">
                                                     <FaHardHat className="text-[#0B5FC4]" size={20} />
-                                                    <Link to='/construction/software-development' className="text-gray-800 hover:text-blue-600" onClick={() => setIndustriesOpen(false)}>Construction</Link>
+                                                    <Link to='/construction-software-development' className="text-gray-800 hover:text-blue-600" onClick={() => setIndustriesOpen(false)}>Construction</Link>
                                                 </li>
                                                 <li className="flex items-center gap-4">
                                                     <FaHeartbeat className="text-[#0B5FC4]" size={20} />
-                                                    <Link to='/healthcare/software-development' className="text-gray-800 hover:text-blue-600" onClick={() => setIndustriesOpen(false)}>Health Care</Link>
+                                                    <Link to='/healthcare-software-development' className="text-gray-800 hover:text-blue-600" onClick={() => setIndustriesOpen(false)}>Health Care</Link>
                                                 </li>
                                                 <li className="flex items-center gap-4">
                                                     <FaTooth className="text-[#0B5FC4]" size={20} />
-                                                    <Link to='/dental' className="text-gray-800 hover:text-blue-600" onClick={() => setIndustriesOpen(false)}>Dental</Link>
+                                                    <Link to='/dental-software-development' className="text-gray-800 hover:text-blue-600" onClick={() => setIndustriesOpen(false)}>Dental</Link>
                                                 </li>
                                                 <li className="flex items-center gap-4">
                                                     <FaShieldAlt className="text-[#0B5FC4]" size={20} />
