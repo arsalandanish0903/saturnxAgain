@@ -30,19 +30,19 @@ import QaTesting from './Pages/QaTesting/QaTesting';
 AOS.init();
 
 function App() {
-  // const [isLoading, setIsLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState(true);
 
-  // useEffect(() => {
-  //   const timer = setTimeout(() => {
-  //     setIsLoading(false);
-  //   }, 2000);
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+    }, 2000);
 
-  //   return () => clearTimeout(timer);
-  // }, []);
+    return () => clearTimeout(timer);
+  }, []);
 
-  // if (isLoading) {
-  //   return <Loader />; 
-  // }
+  if (isLoading) {
+    return <Loader />; 
+  }
 
   return (
     <Router>
@@ -59,14 +59,14 @@ function App() {
           <Route path='/construction-digital-solutions-provider' element={<Construction />} />
           <Route path='/healthcare-digital-solutions-provider' element={<HealthCare />} />
           <Route path='dental-software-development' element={<Dental />} />
-          <Route path='insurance/software-development' element={<Insurance />} />
-          <Route path='ecommerce/software-development' element={<Ecommerce />} />
-          <Route path='/logistics-and-automotive-software-solutions' element={<Logistics />} />
-          <Route path='/automotive-software-development' element={<Automotive />} />
-          <Route path='/software-development-for-travel-and-hospitality' element={<TravelandHospitality />} />
-          <Route path='/edutech-software-development' element={<Edutech />} />
+          <Route path='insurance-digital-solutions-provider' element={<Insurance />} />
+          <Route path='ecommerce-digital-solutions-provider' element={<Ecommerce />} />
+          <Route path='/logistics-and-automotive-digital-solutions-provider' element={<Logistics />} />
+          <Route path='/automotive-digital-solutions-provider' element={<Automotive />} />
+          <Route path='/travel-and-hospitality-digital-solutions-provider' element={<TravelandHospitality />} />
+          <Route path='/edutech-digital-solutions-provider' element={<Edutech />} />
           <Route path='/digitaltransformation/software-development' element={<DigitalTransformation />} />
-          <Route path='/uiux/software-development' element={<UiUx />} />
+          <Route path='/uiux-digital-solutions-provider' element={<UiUx />} />
           <Route path='/enterprise-software-development' element={<EnterpriseSoftware />} />
           <Route path='/mobile-app-development' element={<MobileAppDevelopment />} />
           <Route path='/dedicated-team-development' element={<DedicatedDevelopmentTeam />} />

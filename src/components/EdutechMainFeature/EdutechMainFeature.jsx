@@ -53,7 +53,7 @@ function EdutechMainFeature() {
     };
 
     return (
-        <div className="px-6 lg:px-0 py-16 bg-gray-50 w-full font-poppins'>">
+        <div className="px-6 bg-gray-200 lg:px-0 py-16 w-full font-poppins'>">
             <div className='container mx-auto max-w-[1140px]'>
                 <h4 className="text-center text-2xl lg:text-4xl font-bold text-gray-800 mb-8">
                     Main Features of Our eLearning <span className='block'>Software Development</span>

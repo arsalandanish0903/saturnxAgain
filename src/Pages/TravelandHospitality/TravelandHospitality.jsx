@@ -172,9 +172,9 @@ function TravelandHospitality() {
                 <div className="container mx-auto max-w-[1140px] px-6 lg:px-0">
                     {/* Content */}
                     <div className="relative z-10 max-w-3xl  text-white text-center sm:text-left">
-                        <h2 className="text-3xl sm:text-4xl mb-4">Custom Software Development For Travel And Hospitality</h2>
+                        <h2 className="text-3xl sm:text-4xl mb-4">Your Trusted Digital Provider for Travel and Hospitality Industries</h2>
                         <p className="text-md sm:text-lg mb-4">
-                        Meet your customers' and partners’ needs with our end-to-end technology solutions for hospitality. From impactful mobile applications to comprehensive custom-made systems, leading brands rely on SaturnX's expertise and engineering experience to enhance their operations and elevate guest experiences.
+                            At SaturnX Digital Solutions, we specialize in delivering cutting-edge digital solutions tailored to the unique needs of the travel and hospitality industries. As a leading digital provider, we are dedicated to helping businesses in these dynamic sectors thrive in a competitive market by leveraging advanced technologies and innovative strategies.
                         </p>
                         <Button
                             mainButton="Talk To Us"
@@ -184,7 +184,104 @@ function TravelandHospitality() {
                     </div>
                 </div>
             </div>
-            <div className='py-16 px-6 lg:px-0 relative w-full'>
+            <div className="py-16 px-6 lg:px-0 relative w-full font-poppins">
+                <div className="container mx-auto max-w-[1140px]">
+                    <div className="my-2 w-full flex flex-col items-center justify-center text-center">
+                        <h4 className="text-2xl lg:text-4xl mb-4 font-bold max-w-4xl">
+                            Why Choose SaturnX Digital Solutions for Your Travel and Hospitality Needs?
+                        </h4>
+                        <div className="text-left mt-6 space-y-6 text-gray-700 leading-relaxed">
+                            <div>
+                                <h5 className="text-xl font-semibold mb-2 text-black">1. <span className="text-black">Industry Expertise</span>:</h5>
+                                <p>
+                                    With years of experience servi text-blackng the <span className="text-black">travel and hospitality industries</span>, we understand the specific challenges and opportunities your business faces. From boosting online visibility to enhancing guest experiences, we have the know-how to elevate your brand.
+                                </p>
+                            </div>
+                            <div>
+                                <h5 className="text-xl font-semibold mb-2 text-black">2. <span className="text-black">Customized Solutions</span>:</h5>
+                                <p>
+                                    Our team crafts personalized digital strategies that align with your business goals. Whether you're a boutique hotel, a global travel agency, or a luxury resort, we’ll develop a plan to meet your unique requirements.
+                                </p>
+                            </div>
+                            <div>
+                                <h5 className="text-xl font-semibold mb-2 text-black">3. <span className="text-black">Comprehensive Services</span>:</h5>
+                                <ul className="list-disc list-inside space-y-2">
+                                    <li>
+                                        <span className="font-semibold">Website Design & Development:</span> Create a user-friendly, visually stunning website optimized for conversions.
+                                    </li>
+                                    <li>
+                                        <span className="font-semibold">Search Engine Optimization (SEO):</span> Improve your online visibility and attract more customers searching for travel and hospitality services.
+                                    </li>
+                                    <li>
+                                        <span className="font-semibold">Social Media Marketing:</span> Engage with your audience and build your brand presence on platforms like Instagram, Facebook, and LinkedIn.
+                                    </li>
+                                    <li>
+                                        <span className="font-semibold">Content Marketing:</span> Share compelling stories and valuable content to captivate and inform your audience.
+                                    </li>
+                                    <li>
+                                        <span className="font-semibold">Analytics and Reporting:</span> Track your digital performance and refine strategies with our detailed insights.
+                                    </li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h5 className="text-xl font-semibold mb-2 text-black">4. <span className="text-black">Technology Integration</span>:</h5>
+                                <p>
+                                    Seamlessly integrate booking engines, customer relationship management (CRM) systems, and other tools to streamline operations and improve customer satisfaction.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="py-16 px-6 bg-gray-200 lg:px-0 relative w-full font-poppins">
+                <div className="container mx-auto max-w-[1140px]">
+                    <div className="my-2 w-full flex flex-col items-center justify-center text-center">
+                        <h4 className="text-2xl lg:text-4xl mb-4 font-bold max-w-4xl">
+                            How We Empower the Travel and Hospitality Industries
+                        </h4>
+                    </div>
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-10">
+                        {/* Card 1 */}
+                        <div className="shadow-lg bg-white rounded-lg p-6 text-center">
+                            <img
+                                src="/guestExperinece.jpg" // Replace with actual image URL
+                                alt="Enhanced Guest Experiences"
+                                className="w-full h-40 object-cover mb-4 rounded-md"
+                            />
+                            <h5 className="text-xl font-semibold mb-2">Enhanced Guest Experiences</h5>
+                            <p className="text-gray-700">
+                                Engage your customers with interactive and personalized online experiences that encourage bookings and foster loyalty.
+                            </p>
+                        </div>
+                        {/* Card 2 */}
+                        <div className="shadow-lg bg-white rounded-lg p-6 text-center">
+                            <img
+                                src="/optimize.jpg" // Replace with actual image URL
+                                alt="Optimized Digital Presence"
+                                className="w-full h-40 object-cover mb-4 rounded-md"
+                            />
+                            <h5 className="text-xl font-semibold mb-2">Optimized Digital Presence</h5>
+                            <p className="text-gray-700">
+                                Ensure your business ranks high in search results and reaches potential travelers with targeted campaigns.
+                            </p>
+                        </div>
+                        {/* Card 3 */}
+                        <div className="shadow-lg bg-white rounded-lg p-6 text-center">
+                            <img
+                                src="/streamline.jpg" // Replace with actual image URL
+                                alt="Streamlined Operations"
+                                className="w-full h-40 object-cover mb-4 rounded-md"
+                            />
+                            <h5 className="text-xl font-semibold mb-2">Streamlined Operations</h5>
+                            <p className="text-gray-700">
+                                Implement cutting-edge technologies to automate processes, reduce costs, and enhance efficiency.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className='py-16 px-6 lg:px-0 relative w-full font-poppins'>
                 <div className="container mx-auto max-w-[1140px]">
                     <div className="grid lg:grid-cols-4 grid-cols-2 lg:grid-rows-1 gap-8 items-center justify-center">
                         <div className="flex flex-col items-center justify-center text-center">
@@ -276,7 +373,7 @@ function TravelandHospitality() {
                         <span className="block">Technology Solutions</span>
                     </h4>
                     <p className="text-center text-lg text-gray-700 mb-12">
-                    For every hospitality solution, the SaturnX team employs a data-driven, scalable approach tailored to meet our clients' unique technology needs. Our innovative technical design workshop transforms initial concepts into a visionary solution architecture, ensuring a seamless and impactful implementation that elevates guest experiences and drives operational excellence.
+                        For every hospitality solution, the SaturnX team employs a data-driven, scalable approach tailored to meet our clients' unique technology needs. Our innovative technical design workshop transforms initial concepts into a visionary solution architecture, ensuring a seamless and impactful implementation that elevates guest experiences and drives operational excellence.
                     </p>
                     <div className="grid relative py-16 lg:grid-cols-10 md:grid-cols-2 sm:grid-cols-1 grid-cols-1 gap-12 items-center">
                         {/* Left Side: Content */}
@@ -342,6 +439,18 @@ function TravelandHospitality() {
                             />
                         </div>
                     </div>
+                </div>
+            </div>
+            <div className="py-10 px-6 lg:px-0 bg-gray-100 text-center font-poppins">
+                <div className="container mx-auto max-w-[800px]">
+                    <h4 className="text-3xl lg:text-4xl font-bold mb-4 text-gray-800">
+                        Partner with SaturnX Digital Solutions Today
+                    </h4>
+                    <p className="text-lg text-gray-700 leading-relaxed">
+                        The <span className="text-black">travel and hospitality industries</span> demand innovation, creativity, and reliability.
+                        At <span className="text-black font-semibold">SaturnX Digital Solutions</span>, we provide the tools and expertise you need to
+                        stand out and succeed in this competitive landscape.
+                    </p>
                 </div>
             </div>
 

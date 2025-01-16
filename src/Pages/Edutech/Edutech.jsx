@@ -43,10 +43,9 @@ function Edutech() {
                 <div className="container mx-auto max-w-[1140px] px-6 lg:px-0">
                     {/* Content */}
                     <div className="relative z-10 max-w-3xl  text-white text-center sm:text-left">
-                        <h2 className="text-3xl sm:text-4xl mb-4">Transforming Education and Training with Advanced eLearning Solutions</h2>
+                        <h2 className="text-3xl sm:text-4xl mb-4">Your Trusted Edutech Industries Digital Provider</h2>
                         <p className="text-md sm:text-lg mb-4">
-                            Tailored specifically to meet the unique challenges of your organization, our eLearning solutions are developed to keep you ahead in the knowledge landscape.
-                            We’re here to offer you custom eLearning development that aligns seamlessly with your specific needs.
+                            At SaturnX Digital Solution Company, we specialize in providing cutting-edge digital solutions tailored to the unique needs of the edutech industries. With years of experience in delivering innovative and scalable services, we empower education businesses to thrive in the digital era.
 
                         </p>
                         <Button
@@ -57,10 +56,48 @@ function Edutech() {
                     </div>
                 </div>
             </div>
+            <div className="relative w-full py-16 px-6 lg:px-0 font-poppins bg-gray-200">
+                <div className="container mx-auto max-w-[1140px]">
+                    <div className="my-2 w-full flex flex-col items-center justify-center text-center">
+                        <h4 className="text-2xl lg:text-4xl mb-8 font-bold max-w-4xl">
+                            Why Choose SaturnX Digital Solution Company?
+                        </h4>
+                    </div>
+                    <div className="mt-6 space-y-8">
+                        {/* Section 1 */}
+                        <div className="p-6 bg-white shadow-lg rounded-lg">
+                            <h5 className="text-xl font-semibold mb-4">1. Comprehensive Digital Solutions for Edutech</h5>
+                            <p className="text-gray-700 leading-relaxed">
+                                We understand the challenges faced by <span className="italic">edutech industries</span> and provide a full suite of digital services, including:
+                            </p>
+                            <ul className="list-disc list-inside mt-3 text-gray-700">
+                                <li>Custom software development for online learning platforms.</li>
+                                <li>Mobile application development for interactive learning.</li>
+                                <li>AI and ML solutions to personalize educational experiences.</li>
+                            </ul>
+                        </div>
+                        {/* Section 2 */}
+                        <div className="p-6 bg-white shadow-lg rounded-lg">
+                            <h5 className="text-xl font-semibold mb-4">2. Innovative Technology at Your Fingertips</h5>
+                            <p className="text-gray-700 leading-relaxed">
+                                As a premier <span className="italic">digital provider</span>, we use advanced technologies to help edutech companies modernize and scale their operations. From cloud-based solutions to robust data analytics, we ensure you stay ahead of the competition.
+                            </p>
+                        </div>
+                        {/* Section 3 */}
+                        <div className="p-6 bg-white shadow-lg rounded-lg">
+                            <h5 className="text-xl font-semibold mb-4">3. Scalable and Cost-Effective Services</h5>
+                            <p className="text-gray-700 leading-relaxed">
+                                At SaturnX Digital Solution Company, we focus on delivering scalable solutions that grow with your business. Our cost-effective approach makes digital transformation accessible for businesses of all sizes within the <span className="italic">edutech industries</span>.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div className="relative py-16 font-poppins w-full px-6 lg:px-0 bg-gray-50">
                 <div className="container mx-auto max-w-[1140px]">
                     <h4 className="text-center text-2xl lg:text-4xl font-bold text-gray-800 mb-8">
-                        Our Custom eLearning Solutions
+                        Services We Offer
                     </h4>
                     <div className="grid lg:grid-cols-2 grid-cols-1 gap-6">
                         {ourCustomeElearining.map((item, index) => (
@@ -83,6 +120,22 @@ function Edutech() {
                 </div>
             </div>
             <EdutechMainFeature />
+            <div className="py-16 px-6 lg:px-0 font-poppin">
+                <div className="container mx-auto max-w-[800px] text-center">
+                    <h4 className="text-3xl lg:text-4xl font-bold text-gray-800 mb-6">
+                        Our Commitment to Excellence
+                    </h4>
+                    <p className="text-lg text-gray-700 leading-relaxed">
+                        At <span className="text-black font-semibold">SaturnX Digital Solution Company</span>, we are committed to transforming the way
+                        <span className="text-black"> edutech industries</span> operate in the digital space. By combining technology, creativity, and strategy, we deliver solutions that drive results and foster growth.
+                    </p>
+                    <p className="text-lg text-gray-700 leading-relaxed mt-4">
+                        Whether you are a startup or an established name in the education sector, we are here to support your journey as your trusted
+                        <span className="text-black font-semibold"> digital provider</span>.
+                    </p>
+                </div>
+            </div>
+
             <CuttingEdgeTechnology />
         </>
     )

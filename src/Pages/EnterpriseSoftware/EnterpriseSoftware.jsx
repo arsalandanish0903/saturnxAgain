@@ -6,6 +6,7 @@ import ContactUs from '../../Pages/ContactUs/ContactUs'
 function EnterpriseSoftware() {
     return (
         <>
+            {/* Hero Section */}
             <div
                 className="h-[500px] bg-cover flex items-center bg-center relative font-poppins"
                 style={{
@@ -29,12 +30,12 @@ function EnterpriseSoftware() {
                     </div>
                 </div>
             </div>
+
+            {/* ERP Solutions Section */}
             <div className='bg-gray-200 border-t-2 border-b-2 border-gray-300 w-full py-16 px-6 lg:px-0 relative font-poppins'>
                 <div className='container mx-auto max-w-[1140px]'>
-                    {/* Service Section */}
                     <div className="py-16 px-4">
                         <div className="grid md:grid-cols-2 gap-12 items-center">
-                            {/* Left Side Content */}
                             <div data-aos="fade-right">
                                 <h4 className="text-3xl font-bold mb-6">Custom Enterprise Resource Planning (ERP) Solutions</h4>
                                 <p className="text-lg mb-4">
@@ -45,11 +46,10 @@ function EnterpriseSoftware() {
                                 </p>
                             </div>
 
-                            {/* Right Side Image */}
                             <div data-aos="fade-left">
                                 <img
                                     src="/customeERPSoftware.jpg"
-                                    alt="Healthcare Software"
+                                    alt="Custom ERP Software"
                                     className="rounded-lg shadow-lg"
                                 />
                             </div>
@@ -57,12 +57,12 @@ function EnterpriseSoftware() {
                     </div>
                 </div>
             </div>
+
+            {/* CRM Solutions Section */}
             <div className='bg-white w-full py-16 px-6 lg:px-0 relative font-poppins'>
                 <div className='container mx-auto max-w-[1140px]'>
-                    {/* Service Section */}
                     <div className="py-16 px-4">
                         <div className="grid md:grid-cols-2 gap-12 items-center">
-                            {/* Left Side Content */}
                             <div data-aos="fade-right">
                                 <h4 className="text-3xl font-bold mb-6">Customer Relationship Management (CRM) Platforms</h4>
                                 <p className="text-lg mb-4">
@@ -73,11 +73,10 @@ function EnterpriseSoftware() {
                                 </p>
                             </div>
 
-                            {/* Right Side Image */}
                             <div data-aos="fade-left">
                                 <img
                                     src="/customeCRMSoftware.jpg"
-                                    alt="Healthcare Software"
+                                    alt="Custom CRM Software"
                                     className="rounded-lg shadow-lg"
                                 />
                             </div>
@@ -85,10 +84,41 @@ function EnterpriseSoftware() {
                     </div>
                 </div>
             </div>
+
+            {/* Additional Solutions Section */}
+            <div className='bg-gray-100 w-full py-16 px-6 lg:px-0 relative font-poppins'>
+                <div className='container mx-auto max-w-[1140px]'>
+                    <div className="py-16 px-4">
+                        <div className="grid md:grid-cols-2 gap-12 items-center">
+                            <div data-aos="fade-right">
+                                <h4 className="text-3xl font-bold mb-6">Cloud-based Solutions for Enhanced Flexibility</h4>
+                                <p className="text-lg mb-4">
+                                    Embrace the future of business with our cloud-based solutions. SaturnX's cloud services help businesses reduce costs, enhance scalability, and foster collaboration, all while ensuring the highest level of data security.
+                                </p>
+                                <p className="text-lg">
+                                    Our cloud systems ensure seamless data sharing and integration, allowing enterprises to manage their resources and collaborate on a unified platform. Whether you're moving to the cloud or optimizing your current cloud infrastructure, SaturnX is your trusted partner.
+                                </p>
+                            </div>
+
+                            <div data-aos="fade-left">
+                                <img
+                                    src="/cloudsolutions.jpg"
+                                    alt="Cloud-based Solutions"
+                                    className="rounded-lg shadow-lg"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            {/* Why Choose Us Section */}
             <WhyChooseUs />
+
+            {/* Contact Us Section */}
             <ContactUs />
         </>
     )
 }
 
-export default EnterpriseSoftware
+export default EnterpriseSoftware;

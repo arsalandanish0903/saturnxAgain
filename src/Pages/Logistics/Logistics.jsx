@@ -77,19 +77,19 @@ function Logistics() {
                     <div className="container mx-auto max-w-[1140px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                         {[
                             {
-                                icon: "/icons/supply-chain.svg",
+                                icon: "/supply-chain-management.png",
                                 title: "Supply Chain Optimization",
                                 description:
                                     "Minimize delays and maximize efficiency with real-time tracking, predictive analytics, and automated workflows.",
                             },
                             {
-                                icon: "/icons/fleet-management.svg",
+                                icon: "/fleet-management.png",
                                 title: "Fleet Management Systems",
                                 description:
                                     "Gain better control of your fleet with GPS integration, predictive maintenance alerts, and performance tracking.",
                             },
                             {
-                                icon: "/icons/warehouse-automation.svg",
+                                icon: "/supplier-alt.png",
                                 title: "Warehouse Automation",
                                 description:
                                     "Enhance inventory accuracy and streamline operations with advanced warehouse management systems (WMS).",
@@ -104,7 +104,7 @@ function Logistics() {
                                     alt={item.title}
                                     className="w-12 h-12 object-contain"
                                 />
-                                <h3 className="text-xl font-bold text-blue-600">{item.title}</h3>
+                                <h3 className="text-xl font-bold text-black">{item.title}</h3>
                                 <p className="text-gray-700 text-sm leading-relaxed">
                                     {item.description}
                                 </p>

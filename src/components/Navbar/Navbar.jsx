@@ -252,7 +252,7 @@ const MegaMenu = () => {
                                             </li>
                                             <li className="my-4 text-gray-800 flex items-center">
                                                 <FaPaintBrush className="mr-2 text-[#0B5FC4]" size={20} />
-                                                <Link to="/uiux/software-development"
+                                                <Link to="/uiux-digital-solutions-provider"
                                                     onClick={() => setServicesOpen(false)}
                                                 >
                                                     UI / UX Design
@@ -328,23 +328,23 @@ const MegaMenu = () => {
                                             <ul className="m-0 p-0 flex flex-col gap-8">
                                                 <li className="flex items-center gap-4">
                                                     <FaHardHat className="text-[#0B5FC4]" size={20} />
-                                                    <Link to='/construction-software-development' className="text-gray-800 hover:text-blue-600" onClick={() => setIndustriesOpen(false)}>Construction</Link>
+                                                    <Link to='/construction-digital-solutions-provider' className="text-gray-800 hover:text-blue-600" onClick={() => setIndustriesOpen(false)}>Construction</Link>
                                                 </li>
                                                 <li className="flex items-center gap-4">
                                                     <FaHeartbeat className="text-[#0B5FC4]" size={20} />
-                                                    <Link to='/healthcare-software-development' className="text-gray-800 hover:text-blue-600" onClick={() => setIndustriesOpen(false)}>Health Care</Link>
+                                                    <Link to='/healthcare-digital-solutions-provider' className="text-gray-800 hover:text-blue-600" onClick={() => setIndustriesOpen(false)}>Health Care</Link>
                                                 </li>
                                                 <li className="flex items-center gap-4">
                                                     <FaTooth className="text-[#0B5FC4]" size={20} />
-                                                    <Link to='/dental-software-development' className="text-gray-800 hover:text-blue-600" onClick={() => setIndustriesOpen(false)}>Dental</Link>
+                                                    <Link to='/logistics-and-automotive-digital-solutions-provider' className="text-gray-800 hover:text-blue-600" onClick={() => setIndustriesOpen(false)}>Logistics & Transportation</Link>
                                                 </li>
                                                 <li className="flex items-center gap-4">
                                                     <FaShieldAlt className="text-[#0B5FC4]" size={20} />
-                                                    <Link to='/insurance' className="text-gray-800 hover:text-blue-600" onClick={() => setIndustriesOpen(false)}>Insurance</Link>
+                                                    <Link to='/automotive-digital-solutions-provider' className="text-gray-800 hover:text-blue-600" onClick={() => setIndustriesOpen(false)}>Automotive</Link>
                                                 </li>
                                                 <li className="flex items-center gap-4">
                                                     <FaShoppingCart className="text-[#0B5FC4]" size={20} />
-                                                    <Link to='/ecommerce' className="text-gray-800 hover:text-blue-600" onClick={() => setIndustriesOpen(false)}>Retail & E-commerce</Link>
+                                                    <Link to='/ecommerce-digital-solutions-provider' className="text-gray-800 hover:text-blue-600" onClick={() => setIndustriesOpen(false)}>Retail & E-commerce</Link>
                                                 </li>
                                             </ul>
                                         </div>
