@@ -72,8 +72,8 @@ function Construction() {
         <div className="absolute inset-0 bg-black/70"></div>
         <div className="container mx-auto max-w-[1140px] px-6 lg:px-0">
           {/* Content */}
-          <div className="relative z-10 max-w-3xl  text-white text-center sm:text-left">
-            <h2 className="text-3xl sm:text-4xl mb-4"> Revolutionizing the Construction Industry with Digital Solutions</h2>
+          <div className="relative z-10 max-w-3xl  text-white  sm:text-left">
+            <h2 className="text-xl sm:text-4xl mb-4"> Revolutionizing the Construction Industry with Digital Solutions</h2>
             <p className="text-md sm:text-lg mb-4">
               Welcome to SaturnX Digital Solution Company, your trusted construction company digital provider! In today’s fast-paced world, the construction industry is undergoing a digital transformation, and we’re here to help your business thrive.
             </p>
@@ -106,7 +106,8 @@ function Construction() {
           </div>
 
         </div>
-        <div className='py-16 px-6 lg:px-0 font-poppins relative bg-gray-200 w-full'>
+      </div>
+      <div className='py-16 px-6 lg:px-0 font-poppins relative bg-gray-200 w-full'>
           <div className='container mx-auto max-w-[1140px]'>
             <div className='grid lg:grid-cols-2 grid-cols-1  my-8 gap-4'>
               <div className='relative'>
@@ -179,7 +180,6 @@ function Construction() {
             </div>
           </div>
         </div>
-      </div>
       <div className='relative w-full px-6 lg:px-0 py-16 font-poppins'>
         <div className='container mx-auto max-w-[1140px]'>
           <div className='my-2 w-full flex flex-col items-center justify-center text-center'>

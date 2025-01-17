@@ -17,9 +17,9 @@ function Logistics() {
                 <div className="absolute inset-0 bg-black/60"></div>
                 <div className="container mx-auto max-w-[1140px] px-6 lg:px-0">
                     {/* Content */}
-                    <div className="relative z-10 max-w-3xl  text-white text-center sm:text-left">
-                        <h1 className="text-sm text-center font-semibold py-1 w-20 mb-4 bg-[#164DA5] mx-auto sm:mx-0">Logistics</h1>
-                        <h2 className="text-3xl sm:text-4xl mb-4">Transforming Logistics and Automotive Industries</h2>
+                    <div className="relative z-10 max-w-3xl  text-white   lg:text-left">
+                        <h1 className="text-sm text-center font-semibold py-1 w-20 mb-4 bg-[#164DA5] sm:mx-0">Logistics</h1>
+                        <h2 className="text-xl sm:text-4xl mb-4">Transforming Logistics and Automotive Industries</h2>
                         <p className="text-md sm:text-lg mb-4">
                             At SaturnX Digital Solution Company, we specialize in delivering cutting-edge digital services tailored to the Logistics and Automotive industries. With our expertise, we empower businesses to thrive in the digital era by streamlining operations, enhancing customer experiences, and driving growth.
                         </p>
@@ -34,7 +34,7 @@ function Logistics() {
             <div className='bg-gray-200 w-full py-16 px-6 lg:px-0 relative font-poppins'>
                 <div className='container mx-auto max-w-[1140px]'>
                     <div className='my-2 w-full flex flex-col items-center justify-center text-center'>
-                        <h4 className="text-2xl lg:text-4xl mb-4 font-bold max-w-4xl">Why Choose SaturnX Digital Solutions for Logistics and Automotive Industries?</h4>
+                        <h4 className="text-xl lg:text-4xl mb-4 font-bold max-w-4xl">Why Choose SaturnX Digital Solutions for Logistics and Automotive Industries?</h4>
                     </div>
 
                     {/* Service Section */}

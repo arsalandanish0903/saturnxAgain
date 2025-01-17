@@ -69,7 +69,7 @@ Our team of experts collaborates closely with your stakeholders to design and im
                                     className={`flex gap-3 items-center p-4 rounded-lg cursor-pointer transition-all duration-300 shadow-sm
                                         ${activeTab === tab.id ? 'bg-[#010522] text-white' : 'bg-white hover:bg-[#0B5FC4] hover:text-white'}`}
                                     onClick={() => setActiveTab(tab.id)}
-                                    data-aos="fade-right"
+                                    data-aos="fade-bottom"
                                     data-aos-delay="200"
                                 >
                                     <div className="text-3xl">{tab.icon}</div>
@@ -87,7 +87,7 @@ Our team of experts collaborates closely with your stakeholders to design and im
                                     <div
                                         key={tab.id}
                                         className="p-6 bg-white rounded-lg shadow-lg"
-                                        data-aos="fade-left"
+                                        data-aos="fade-top"
                                         data-aos-delay="300"
                                     >
                                         <h3 className="text-2xl font-bold text-gray-800">{tab.title}</h3>

@@ -21,7 +21,7 @@ function DedicatedDevelopmentTeam() {
                 <div className="absolute inset-0 bg-black/60"></div>
                 <div className="container mx-auto max-w-[1140px] px-6 lg:px-0">
                     {/* Content */}
-                    <div className="relative z-10 max-w-3xl  text-white text-center sm:text-left">
+                    <div className="relative z-10 max-w-3xl  text-white  sm:text-left">
                         <h2 className="text-3xl sm:text-4xl mb-4">Dedicated Development Team</h2>
                         <p className="text-md sm:text-lg mb-4">
                             At SaturnX, we specialize in revolutionizing businesses through cutting-edge mobile app development. Our dedicated team delivers custom solutions tailored to meet your unique needs, ensuring seamless integration and optimized workflows.
@@ -37,7 +37,7 @@ function DedicatedDevelopmentTeam() {
             {/* Why Choose Our Dedicated Development Team */}
             <div className="py-16 px-6 lg:px-0 relative w-full font-poppins">
                 <div className='container mx-auto max-w-[1140px]'>
-                <h4 className="text-3xl lg:text-4xl text-center font-bold text-gray-800 mb-8">
+                <h4 className="text-xl lg:text-4xl text-center font-bold text-gray-800 mb-8">
                     Why Choose Our Dedicated Development Team?
                 </h4>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12">

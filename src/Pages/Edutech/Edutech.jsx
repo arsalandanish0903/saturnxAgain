@@ -42,7 +42,7 @@ function Edutech() {
                 <div className="absolute inset-0 bg-black/60"></div>
                 <div className="container mx-auto max-w-[1140px] px-6 lg:px-0">
                     {/* Content */}
-                    <div className="relative z-10 max-w-3xl  text-white text-center sm:text-left">
+                    <div className="relative z-10 max-w-3xl  text-white  sm:text-left">
                         <h2 className="text-3xl sm:text-4xl mb-4">Your Trusted Edutech Industries Digital Provider</h2>
                         <p className="text-md sm:text-lg mb-4">
                             At SaturnX Digital Solution Company, we specialize in providing cutting-edge digital solutions tailored to the unique needs of the edutech industries. With years of experience in delivering innovative and scalable services, we empower education businesses to thrive in the digital era.
@@ -59,7 +59,7 @@ function Edutech() {
             <div className="relative w-full py-16 px-6 lg:px-0 font-poppins bg-gray-200">
                 <div className="container mx-auto max-w-[1140px]">
                     <div className="my-2 w-full flex flex-col items-center justify-center text-center">
-                        <h4 className="text-2xl lg:text-4xl mb-8 font-bold max-w-4xl">
+                        <h4 className="text-xl lg:text-4xl mb-8 font-bold max-w-4xl">
                             Why Choose SaturnX Digital Solution Company?
                         </h4>
                     </div>

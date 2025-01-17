@@ -106,7 +106,7 @@ const MegaMenu = () => {
                                 </button>
                                 {servicesOpen && (
                                     <div className="ml-4 mt-2 flex flex-col space-y-2">
-                                        <NavLink to='/mobile-app-development' className="text-base" onClick={() => setMobileMenuOpen(false)}>Web Development</NavLink>
+                                        <NavLink to='/mobile-app-development' className="text-base" onClick={() => setMobileMenuOpen(false)}>Mobile App Development</NavLink>
                                         <NavLink to='/enterprise-software-development' className="text-base" onClick={() => setMobileMenuOpen(false)}>Enterprise Software Development</NavLink>
                                         <NavLink to='/dedicated-team-development' className="text-base" onClick={() => setMobileMenuOpen(false)}>Dedicated Development Team</NavLink>
                                         <NavLink to='/software-development-services-of-any-type-and-complexity' className="text-base" onClick={() => setMobileMenuOpen(false)}>All Services</NavLink>
@@ -125,11 +125,14 @@ const MegaMenu = () => {
                                 {industriesOpen && (
                                     <div className="p-4 rounded-lg mt-2">
                                         <div className="ml-4 mt-2 flex flex-col space-y-2">
-                                            <Link to="/construction/software-development" className="text-base" onClick={() => setMobileMenuOpen(false)}>Construction</Link>
-                                            <Link to="/healthcare/software-development" className="text-base" onClick={() => setMobileMenuOpen(false)}>Health Care</Link>
-                                            <Link to="/dental/software-development" className="text-base" onClick={() => setMobileMenuOpen(false)}>Dental</Link>
-                                            <Link to="/insurance/software-development" className="text-base" onClick={() => setMobileMenuOpen(false)}>Insurance</Link>
-                                            <Link to="/ecommerce/software-development" className="text-base" onClick={() => setMobileMenuOpen(false)}>E-commerce</Link>
+                                            <Link to="/construction-digital-solutions-provider" className="text-base" onClick={() => setMobileMenuOpen(false)}>Construction</Link>
+                                            <Link to="/healthcare-digital-solutions-provider" className="text-base" onClick={() => setMobileMenuOpen(false)}>Health Care</Link>
+                                            <Link to="/logistics-and-automotive-digital-solutions-provider" className="text-base" onClick={() => setMobileMenuOpen(false)}>Logistics & Transportation</Link>
+                                            <Link to="/automotive-digital-solutions-provider" className="text-base" onClick={() => setMobileMenuOpen(false)}>Automotive</Link>
+                                            <Link to="/ecommerce-digital-solutions-provider" className="text-base" onClick={() => setMobileMenuOpen(false)}>E-commerce</Link>
+                                            <Link to="/travel-and-hospitality-digital-solutions-provider" className="text-base" onClick={() => setMobileMenuOpen(false)}>Travel & Hospitality</Link>
+                                            <Link to="/edutech-digital-solutions-provider" className="text-base" onClick={() => setMobileMenuOpen(false)}>Edutech</Link>
+                                            <Link to="/software-development-services-of-any-type-and-complexity" className="text-base" onClick={() => setMobileMenuOpen(false)}>All Services</Link>
                                         </div>
                                     </div>
                                 )}
@@ -297,7 +300,7 @@ const MegaMenu = () => {
                                             <li>
                                                 <Button mainButton='All Services'
                                                     className="changeColor"
-                                                    btnPath={(navigate) => navigate("/services")}
+                                                    btnPath={(navigate) => navigate("/software-development-services-of-any-type-and-complexity")}
                                                     setServicesOpen={setServicesOpen}
                                                 />
                                             </li>

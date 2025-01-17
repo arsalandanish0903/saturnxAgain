@@ -114,7 +114,7 @@ function MobileAppDevelopment() {
                 <div className="absolute inset-0 bg-black/60"></div>
                 <div className="container mx-auto max-w-[1140px] px-6 lg:px-0">
                     {/* Content */}
-                    <div className="relative z-10 max-w-3xl  text-white text-center sm:text-left">
+                    <div className="relative z-10 max-w-3xl  text-white  sm:text-left">
                         <h2 className="text-3xl sm:text-4xl mb-4">Mobile App Development</h2>
                         <p className="text-md sm:text-lg mb-4">
                             Revolutionizing Business with SaturnX
@@ -131,7 +131,7 @@ function MobileAppDevelopment() {
             </div>
             <div className='relative w-full py-16 px-6 lg:px-0 bg-white font-poppins'>
                 <div className='container mx-auto max-w-[1140px]'>
-                    <div className='my-2 w-full flex flex-col items-center justify-center text-center'>
+                    <div className='my-2 w-full flex flex-col items-center justify-center'>
                         <h4 className="text-2xl lg:text-4xl mb-4 font-bold max-w-4xl">MOBILE APPLICATION DEVELOPMENT SERVICES FOR VARIOUS PLATFORMS</h4>
                         <p className='max-w-3xl'>Looking to elevate your business with a custom mobile app? Our expert developers have <strong>10+ years of experience</strong> creating tailored iOS, Android, and cross-platform apps that enhance brand identity, drive growth, and meet market demands.</p>
                     </div>

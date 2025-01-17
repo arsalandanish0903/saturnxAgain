@@ -17,8 +17,8 @@ function EnterpriseSoftware() {
                 <div className="absolute inset-0 bg-black/60"></div>
                 <div className="container mx-auto max-w-[1140px] px-6 lg:px-0">
                     {/* Content */}
-                    <div className="relative z-10 max-w-3xl  text-white text-center sm:text-left">
-                        <h2 className="text-3xl sm:text-4xl mb-4">Enterprise Software Development</h2>
+                    <div className="relative z-10 max-w-3xl  text-white  text-left sm:text-left">
+                        <h2 className="lg:text-4xl text-xl mb-4">Enterprise Software Development</h2>
                         <p className="text-md sm:text-lg mb-4">
                             SaturnX specializes in enterprise software development, delivering tailored solutions to optimize business operations and drive growth. From ERP systems to CRM platforms, our scalable and secure software enhances productivity, streamlines workflows, and adapts to your evolving business needs. Partner with us to empower your enterprise with cutting-edge technology and achieve long-term success.
                         </p>
@@ -36,8 +36,8 @@ function EnterpriseSoftware() {
                 <div className='container mx-auto max-w-[1140px]'>
                     <div className="py-16 px-4">
                         <div className="grid md:grid-cols-2 gap-12 items-center">
-                            <div data-aos="fade-right">
-                                <h4 className="text-3xl font-bold mb-6">Custom Enterprise Resource Planning (ERP) Solutions</h4>
+                            <div data-aos="fade-top">
+                                <h4 className="lg:text-4xl text-xl font-bold mb-6">Custom Enterprise Resource Planning (ERP) Solutions</h4>
                                 <p className="text-lg mb-4">
                                     Unlock the full potential of your business with SaturnX's custom ERP solutions. Our tailored systems integrate key business processes such as finance, supply chain, inventory management, and more, into one seamless platform.
                                 </p>
@@ -46,7 +46,7 @@ function EnterpriseSoftware() {
                                 </p>
                             </div>
 
-                            <div data-aos="fade-left">
+                            <div data-aos="fade-top">
                                 <img
                                     src="/customeERPSoftware.jpg"
                                     alt="Custom ERP Software"
@@ -63,8 +63,8 @@ function EnterpriseSoftware() {
                 <div className='container mx-auto max-w-[1140px]'>
                     <div className="py-16 px-4">
                         <div className="grid md:grid-cols-2 gap-12 items-center">
-                            <div data-aos="fade-right">
-                                <h4 className="text-3xl font-bold mb-6">Customer Relationship Management (CRM) Platforms</h4>
+                            <div data-aos="fade-down">
+                                <h4 className="lg:text-4xl text-xl font-bold mb-6">Customer Relationship Management (CRM) Platforms</h4>
                                 <p className="text-lg mb-4">
                                     Transform your customer interactions with SaturnX's CRM platforms. Our powerful CRM solutions centralize customer data, automate workflows, and provide actionable insights, helping enterprises improve sales, customer retention, and communication.
                                 </p>
@@ -73,7 +73,7 @@ function EnterpriseSoftware() {
                                 </p>
                             </div>
 
-                            <div data-aos="fade-left">
+                            <div data-aos="fade-down">
                                 <img
                                     src="/customeCRMSoftware.jpg"
                                     alt="Custom CRM Software"
@@ -90,8 +90,8 @@ function EnterpriseSoftware() {
                 <div className='container mx-auto max-w-[1140px]'>
                     <div className="py-16 px-4">
                         <div className="grid md:grid-cols-2 gap-12 items-center">
-                            <div data-aos="fade-right">
-                                <h4 className="text-3xl font-bold mb-6">Cloud-based Solutions for Enhanced Flexibility</h4>
+                            <div data-aos="fade-top">
+                                <h4 className="lg:text-4xl text-xl font-bold mb-6">Cloud-based Solutions for Enhanced Flexibility</h4>
                                 <p className="text-lg mb-4">
                                     Embrace the future of business with our cloud-based solutions. SaturnX's cloud services help businesses reduce costs, enhance scalability, and foster collaboration, all while ensuring the highest level of data security.
                                 </p>
@@ -100,7 +100,7 @@ function EnterpriseSoftware() {
                                 </p>
                             </div>
 
-                            <div data-aos="fade-left">
+                            <div data-aos="fade-top">
                                 <img
                                     src="/cloudsolutions.jpg"
                                     alt="Cloud-based Solutions"

@@ -20,8 +20,8 @@ function HealthCare() {
                 <div className="absolute inset-0 bg-black/60"></div>
                 <div className="container mx-auto max-w-[1140px] px-6 lg:px-0">
                     {/* Content */}
-                    <div className="relative z-10 max-w-3xl  text-white text-center sm:text-left">
-                        <h2 className="text-3xl sm:text-4xl mb-4">Your Trusted Digital Partner for the Healthcare Industry</h2>
+                    <div className="relative z-10 max-w-3xl  text-white  sm:text-left">
+                        <h2 className="text-xl sm:text-4xl mb-4">Your Trusted Digital Partner for the Healthcare Industry</h2>
                         <p className="text-md sm:text-lg mb-4">
                             In today’s rapidly evolving digital landscape, healthcare industries are transforming to meet the growing demands of patients and providers. At SaturnX Digital Solutions, we are proud to be a leading digital provider dedicated to empowering healthcare industries with cutting-edge technology and innovative solutions.
                         </p>
@@ -45,7 +45,7 @@ function HealthCare() {
                     <div className="py-16 px-4">
                         <div className="grid md:grid-cols-2 gap-12 items-center">
                             {/* Left Side Content */}
-                            <div data-aos="fade-right">
+                            <div data-aos="fade-top">
                                 <ul className='m-0 p-0 flex flex-col gap-4'>
                                     <li>
                                         <strong className='mr-2'>Industry Expertise: </strong> <span> With 10+ years of experience, we specialize in providing digital services specifically designed for healthcare industries.</span>
@@ -60,7 +60,7 @@ function HealthCare() {
                             </div>
 
                             {/* Right Side Image */}
-                            <div data-aos="fade-left">
+                            <div data-aos="fade-down">
                                 <img
                                     src="/healthcareAbout.jpg"
                                     alt="Healthcare Software"
@@ -74,7 +74,7 @@ function HealthCare() {
             <div className='bg-white w-full py-16 px-6 lg:px-0 relative font-poppins'>
                 <div className='container mx-auto max-w-[1140px]'>
                     <div className='my-2 w-full flex flex-col items-center justify-center text-center'>
-                        <h4 className="text-2xl lg:text-4xl mb-4 font-bold max-w-4xl">Our Services for Healthcare Industries</h4>
+                        <h4 className="text-xl lg:text-4xl mb-4 font-bold max-w-4xl">Our Services for Healthcare Industries</h4>
                     </div>
                     <div className="bg-gray-50 py-12 px-6 lg:px-16 font-poppins">
                         <div className="container mx-auto max-w-[1140px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -145,7 +145,7 @@ function HealthCare() {
                     <div className="py-16 px-4">
                         <div className="grid md:grid-cols-2 gap-12 items-center">
                             {/* Right Side Image */}
-                            <div data-aos="fade-left">
+                            <div data-aos="fade-top">
                                 <img
                                     src="/transformingPatinets.jpg"
                                     alt="Transforming Patient Care"
@@ -153,7 +153,7 @@ function HealthCare() {
                                 />
                             </div>
                             {/* Left Side Content */}
-                            <div data-aos="fade-right">
+                            <div data-aos="fade-down">
                                 <ul className='m-0 p-0 flex flex-col gap-4'>
                                     <li>
                                         <strong className='mr-2'>Improved Operational Efficiency: </strong> <span> Streamline workflows and reduce administrative burdens with our advanced solutions.</span>

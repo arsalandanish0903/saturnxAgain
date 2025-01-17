@@ -35,9 +35,9 @@ const Testimonial = () => {
 
   return (
     <div className="relative w-full bg-gray-200 lg:py-24 px-6 py-8 font-poppins">
-      <div className="max-w-[1140px] mx-auto">
+      <div className="max-w-[1140px] mx-auto container">
         <h4 className="text-center mb-4 text-4xl font-extrabold text-gray-800 tracking-tight">Client Testimonials</h4>
-        <div className="px-8 py-16 rounded-lg h-[400px] shadow-md flex items-center">
+        <div className="px-8 py-16 rounded-lg  shadow-md flex items-center">
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}

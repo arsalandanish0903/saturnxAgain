@@ -171,8 +171,8 @@ function TravelandHospitality() {
                 <div className="absolute inset-0 bg-black/60"></div>
                 <div className="container mx-auto max-w-[1140px] px-6 lg:px-0">
                     {/* Content */}
-                    <div className="relative z-10 max-w-3xl  text-white text-center sm:text-left">
-                        <h2 className="text-3xl sm:text-4xl mb-4">Your Trusted Digital Provider for Travel and Hospitality Industries</h2>
+                    <div className="relative z-10 max-w-3xl  text-white  sm:text-left">
+                        <h2 className="text-xl sm:text-4xl mb-4">Your Trusted Digital Provider for Travel and Hospitality Industries</h2>
                         <p className="text-md sm:text-lg mb-4">
                             At SaturnX Digital Solutions, we specialize in delivering cutting-edge digital solutions tailored to the unique needs of the travel and hospitality industries. As a leading digital provider, we are dedicated to helping businesses in these dynamic sectors thrive in a competitive market by leveraging advanced technologies and innovative strategies.
                         </p>
@@ -187,7 +187,7 @@ function TravelandHospitality() {
             <div className="py-16 px-6 lg:px-0 relative w-full font-poppins">
                 <div className="container mx-auto max-w-[1140px]">
                     <div className="my-2 w-full flex flex-col items-center justify-center text-center">
-                        <h4 className="text-2xl lg:text-4xl mb-4 font-bold max-w-4xl">
+                        <h4 className="text-xl lg:text-4xl mb-4 font-bold max-w-4xl">
                             Why Choose SaturnX Digital Solutions for Your Travel and Hospitality Needs?
                         </h4>
                         <div className="text-left mt-6 space-y-6 text-gray-700 leading-relaxed">

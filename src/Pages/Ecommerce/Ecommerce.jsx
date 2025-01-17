@@ -23,8 +23,8 @@ function Ecommerce() {
         <div className="absolute inset-0 bg-black/70"></div>
         <div className="container mx-auto max-w-[1140px] px-6 lg:px-0">
           {/* Content */}
-          <div className="relative z-10 max-w-3xl text-white text-center sm:text-left">
-            <h2 className="text-3xl sm:text-4xl mb-4">Revolutionize Your Online Business with SaturnX E-Commerce Solutions</h2>
+          <div className="relative z-10 max-w-3xl text-white  sm:text-left">
+            <h2 className="text-xl sm:text-4xl mb-4">Revolutionize Your Online Business with SaturnX E-Commerce Solutions</h2>
             <p className="text-md sm:text-lg mb-4">
               At SaturnX, we specialize in creating dynamic and scalable e-commerce solutions designed to transform your online store into a thriving business. Our team crafts user-friendly, responsive, and visually appealing websites that deliver seamless shopping experiences across all devices.
             </p>
@@ -45,7 +45,7 @@ function Ecommerce() {
               <div className="grid md:grid-cols-2 gap-12 items-center">
                 {/* Left Side Content */}
                 <div data-aos="fade-right">
-                  <h4 className="text-3xl font-bold mb-6">
+                  <h4 className="text-xl lg:text-4xl font-bold mb-6">
                     Comprehensive E-Commerce Development Services
                   </h4>
                   <p className="text-lg mb-4">
