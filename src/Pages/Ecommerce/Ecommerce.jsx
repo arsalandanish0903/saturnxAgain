@@ -24,9 +24,9 @@ function Ecommerce() {
         <div className="container mx-auto max-w-[1140px] px-6 lg:px-0">
           {/* Content */}
           <div className="relative z-10 max-w-3xl text-white  sm:text-left">
-            <h2 className="text-xl sm:text-4xl mb-4">Revolutionize Your Online Business with SaturnX E-Commerce Solutions</h2>
+            <h2 className="text-xl sm:text-4xl mb-4">Welcome to SaturnX Digital IT Company – Your Partner in Growth</h2>
             <p className="text-md sm:text-lg mb-4">
-              At SaturnX, we specialize in creating dynamic and scalable e-commerce solutions designed to transform your online store into a thriving business. Our team crafts user-friendly, responsive, and visually appealing websites that deliver seamless shopping experiences across all devices.
+              At SaturnX Digital IT Company, we specialize in providing innovative and tailored Digital Solutions for Retail & E-commerce Industries*. Our mission is to empower businesses by delivering cutting-edge technology that transforms operations, enhances customer experiences, and drives sales.
             </p>
             <Button
               mainButton="Let's Talk"
@@ -44,7 +44,7 @@ function Ecommerce() {
             <div className="py-16 px-4">
               <div className="grid md:grid-cols-2 gap-12 items-center">
                 {/* Left Side Content */}
-                <div data-aos="fade-right">
+                <div data-aos="fade-top">
                   <h4 className="text-xl lg:text-4xl font-bold mb-6">
                     Comprehensive E-Commerce Development Services
                   </h4>
@@ -57,7 +57,7 @@ function Ecommerce() {
                 </div>
 
                 {/* Right Side Image */}
-                <div data-aos="fade-left">
+                <div data-aos="fade-down">
                   <img
                     src="/EcommerceAbout.jpg"
                     alt="E-commerce Solutions"
@@ -76,7 +76,7 @@ function Ecommerce() {
               className="text-3xl font-bold text-center mb-8"
               data-aos="zoom-in"
             >
-              Why Choose SaturnX for Your E-Commerce Business?
+              Why Choose SaturnX for Your Retail & E-commerce Digital Solutions?
             </h4>
             <p className="text-lg text-center mb-6">
               At SaturnX, we don’t just build e-commerce stores, we create dynamic, high-performing platforms that drive sales, improve user experience, and help your business scale efficiently. Here's why you should partner with us:
@@ -290,7 +290,7 @@ function Ecommerce() {
               className="text-3xl font-bold text-center mb-8"
               data-aos="zoom-in"
             >
-              Services We Offer to Supercharge Your E-Commerce Business
+              Our Services for Retail & E-commerce
             </h4>
             <div className="grid md:grid-cols-3 gap-8">
               <div
@@ -357,6 +357,57 @@ function Ecommerce() {
           </div>
         </div>
       </div>
+      <div className="py-16 px-6 lg:px-0 relative w-full font-poppins">
+  <div className="container mx-auto max-w-[1140px]">
+    {/* Title Section */}
+    <div className="text-center flex flex-col items-center mb-12">
+      <h1 className="text-4xl md:text-4xl max-w-4xl font-bold text-gray-800">
+        Why Digital Solutions Matter for Retail & E-commerce
+      </h1>
+      <p className="text-lg text-gray-600 mt-4">
+        Empower your business to thrive in the digital era with cutting-edge solutions.
+      </p>
+    </div>
+
+    {/* Content Section */}
+    <div className="grid lg:grid-cols-2 gap-12 items-center">
+      {/* Left Content */}
+      <div>
+        <h2 className="text-3xl font-bold text-gray-800 mb-6">
+          Innovate and Adapt in Today’s Digital World
+        </h2>
+        <p className="text-lg text-gray-700 leading-relaxed mb-6">
+          In today’s fast-paced digital world, staying ahead requires innovation and adaptability.  
+          Investing in 
+          <span className="font-semibold">
+            digital solutions for retail & e-commerce industries
+          </span> ensures:
+        </p>
+        <ul className="space-y-4">
+          <li className="flex items-center text-lg text-gray-700">
+            - Faster response to market demands.
+          </li>
+          <li className="flex items-center text-lg text-gray-700">
+            - Enhanced customer satisfaction.
+          </li>
+          <li className="flex items-center text-lg text-gray-700">
+            - Improved scalability and growth potential.
+          </li>
+        </ul>
+      </div>
+
+      {/* Right Image */}
+      <div className="relative">
+        <img 
+          src="/ecommerceSUb.jpg" 
+          alt="Digital Solutions for Retail" 
+          className="rounded-lg object-cover"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+
     </>
   );
 }

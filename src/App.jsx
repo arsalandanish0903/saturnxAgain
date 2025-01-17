@@ -64,15 +64,15 @@ function App() {
           <Route path='digital-marketing-services' element={<DigitalMarketing />} />
           <Route path='ai-ml-services' element={<AiMl />} />
           <Route path='devops-services' element={<DevOps />} />
-          <Route path='/construction-digital-solutions-provider' element={<Construction />} />
-          <Route path='/healthcare-digital-solutions-provider' element={<HealthCare />} />
+          <Route path='/digital-solutions-for-construction' element={<Construction />} />
+          <Route path='/digital-solutions-for-healthcare' element={<HealthCare />} />
           <Route path='dental-software-development' element={<Dental />} />
           <Route path='insurance-digital-solutions-provider' element={<Insurance />} />
-          <Route path='ecommerce-digital-solutions-provider' element={<Ecommerce />} />
-          <Route path='/logistics-and-automotive-digital-solutions-provider' element={<Logistics />} />
-          <Route path='/automotive-digital-solutions-provider' element={<Automotive />} />
-          <Route path='/travel-and-hospitality-digital-solutions-provider' element={<TravelandHospitality />} />
-          <Route path='/edutech-digital-solutions-provider' element={<Edutech />} />
+          <Route path='digital-solutions-for-ecommerce' element={<Ecommerce />} />
+          <Route path='/digital-solutions-for-logistics-and-transportation' element={<Logistics />} />
+          <Route path='/digital-solutions-for-automotive' element={<Automotive />} />
+          <Route path='/digital-solutions-for-travel-and-hospitality' element={<TravelandHospitality />} />
+          <Route path='/digital-solutions-for-edutech' element={<Edutech />} />
           <Route path='/digitaltransformation/software-development' element={<DigitalTransformation />} />
           <Route path='/uiux-digital-solutions-provider' element={<UiUx />} />
           <Route path='/enterprise-software-development' element={<EnterpriseSoftware />} />

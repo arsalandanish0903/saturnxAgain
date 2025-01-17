@@ -65,6 +65,15 @@ const MegaMenu = () => {
             description: "Revolutionize your automotive operations with our innovative software solutions. From inventory management and vehicle diagnostics to customer relationship tools and streamlined service scheduling",
         },
         {
+            title: "Travel & Hospitality",
+            description: "Our services are designed to provide seamless experiences, combining comfort and convenience at every step of the journey."
+        },
+        {
+            title: "Edutech",
+            description:
+                "Our platform empowers learners with innovative tools and interactive content for effective knowledge acquisition."
+        },
+        {
             title: "Retail & E-commerce",
             description: "Boost your retail business with our e-commerce platforms, inventory management, and customer engagement tools.",
         },
@@ -125,13 +134,13 @@ const MegaMenu = () => {
                                 {industriesOpen && (
                                     <div className="p-4 rounded-lg mt-2">
                                         <div className="ml-4 mt-2 flex flex-col space-y-2">
-                                            <Link to="/construction-digital-solutions-provider" className="text-base" onClick={() => setMobileMenuOpen(false)}>Construction</Link>
-                                            <Link to="/healthcare-digital-solutions-provider" className="text-base" onClick={() => setMobileMenuOpen(false)}>Health Care</Link>
-                                            <Link to="/logistics-and-automotive-digital-solutions-provider" className="text-base" onClick={() => setMobileMenuOpen(false)}>Logistics & Transportation</Link>
-                                            <Link to="/automotive-digital-solutions-provider" className="text-base" onClick={() => setMobileMenuOpen(false)}>Automotive</Link>
-                                            <Link to="/ecommerce-digital-solutions-provider" className="text-base" onClick={() => setMobileMenuOpen(false)}>E-commerce</Link>
-                                            <Link to="/travel-and-hospitality-digital-solutions-provider" className="text-base" onClick={() => setMobileMenuOpen(false)}>Travel & Hospitality</Link>
-                                            <Link to="/edutech-digital-solutions-provider" className="text-base" onClick={() => setMobileMenuOpen(false)}>Edutech</Link>
+                                            <Link to="/digital-solutions-for-construction" className="text-base" onClick={() => setMobileMenuOpen(false)}>Construction</Link>
+                                            <Link to="/digital-solutions-for-healthcare" className="text-base" onClick={() => setMobileMenuOpen(false)}>Health Care</Link>
+                                            <Link to="/digital-solutions-for-logistics-and-transportation" className="text-base" onClick={() => setMobileMenuOpen(false)}>Logistics & Transportation</Link>
+                                            <Link to="/digital-solutions-for-automotive" className="text-base" onClick={() => setMobileMenuOpen(false)}>Automotive</Link>
+                                            <Link to="/digital-solutions-for-ecommerce" className="text-base" onClick={() => setMobileMenuOpen(false)}>E-commerce</Link>
+                                            <Link to="/digital-solutions-for-travel-and-hospitality" className="text-base" onClick={() => setMobileMenuOpen(false)}>Travel & Hospitality</Link>
+                                            <Link to="/digital-solutions-for-edutech" className="text-base" onClick={() => setMobileMenuOpen(false)}>Edutech</Link>
                                             <Link to="/software-development-services-of-any-type-and-complexity" className="text-base" onClick={() => setMobileMenuOpen(false)}>All Services</Link>
                                         </div>
                                     </div>
@@ -359,7 +368,7 @@ const MegaMenu = () => {
                                                             </clipPath>
                                                         </defs>
                                                     </svg>
-                                                    <Link to='/construction-digital-solutions-provider' className="text-gray-800 hover:text-blue-600" onClick={() => setIndustriesOpen(false)}>Construction</Link>
+                                                    <Link to='/digital-solutions-for-construction' className="text-gray-800 hover:text-blue-600" onClick={() => setIndustriesOpen(false)}>Construction</Link>
                                                 </li>
                                                 <li className="flex items-center gap-4">
                                                     <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 57 56" fill="none" className="text-[#164DA5]">
@@ -374,7 +383,7 @@ const MegaMenu = () => {
                                                             </clipPath>
                                                         </defs>
                                                     </svg>
-                                                    <Link to='/healthcare-digital-solutions-provider' className="text-gray-800 hover:text-blue-600" onClick={() => setIndustriesOpen(false)}>Health Care</Link>
+                                                    <Link to='/digital-solutions-for-healthcare' className="text-gray-800 hover:text-blue-600" onClick={() => setIndustriesOpen(false)}>Health Care</Link>
                                                 </li>
                                                 <li className="flex items-center gap-4">
                                                     <svg width="40" height="40" viewBox="0 0 57 56" fill="none" xmlns="http://www.w3.org/2000/svg" className="text-[#164DA5]">
@@ -382,7 +391,7 @@ const MegaMenu = () => {
                                                         <path fill-rule="evenodd" clip-rule="evenodd" d="M27.5833 41.9023C27.2707 41.9023 26.9586 41.8533 26.6611 41.7541L16.7438 38.4484C15.5515 38.0506 14.75 36.9387 14.75 35.6811V34.9612C14.75 33.7041 15.5515 32.5923 16.7438 32.1945L23.899 29.8098L24.2677 30.9164L17.1131 33.3011C16.3973 33.5396 15.9167 34.207 15.9167 34.9612V35.6811C15.9167 36.4353 16.3973 37.1026 17.1131 37.3412L27.0297 40.647C27.3862 40.766 27.7793 40.766 28.1369 40.647L39.803 36.7579C40.5193 36.5193 41 35.8526 41 35.0977V34.3779C41 33.6236 40.5193 32.9563 39.803 32.7177L32.6513 30.3336L33.02 29.2271L40.1723 31.6111C41.3652 32.009 42.1667 33.1208 42.1667 34.3779V35.0977C42.1667 36.3554 41.3652 37.4672 40.1723 37.8651L28.5062 41.7541C28.2081 41.8533 27.896 41.9023 27.5833 41.9023ZM27.5833 37.9463C27.5209 37.9463 27.4591 37.9364 27.399 37.9166L18.649 34.9999C18.4104 34.9206 18.25 34.6977 18.25 34.4463C18.25 34.1949 18.4104 33.9726 18.649 33.8927L25.649 31.5594L26.0177 32.6666L20.6778 34.4463L27.5833 36.7481L36.2388 33.863L30.8984 32.0832L31.2671 30.9761L38.2677 33.3094C38.5063 33.3893 38.6667 33.6116 38.6667 33.863C38.6667 34.1144 38.5063 34.3372 38.2677 34.4166L27.7677 37.9166C27.7076 37.9364 27.6458 37.9463 27.5833 37.9463Z" fill="currentColor" stroke="currentColor" stroke-width="0.3"></path>
                                                         <path fill-rule="evenodd" clip-rule="evenodd" d="M28.167 15.1667C24.9738 15.1667 22.3757 17.7648 22.3757 20.958C22.3739 22.4892 22.6265 23.4109 23.3767 24.6114C24.0562 25.6982 26.9986 29.9938 28.167 31.696C29.3354 29.9938 32.2783 25.6982 32.9573 24.6114C33.7081 23.4109 33.9607 22.4893 33.9583 20.9586C33.9583 17.7648 31.3607 15.1667 28.167 15.1667ZM28.167 33.7546L27.6863 33.0563C27.5055 32.7938 23.2495 26.6087 22.3873 25.2297C21.3992 23.6489 21.2072 22.4659 21.209 20.9568C21.209 17.1214 24.3304 14 28.167 14C32.0036 14 35.125 17.1214 35.125 20.958C35.1273 22.4659 34.9354 23.6495 33.9461 25.2297C33.0851 26.6087 28.8285 32.7938 28.6477 33.0563L28.167 33.7546ZM28.1707 19.2796C29.1653 19.2796 29.916 20.031 29.9172 21.0273C29.9178 21.5126 29.7416 21.9571 29.4202 22.2786C29.0976 22.6017 28.6566 22.7796 28.1777 22.7796H28.1567C27.6778 22.7796 27.2362 22.6017 26.9136 22.2786C26.5928 21.9571 26.416 21.5126 26.4172 21.0273C26.4183 20.031 27.1691 19.2796 28.1707 19.2796ZM28.1777 23.9463C28.9687 23.9463 29.7025 23.6465 30.2462 23.1028C30.7875 22.5603 31.085 21.8224 31.0838 21.0255C31.0815 19.3922 29.8017 18.113 28.1631 18.113C26.5321 18.113 25.2528 19.3922 25.2505 21.0255C25.2493 21.823 25.5468 22.5609 26.0882 23.1028C26.6313 23.647 27.3657 23.9463 28.1672 23.9463H28.1777Z" fill="currentColor" stroke="currentColor" stroke-width="0.3"></path>
                                                     </svg>
-                                                    <Link to='/logistics-and-automotive-digital-solutions-provider' className="text-gray-800 hover:text-blue-600" onClick={() => setIndustriesOpen(false)}>Logistics & Transportation</Link>
+                                                    <Link to='/digital-solutions-for-logistics-and-transportation' className="text-gray-800 hover:text-blue-600" onClick={() => setIndustriesOpen(false)}>Logistics & Transportation</Link>
                                                 </li>
                                                 <li className="flex items-center gap-4">
                                                     <svg width="40" height="40" viewBox="0 0 57 56" fill="none" xmlns="http://www.w3.org/2000/svg" className="text-[#164DA5]">
@@ -396,7 +405,49 @@ const MegaMenu = () => {
                                                             </clipPath>
                                                         </defs>
                                                     </svg>
-                                                    <Link to='/automotive-digital-solutions-provider' className="text-gray-800 hover:text-blue-600" onClick={() => setIndustriesOpen(false)}>Automotive</Link>
+                                                    <Link to='/digital-solutions-for-automotive' className="text-gray-800 hover:text-blue-600" onClick={() => setIndustriesOpen(false)}>Automotive</Link>
+                                                </li>
+                                                <li className="flex items-center gap-4">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 57 56" fill="none" className="text-[#164DA5]">
+                                                        <g clip-path="url(#clip0_3450_11358)">
+                                                            <circle cx="28.75" cy="28" r="27.35" stroke="currentColor" stroke-width="1.3"></circle>
+                                                            <path d="M28.2363 26.3162V29.5238C28.2363 30.7657 28.9982 31.8095 29.7601 32.5714C30.522 33.3333 34.3316 37.1428 34.3316 37.1428L35.8554 44" stroke="currentColor" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            <path d="M27.4746 44L31.5127 34.3162" stroke="currentColor" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            <path d="M28.9677 31.6343L24.4268 44" stroke="currentColor" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            <path d="M31.6647 12C30.1942 12 28.998 13.1962 28.998 14.6667V15.4286C28.998 16.899 30.1942 18.0952 31.6647 18.0952C33.1352 18.0952 34.3314 16.899 34.3314 15.4286V14.6667C34.3314 13.1962 33.1428 12 31.6647 12Z" stroke="currentColor" stroke-miterlimit="10"></path>
+                                                            <path d="M33.5703 25.5466L38.1417 29.5238" stroke="currentColor" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            <path d="M38.9342 44L37.3952 35.619L33.5704 30.2857V22.6666C33.5704 21.3562 32.6561 20.8381 31.2847 20.3809C30.2485 20.0304 28.3514 20.1447 27.8104 21.0209C27.2695 21.8971 25.1895 26.4762 25.1895 26.4762V30.8038" stroke="currentColor" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            <path d="M25.1888 30.8038L22.2402 35.9162" stroke="currentColor" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            <path d="M17.9507 44V43.3372L22.2402 35.9086L18.6745 33.8514C18.3087 33.6381 17.844 33.7676 17.6306 34.1333L14.103 40.2362C13.8897 40.6019 14.0192 41.0667 14.3849 41.28L17.9507 43.3372" stroke="currentColor" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                        </g>
+                                                        <defs>
+                                                            <clipPath id="clip0_3450_11358">
+                                                                <rect width="56" height="56" fill="currentColor" transform="translate(0.75)"></rect>
+                                                            </clipPath>
+                                                        </defs>
+                                                    </svg>
+                                                    <Link to='/digital-solutions-for-travel-and-hospitality' className="text-gray-800 hover:text-blue-600" onClick={() => setIndustriesOpen(false)}>Travel & Hospitality</Link>
+                                                </li>
+                                                <li className="flex items-center gap-4">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 57 56" fill="none" className="text-[#164DA5]">
+                                                        <g clip-path="url(#clip0_3450_11371)">
+                                                            <circle cx="28.25" cy="28" r="27.35" stroke="currentColor" stroke-width="1.3"></circle>
+                                                            <path d="M25.5654 21.6957V15H42.0002V36.3044H25.5654V28.3913" stroke="currentColor" stroke-miterlimit="10" stroke-linejoin="round"></path>
+                                                            <path d="M23.1304 35.0869V26.5652H28C29.8383 26.5652 31.0435 24.873 31.0435 23.5217C30.0939 23.5217 19.9896 23.5217 18.8696 23.5217C15.9783 23.5217 14 24.4409 14 27.1739V32.6522C14 33.9548 15.1322 35.0869 16.4348 35.0869" stroke="currentColor" stroke-miterlimit="10" stroke-linejoin="round"></path>
+                                                            <path d="M23.1299 27.174V41.7826" stroke="currentColor" stroke-miterlimit="10" stroke-linejoin="round"></path>
+                                                            <path d="M20.0869 33.8695V41.7825" stroke="currentColor" stroke-miterlimit="10" stroke-linejoin="round"></path>
+                                                            <path d="M17.0439 27.174V41.7826" stroke="currentColor" stroke-miterlimit="10" stroke-linejoin="round"></path>
+                                                            <path d="M20.3915 21.6957C21.9193 21.6957 23.1306 20.7035 23.1306 19.2609V17.4348C23.1306 15.9922 21.9193 15 20.3915 15C18.8636 15 17.6523 15.9922 17.6523 17.4348V19.2609C17.6523 20.6974 18.8636 21.6957 20.3915 21.6957Z" stroke="currentColor" stroke-miterlimit="10" stroke-linejoin="round"></path>
+                                                            <path d="M34.0869 35.6957V41.1739" stroke="currentColor" stroke-miterlimit="10" stroke-linejoin="round"></path>
+                                                            <path d="M29.7832 40.6078L34.0867 36.3043L38.3902 40.6078" stroke="currentColor" stroke-miterlimit="10" stroke-linejoin="round"></path>
+                                                        </g>
+                                                        <defs>
+                                                            <clipPath id="clip0_3450_11371">
+                                                                <rect width="56" height="56" fill="currentColor" transform="translate(0.25)"></rect>
+                                                            </clipPath>
+                                                        </defs>
+                                                    </svg>
+                                                    <Link to='/digital-solutions-for-edutech' className="text-gray-800 hover:text-blue-600" onClick={() => setIndustriesOpen(false)}>Edutech</Link>
                                                 </li>
                                                 <li className="flex items-center gap-4">
                                                     <svg
@@ -431,7 +482,7 @@ const MegaMenu = () => {
                                                             </clipPath>
                                                         </defs>
                                                     </svg>
-                                                    <Link to='/ecommerce-digital-solutions-provider' className="text-gray-800 hover:text-blue-600" onClick={() => setIndustriesOpen(false)}>Retail & E-commerce</Link>
+                                                    <Link to='/digital-solutions-for-ecommerce' className="text-gray-800 hover:text-blue-600" onClick={() => setIndustriesOpen(false)}>Retail & E-commerce</Link>
                                                 </li>
                                             </ul>
                                         </div>

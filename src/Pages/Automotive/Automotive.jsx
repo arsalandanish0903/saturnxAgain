@@ -57,9 +57,9 @@ function Automotive() {
         <div className="container mx-auto max-w-[1140px] px-6 lg:px-0">
           {/* Content */}
           <div className="relative z-10 max-w-3xl  text-white  sm:text-left">
-            <h2 className="text-xl sm:text-4xl mb-4">– Your Trusted Automotive Digital Solution Provider</h2>
+            <h2 className="text-xl sm:text-4xl mb-4">Digital Solutions for Automotive Industries | SaturnX Digital IT Company</h2>
             <p className="text-md sm:text-lg mb-4">
-              At SaturnX Digital Solution Company, we specialize in delivering innovative and scalable digital solutions for the automotive industry. With years of expertise, we empower businesses in the automotive sector to drive efficiency, enhance customer experiences, and stay ahead of the competition.
+              Boost your automotive business with innovative digital solutions from SaturnX Digital IT Company. Transform operations, optimize efficiency, and lead the automotive industry forward.
             </p>
             <Button
               mainButton="Contact Us"
@@ -87,10 +87,10 @@ function Automotive() {
                 </div>
                 <div className="lg:w-1/2 lg:pl-6">
                   <h5 className="text-lg font-semibold text-gray-700 mb-4">
-                    1. Comprehensive Digital Solutions for Automotive Businesses
+                    1. Innovative Digital Solutions for Automotive Industries
                   </h5>
                   <p className="text-gray-600 mb-4">
-                    We understand the unique challenges faced by the automotive industry and offer a wide range of tailored digital services, including:
+                    The automotive industry is undergoing a digital revolution. From manufacturing and supply chains to sales and customer experiences, technology is transforming every aspect of the industry. At *SaturnX Digital IT Company, we specialize in providing state-of-the-art **digital solutions for automotive industries*, empowering businesses to thrive in this competitive era.
                   </p>
                   <ul className="list-disc pl-5 text-gray-600">
                     <li>Custom software development for vehicle management and operations.</li>
@@ -111,11 +111,21 @@ function Automotive() {
                 </div>
                 <div className="lg:w-1/2 lg:pr-6">
                   <h5 className="text-lg font-semibold text-gray-700 mb-4">
-                    2. Advanced Technology for Innovation
+                    2. Why Digital Transformation is Key for Automotive Industries
                   </h5>
                   <p className="text-gray-600">
-                    As a trusted digital provider, we utilize cutting-edge technologies to help automotive businesses modernize their operations. From cloud computing to advanced data analytics, we ensure your business runs efficiently in the fast-paced automotive sector.
+                    The automotive industry faces challenges like increasing customer demands, supply chain disruptions, and the need for sustainable practices.
                   </p>
+                  <ul className="list-disc pl-5 text-gray-600">
+                    <li><strong>treamline Manufacturing</strong> Use automation and AI to improve production efficiency. </li>
+                    <li><strong>Enhance Customer Experiences</strong>
+                      Leverage data to deliver personalized services.
+                    </li>
+                    <li><strong>Optimize Supply Chain</strong> Monitor inventory and logistics in real time.
+                    </li>
+                    <li><strong>Support Sustainability</strong>Implement eco-friendly and energy-efficient solutions.
+                    </li>
+                  </ul>
                 </div>
               </div>
 
@@ -130,11 +140,25 @@ function Automotive() {
                 </div>
                 <div className="lg:w-1/2 lg:pl-6">
                   <h5 className="text-lg font-semibold text-gray-700 mb-4">
-                    3. Scalable and Cost-Effective Services
+                    3. Benefits of Choosing SaturnX Digital IT Company
                   </h5>
                   <p className="text-gray-600">
-                    Our solutions are designed to scale with your business. Whether you're a startup or an established player in the automotive industry, our cost-effective approach ensures maximum value at every stage of your digital transformation.
+                  With SaturnX Digital IT Company as your partner, you can:  
                   </p>
+                  <ul>
+                    <li>
+                      <strong>Improve Operational Efficiency</strong>
+                      Automate and optimize workflows.  
+                    </li>
+                    <li>
+                      <strong>Gain a Competitive Edge</strong>
+                      Stay ahead with cutting-edge technology.    
+                    </li>
+                    <li>
+                      <strong>Enhance Product Quality</strong>
+                      Leverage data to refine manufacturing processes.  
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>

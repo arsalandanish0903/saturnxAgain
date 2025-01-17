@@ -21,7 +21,7 @@ function Construction() {
         <path d="M0.5 21.2174C0.5 19.8367 1.61929 18.7174 3 18.7174H8.47826C9.85897 18.7174 10.9783 19.8367 10.9783 21.2174V22.5H0.5V21.2174Z" stroke="#2A82F2"></path>
         <circle cx="5.84514" cy="13.1159" r="3.50725" stroke="#2A82F2" stroke-linecap="round" stroke-linejoin="round"></circle>
       </svg>),
-      text: 'Project management',
+      text: 'Construction Project Management Software',
     },
     {
       svg: (<svg width="23" height="20" viewBox="0 0 23 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -37,7 +37,7 @@ function Construction() {
         <path d="M6.97607 7.87891H13.4149" stroke="#323232" stroke-linecap="round" stroke-linejoin="round"></path>
         <path d="M6.97559 10.9091H13.4144" stroke="#323232" stroke-linecap="round" stroke-linejoin="round"></path>
       </svg>),
-      text: 'Inspection Management',
+      text: 'Data Analytics and Reporting',
     },
     {
       svg: (<svg xmlns="http://www.w3.org/2000/svg" width="24" height="21" viewBox="0 0 24 21" fill="none">
@@ -57,7 +57,7 @@ function Construction() {
         <path d="M8.5 15.9636C8.5 17.0683 7.60443 17.9636 6.50034 17.9636C5.39548 17.9636 4.5 17.0682 4.5 15.9636C4.5 14.8591 5.39548 13.9636 6.50034 13.9636C7.60443 13.9636 8.5 14.859 8.5 15.9636Z" stroke="#323232"></path>
         <path d="M5.25114 10.0236C5.25114 9.99031 5.27818 9.96362 5.31084 9.96362H7.6892C7.72185 9.96362 7.74889 9.99031 7.74889 10.0236C7.74889 11.6999 9.56391 12.7503 11.0166 11.911C11.045 11.8946 11.0814 11.9043 11.0977 11.9327L12.2872 13.9943C12.3038 14.023 12.294 14.0596 12.2653 14.0762C10.8128 14.9153 10.8128 17.0119 12.2653 17.8511C12.294 17.8676 12.3038 17.9043 12.2872 17.9329L11.0977 19.9945C11.0814 20.0229 11.045 20.0327 11.0166 20.0163C9.56392 19.177 7.74889 20.2274 7.74889 21.9037C7.74889 21.9369 7.72186 21.9636 7.6892 21.9636H5.31083C5.27817 21.9636 5.25114 21.9369 5.25114 21.9037C5.25114 20.2274 3.43609 19.177 1.98339 20.0163C1.95498 20.0327 1.91865 20.0229 1.90225 19.9945L0.712757 17.9329C0.696223 17.9043 0.706039 17.8676 0.734687 17.8511C2.18719 17.012 2.18717 14.9153 0.734689 14.0762L0.484566 14.5091L0.734688 14.0762C0.706037 14.0596 0.696222 14.023 0.712756 13.9943L1.90225 11.9328C1.91865 11.9043 1.95498 11.8946 1.98339 11.911C3.4361 12.7503 5.25114 11.6999 5.25114 10.0236Z" stroke="#323232"></path>
       </svg>),
-      text: 'Construction Integrations'
+      text: 'Digital Marketing for Construction Companies'
     }
   ]
   return (
@@ -73,9 +73,9 @@ function Construction() {
         <div className="container mx-auto max-w-[1140px] px-6 lg:px-0">
           {/* Content */}
           <div className="relative z-10 max-w-3xl  text-white  sm:text-left">
-            <h2 className="text-xl sm:text-4xl mb-4"> Revolutionizing the Construction Industry with Digital Solutions</h2>
+            <h2 className="text-xl sm:text-4xl mb-4"> Digital Solutions for Construction Companies | SaturnX Digital IT Company</h2>
             <p className="text-md sm:text-lg mb-4">
-              Welcome to SaturnX Digital Solution Company, your trusted construction company digital provider! In today’s fast-paced world, the construction industry is undergoing a digital transformation, and we’re here to help your business thrive.
+            At SaturnX Digital IT Company, we specialize in providing cutting-edge digital solutions for construction companies to streamline operations, enhance productivity, and achieve business goals efficiently. Whether you’re a startup or an established player in the construction industry, our tailored IT services are designed to meet your unique needs.
             </p>
             <Button
               mainButton="Contact Us"
@@ -87,8 +87,8 @@ function Construction() {
       </div>
       <div className='relative pt-16 px-6 lg:px-0 font-poppins'>
         <div className='container mx-auto max-w-[1140px]'>
-          <h4 className="text-xl text-center font-bold leading-snug tracking-wide  sm:text-4xl mb-4">Why Choose SaturnX Digital Solution Company?</h4>
-          <p className='text-center'>As a leader in digital technology, we specialize in offering innovative solutions tailored to the construction sector. Our expertise ensures your company stays ahead of the competition with cutting-edge tools and strategies.</p>
+          <h4 className="text-xl text-center font-bold leading-snug tracking-wide  sm:text-4xl mb-4"> Why Choose SaturnX for Digital Solutions in Construction?</h4>
+          <p className='text-center'>In today’s fast-paced construction sector, adopting the right digital tools is no longer optional—it’s essential. At SaturnX Digital IT Company, we bring years of experience delivering innovative digital solutions for construction companies</p>
           <div className='grid lg:grid-cols-2 grid-cols-1 items-center my-8 gap-4'>
             <div className='relative'>
               {aboutConstruction.map((item, index) => (
@@ -128,16 +128,17 @@ function Construction() {
                 <div className='ml-12'>
                   <ul className='m-0 p-0 flex flex-col gap-4'>
                     <li>
-                      <strong>Custom Digital Platforms:</strong> From project management software to workflow automation, we provide customized platforms that enhance efficiency.
+                      <strong>Increased Efficiency:</strong>Automate routine tasks, saving time and resources.
                     </li>
                     <li>
-                      <strong>Real-Time Collaboration Tools: </strong> Keep your team connected on-site and off-site with our advanced communication solutions.
+                      <strong>Enhanced Accuracy: </strong> Minimize errors with precision-focused digital tools.
+
                     </li>
                     <li>
-                      <strong>AI-Driven Insights: </strong> Leverage data to predict project outcomes, optimize resources, and reduce costs.
+                      <strong>Scalability: </strong>Our solutions grow with your business, accommodating new challenges effortlessly.
                     </li>
                     <li>
-                      <strong>SEO and Digital Marketing: </strong> Boost your online presence with targeted strategies designed to attract clients and investors.
+                      <strong>Competitive Advantage: </strong>Stay ahead in the construction industry with the latest technology.
                     </li>
                   </ul>
                 </div>

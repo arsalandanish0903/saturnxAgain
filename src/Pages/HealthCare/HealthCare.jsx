@@ -21,9 +21,9 @@ function HealthCare() {
                 <div className="container mx-auto max-w-[1140px] px-6 lg:px-0">
                     {/* Content */}
                     <div className="relative z-10 max-w-3xl  text-white  sm:text-left">
-                        <h2 className="text-xl sm:text-4xl mb-4">Your Trusted Digital Partner for the Healthcare Industry</h2>
+                        <h2 className="text-xl sm:text-4xl mb-4">Digital Solutions for Healthcare Industries at SaturnX Digital IT Company</h2>
                         <p className="text-md sm:text-lg mb-4">
-                            In today’s rapidly evolving digital landscape, healthcare industries are transforming to meet the growing demands of patients and providers. At SaturnX Digital Solutions, we are proud to be a leading digital provider dedicated to empowering healthcare industries with cutting-edge technology and innovative solutions.
+                        In today’s rapidly evolving healthcare landscape, technology plays a critical role in enhancing patient care, streamlining operations, and driving innovation. At SaturnX Digital IT Company, we specialize in offering tailored digital solutions for healthcare industries to empower providers, improve efficiency, and ensure superior patient outcomes.
                         </p>
                         <Button
                             mainButton="Talk To Us"
@@ -37,7 +37,7 @@ function HealthCare() {
             <div className='bg-gray-200 w-full py-16 px-6 lg:px-0 relative font-poppins'>
                 <div className='container mx-auto max-w-[1140px]'>
                     <div className='my-2 w-full flex flex-col items-center justify-center text-center'>
-                        <h4 className="text-2xl lg:text-4xl mb-4 font-bold max-w-4xl">Why Choose SaturnX Digital Solutions for Healthcare?</h4>
+                        <h4 className="text-2xl lg:text-4xl mb-4 font-bold max-w-4xl">Why Choose SaturnX Digital IT Company for Healthcare Digital Solutions?</h4>
                         <p className='max-w-3xl'>Healthcare industries face unique challenges that require specialized expertise. Our team at SaturnX Digital Solutions understands these challenges and delivers tailored digital solutions to help healthcare organizations achieve their goals. Here’s why we stand out:</p>
                     </div>
 
@@ -48,13 +48,16 @@ function HealthCare() {
                             <div data-aos="fade-top">
                                 <ul className='m-0 p-0 flex flex-col gap-4'>
                                     <li>
-                                        <strong className='mr-2'>Industry Expertise: </strong> <span> With 10+ years of experience, we specialize in providing digital services specifically designed for healthcare industries.</span>
+                                        <strong className='mr-2'>Customized IT Solution: </strong> <span>  We understand that every healthcare organization has unique requirements. Our team designs and implements personalized solutions, ensuring that your systems align perfectly with your goals.</span>
                                     </li>
                                     <li>
-                                        <strong className='mr-2'>Patient-Centric Approach: </strong> <span>: Our solutions focus on enhancing patient experiences, improving accessibility, and ensuring seamless communication between providers and patients.</span>
+                                        <strong className='mr-2'>Innovative Healthcare Technology: </strong> <span>   From AI-driven patient management to cloud-based medical record systems, our cutting-edge tools revolutionize how healthcare professionals deliver care.</span>
                                     </li>
                                     <li>
-                                        <strong className='mr-2'>Innovative Technology: </strong> <span> We leverage the latest in AI, cloud computing, and analytics to drive innovation and efficiency.</span>
+                                        <strong className='mr-2'>Regulatory Compliance </strong> <span>   Our digital solutions are fully compliant with healthcare regulations such as HIPAA, ensuring patient data remains secure and private.</span>
+                                    </li>
+                                    <li>
+                                        <strong className='mr-2'>End-to-End Support </strong> <span>   From consultation and development to deployment and maintenance, we provide comprehensive support for all your digital transformation needs.</span>
                                     </li>
                                 </ul>
                             </div>
@@ -74,7 +77,7 @@ function HealthCare() {
             <div className='bg-white w-full py-16 px-6 lg:px-0 relative font-poppins'>
                 <div className='container mx-auto max-w-[1140px]'>
                     <div className='my-2 w-full flex flex-col items-center justify-center text-center'>
-                        <h4 className="text-xl lg:text-4xl mb-4 font-bold max-w-4xl">Our Services for Healthcare Industries</h4>
+                        <h4 className="text-xl lg:text-4xl mb-4 font-bold max-w-4xl">Our Expertise in Digital Solutions for Healthcare Industries</h4>
                     </div>
                     <div className="bg-gray-50 py-12 px-6 lg:px-16 font-poppins">
                         <div className="container mx-auto max-w-[1140px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -139,7 +142,7 @@ function HealthCare() {
             <div className='bg-gray-100 py-16 px-4 lg:px-0 relative w-full font-poppins'>
                 <div className='container mx-auto max-w-[1140px]'>
                     <div className='my-2 w-full flex flex-col items-center justify-center text-center'>
-                        <h4 className="text-2xl lg:text-4xl mb-4 font-bold max-w-4xl">Benefits of Partnering with SaturnX Digital Solutions</h4>
+                        <h4 className="text-2xl lg:text-4xl mb-4 font-bold max-w-4xl">Benefits of Partnering with SaturnX Digital IT Company</h4>
                     </div>
                     {/* Service Section */}
                     <div className="py-16 px-4">
@@ -156,19 +159,21 @@ function HealthCare() {
                             <div data-aos="fade-down">
                                 <ul className='m-0 p-0 flex flex-col gap-4'>
                                     <li>
-                                        <strong className='mr-2'>Improved Operational Efficiency: </strong> <span> Streamline workflows and reduce administrative burdens with our advanced solutions.</span>
+                                        <strong className='mr-2'>Enhanced Patient Care: </strong> <span>  Improve the quality of care with precise, data-driven solutions that empower healthcare professionals.</span>
                                     </li>
                                     <li>
-                                        <strong className='mr-2'>Increased Online Visibility: </strong> <span>  Boost your presence with our SEO strategies, ensuring your services are easily discoverable by patients.</span>
+                                        <strong className='mr-2'>Increased Operational Efficiency: </strong> <span>   Automate routine tasks, reduce paperwork, and streamline workflows for better productivity.</span>
                                     </li>
                                     <li>
-                                        <strong className='mr-2'>Scalable Solutions: </strong> <span> As your healthcare business grows, our solutions grow with you.</span>
+                                        <strong className='mr-2'>Cost-Effective Solutions </strong> <span>   Minimize costs without compromising on quality by adopting scalable and efficient digital technologies.</span>
                                     </li>
                                     <li>
-                                        <strong className='mr-1'>Let’s Build the Future of Healthcare Together: </strong>
-
-                                        At SaturnX Digital Solutions, we are committed to being the ultimate digital provider for healthcare industries. Whether you’re a small clinic or a large hospital network, our tailored solutions will help you stay ahead in the digital age.
-
+                                        <strong className='mr-1'>Data Security and Privacy </strong>
+                                        Protect sensitive patient data with robust security measures and compliance standards.
+                                    </li>
+                                    <li>
+                                        <strong className='mr-1'>Future-Ready Innovations </strong>
+                                        Stay ahead in the healthcare industry with state-of-the-art technology solutions tailored to your needs.
                                     </li>
                                 </ul>
                             </div>

@@ -18,10 +18,10 @@ function Logistics() {
                 <div className="container mx-auto max-w-[1140px] px-6 lg:px-0">
                     {/* Content */}
                     <div className="relative z-10 max-w-3xl  text-white   lg:text-left">
-                        <h1 className="text-sm text-center font-semibold py-1 w-20 mb-4 bg-[#164DA5] sm:mx-0">Logistics</h1>
-                        <h2 className="text-xl sm:text-4xl mb-4">Transforming Logistics and Automotive Industries</h2>
+                        {/* <h1 className="text-sm text-center font-semibold py-1 w-20 mb-4 bg-[#164DA5] sm:mx-0">Logistics</h1> */}
+                        <h2 className="text-xl sm:text-4xl mb-4">Digital Solutions for Logistics & Transportation Company | SaturnX Digital IT Company</h2>
                         <p className="text-md sm:text-lg mb-4">
-                            At SaturnX Digital Solution Company, we specialize in delivering cutting-edge digital services tailored to the Logistics and Automotive industries. With our expertise, we empower businesses to thrive in the digital era by streamlining operations, enhancing customer experiences, and driving growth.
+                        Discover cutting-edge digital solutions tailored for logistics and transportation companies at SaturnX Digital IT Company. Drive efficiency, streamline operations, and embrace innovation today!
                         </p>
                         <Button
                             mainButton="Contact Us"
@@ -34,14 +34,15 @@ function Logistics() {
             <div className='bg-gray-200 w-full py-16 px-6 lg:px-0 relative font-poppins'>
                 <div className='container mx-auto max-w-[1140px]'>
                     <div className='my-2 w-full flex flex-col items-center justify-center text-center'>
-                        <h4 className="text-xl lg:text-4xl mb-4 font-bold max-w-4xl">Why Choose SaturnX Digital Solutions for Logistics and Automotive Industries?</h4>
+                        <h4 className="text-xl lg:text-4xl mb-4 font-bold max-w-4xl">Why Choose Digital Solutions for Logistics & Transportation?</h4>
+                        <p className="text-black text-lg">The logistics and transportation industry is rapidly evolving. Digital solutions are no longer a luxury but a necessity.</p>
                     </div>
 
                     {/* Service Section */}
                     <div className="py-16 px-4">
                         <div className="grid md:grid-cols-2 gap-12 items-center">
                             {/* Left Side Content */}
-                            <div data-aos="fade-right">
+                            <div data-aos="fade-down">
                                 <ul className='m-0 p-0 flex flex-col gap-4'>
                                     <li>
                                         <strong className='mr-2'>Industry Expertise: </strong> <span>    Our team understands the unique challenges faced by the *logistics and automotive sectors*. Whether it’s optimizing supply chain management or enhancing vehicle fleet operations, we deliver innovative digital solutions that make a real difference.</span>
@@ -56,12 +57,46 @@ function Logistics() {
                             </div>
 
                             {/* Right Side Image */}
-                            <div data-aos="fade-left">
+                            <div data-aos="fade-top">
                                 <img
                                     src="/whyLogistics.jpg"
                                     alt="Healthcare Software"
                                     className="rounded-lg shadow-lg"
                                 />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className='bg-white w-full py-16 px-6 lg:px-0 relative font-poppins'>
+                <div className='container mx-auto max-w-[1140px]'>
+                    {/* Service Section */}
+                    <div className="py-16 px-4">
+                        <div className="grid md:grid-cols-2 gap-12 items-center">
+                            {/* Right Side Image */}
+                            <div data-aos="fade-top">
+                                <img
+                                    src="/constructionWebsite.jpg"
+                                    alt="Healthcare Software"
+                                    className="rounded-lg shadow-lg"
+                                />
+                            </div>
+                            {/* Left Side Content */}
+                            <div data-aos="fade-down">
+                                <ul className='m-0 p-0 flex flex-col gap-4'>
+                                    <li>
+                                        <strong className='mr-2'>Mobile App Development: </strong> <span>  - Develop user-friendly apps for drivers, customers, and managers to ensure smooth communication. </span>
+                                    </li>
+                                    <li>
+                                        <strong className='mr-2'>Cloud-Based Solution: </strong> <span> - Leverage secure cloud storage for real-time data access and collaboration.</span>
+                                    </li>
+                                    <li>
+                                        <strong className='mr-2'>IoT Integration: </strong> <span>  - Use IoT devices to monitor vehicle health, optimize fuel consumption, and track cargo in real-time.</span>
+                                    </li>
+                                    <li>
+                                        <strong className='mr-2'>Custom Software Developmen: </strong> <span>  - Build scalable platforms for fleet management, route optimization, and inventory tracking.</span>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
