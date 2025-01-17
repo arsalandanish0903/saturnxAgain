@@ -67,6 +67,8 @@ const HeroSection = () => {
               <div
                 key={index}
                 className="bg-white/15 backdrop-blur-lg shadow-lg rounded-lg w-48 h-48 p-6 text-center flex flex-col items-center space-y-4 flex-shrink-0"
+                whileHover={{ backgroundColor: "white", color: "black" }}
+              onClick={() => navigate(card.path)}
               >
                 <div className="text-[#164DA5] text-4xl">{card.icon}</div>
                 <p className="text-lg font-semibold text-white">{card.content}</p>

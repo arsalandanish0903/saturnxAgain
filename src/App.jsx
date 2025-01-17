@@ -25,6 +25,10 @@ import EnterpriseSoftware from './Pages/EnterpriseSoftware/EnterpriseSoftware';
 import MobileAppDevelopment from './Pages/MobileAppDevelopment/MobileAppDevelopment';
 import DedicatedDevelopmentTeam from './Pages/DedicatedDevelopmentTeam/DedicatedDevelopmentTeam';
 import QaTesting from './Pages/QaTesting/QaTesting';
+import Technology from './Pages/Technology/Technology.jsx';
+import DigitalMarketing from './Pages/DigitalMarketing/DigitalMarketing.jsx';
+import AiMl from './Pages/AIML/AiMl.jsx';
+import DevOps from './Pages/DevOps/DevOps.jsx';
 
 
 AOS.init();
@@ -54,8 +58,12 @@ function App() {
           <Route index element={<Home />} />
           <Route path='about' element={<AboutBanner />} />
           <Route path='software-development-services-of-any-type-and-complexity' element={<ServicesBanner />} />
+          <Route path='cutting-edge-technologies' element={<Technology />}/>
           <Route path='careers' element={<CareersBanner />} />
           <Route path='contactus' element={<ContactUsBanner />} />
+          <Route path='digital-marketing-services' element={<DigitalMarketing />} />
+          <Route path='ai-ml-services' element={<AiMl />} />
+          <Route path='devops-services' element={<DevOps />} />
           <Route path='/construction-digital-solutions-provider' element={<Construction />} />
           <Route path='/healthcare-digital-solutions-provider' element={<HealthCare />} />
           <Route path='dental-software-development' element={<Dental />} />

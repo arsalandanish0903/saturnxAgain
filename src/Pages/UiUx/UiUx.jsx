@@ -1,6 +1,7 @@
 import React from 'react';
 import Button from '../../components/Buttons/Button';
 import WhyChooseUs from '../WhyChooseUs/WhyChooseUs';
+import ContactUs from '../ContactUs/ContactUs';
 
 function UiUx() {
     return (
@@ -120,6 +121,7 @@ function UiUx() {
             </div>
 
             <WhyChooseUs />
+            <ContactUs />
         </>
     );
 }

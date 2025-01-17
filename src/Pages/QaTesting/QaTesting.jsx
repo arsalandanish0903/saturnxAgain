@@ -1,6 +1,7 @@
 import React from 'react'
 import Button from '../../components/Buttons/Button'
 import { FaChevronDown, FaChevronUp } from 'react-icons/fa'; // Importing arrow icons
+import ContactUs from '../ContactUs/ContactUs';
 function QaTesting() {
   const [accordionIndex, setAccordionIndex] = React.useState(null);
   const handleClick = (index) => {
@@ -299,6 +300,7 @@ function QaTesting() {
           </div>
         </div>
       </div>
+      <ContactUs />
     </>
 
   )

@@ -51,7 +51,8 @@ const FixedButtons = () => {
 
   return (
     <>
-      {/* Fixed Buttons */}
+      <div className="relative">
+        {/* Fixed Buttons */}
       <div className="fixed right-4 bottom-0 lg:bottom-10 flex flex-col space-y-4 z-50">
         <Link
           to="#"
@@ -122,6 +123,7 @@ const FixedButtons = () => {
           </div>
         </div>
       )}
+      </div>
     </>
   );
 };

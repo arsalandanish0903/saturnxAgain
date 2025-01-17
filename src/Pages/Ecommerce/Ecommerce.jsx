@@ -83,26 +83,94 @@ function Ecommerce() {
             </p>
             <div className="grid md:grid-cols-3 gap-8">
               <div
-                className="text-center bg-white p-8 shadow-lg rounded-md"
+                className="text-center flex flex-col items-center bg-white  p-4 shadow-lg rounded-md"
                 data-aos="fade-up"
               >
-                <svg width="80px" height="80px" viewBox="0 0 960 960" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <svg fill="#1476F2" width="60px" height="60px" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+
+                  <g data-name="30 ecommerce" id="_30_ecommerce">
+
+                    <path d="M34.218,54.6H30.052a1,1,0,0,0,0,2h4.166a1,1,0,0,0,0-2Z" />
+
+                    <path d="M53.08,15.01a.974.974,0,0,0-.06-.34.59.59,0,0,1-.04-.08c-.02-.04-.03-.07-.05-.11L46.52,4.41a1.946,1.946,0,0,0-1.65-.91H19.13a1.946,1.946,0,0,0-1.65.91L11.07,14.48c-.02.04-.03.07-.05.11a.59.59,0,0,1-.04.08.974.974,0,0,0-.06.34l-.01.01v4.61a4.993,4.993,0,0,0,3.53,4.75V54.72a5.791,5.791,0,0,0,5.79,5.78H43.77a5.791,5.791,0,0,0,5.79-5.78V24.38a4.993,4.993,0,0,0,3.53-4.75V15.02ZM44.83,5.48l5.43,8.54H44.72L41.15,5.48Zm-5.85,0,3.57,8.54H36.91l-.93-8.53Zm4.07,10.54v3.61a3,3,0,0,1-3,3h-.03a3,3,0,0,1-3-3V16.02ZM30.03,5.49h3.94l.93,8.53H29.1ZM28.98,16.02h6.04v3.61a3,3,0,0,1-3,3h-.04a3,3,0,0,1-3-3ZM28.02,5.49l-.93,8.53H21.45L25.02,5.5ZM26.98,16.02v3.61a3,3,0,0,1-3,3h-.03a3,3,0,0,1-3-3V16.02ZM19.13,5.5h3.72l-3.57,8.52H13.73ZM15.95,22.63h-.04a3,3,0,0,1-3-3V16.02h6.04v3.61A3,3,0,0,1,15.95,22.63ZM47.56,54.72a3.792,3.792,0,0,1-3.79,3.78H20.23a3.792,3.792,0,0,1-3.79-3.78V52.71H47.56Zm0-4.01H16.44V24.58a4.959,4.959,0,0,0,3.51-1.98,4.966,4.966,0,0,0,4,2.03h.03a4.966,4.966,0,0,0,4-2.03,4.966,4.966,0,0,0,4,2.03h.04a4.966,4.966,0,0,0,4-2.03,4.966,4.966,0,0,0,4,2.03h.03a4.966,4.966,0,0,0,4-2.03,4.959,4.959,0,0,0,3.51,1.98Zm3.53-31.08a3,3,0,0,1-3,3h-.04a3,3,0,0,1-3-3V16.02h6.04Z" />
+
+                    <path d="M42.25,44.06,36.9,38.71a8.417,8.417,0,1,0-3.73,3.73l5.35,5.35a2.638,2.638,0,0,0,3.73-3.73ZM29.39,41.34a6.415,6.415,0,1,1,4.53-1.88A6.376,6.376,0,0,1,29.39,41.34Zm11.45,5.03a.643.643,0,0,1-.9.01L34.86,41.3a4.907,4.907,0,0,0,.48-.43,6.142,6.142,0,0,0,.42-.47l5.08,5.07A.634.634,0,0,1,40.84,46.37Z" />
+
+                  </g>
+
+                </svg>
+
+                <h3 className="text-xl font-bold my-4">Tailored E-Commerce Solutions</h3>
+                <p>
+                  We understand that each business is unique. Our team works closely with
+                  you to create a custom e-commerce solution that perfectly fits your needs
+                  and goals.
+                </p>
+              </div>
+              <div
+                className="text-center flex flex-col items-center bg-white  p-4 shadow-lg rounded-md"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <svg fill="#1476F2" height="60px" width="60px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                  viewBox="0 0 424.661 424.661" xml:space="preserve">
+                  <path d="M145.793,373.661c0,5.523-4.477,10-10,10H43.722c-2.971,0-5.788-1.321-7.688-3.605c-1.899-2.284-2.686-5.295-2.145-8.216
+	l23.567-127.233c6.697-36.158,38.392-61.429,80.746-64.382c19.813-1.381,39.71,2.562,56.036,11.103
+	c18.49,9.673,31.522,24.546,37.69,43.012c0.623,1.864,1.183,3.793,1.663,5.732c1.329,5.36-1.939,10.784-7.3,12.112
+	c-5.359,1.325-10.783-1.939-12.112-7.3c-0.354-1.426-0.765-2.841-1.221-4.207c-10.285-30.794-44.251-42.529-73.366-40.501
+	c-25.034,1.745-56.416,15.382-62.471,48.073L55.745,363.661h80.049C141.316,363.661,145.793,368.138,145.793,373.661z
+	 M96.482,138.018c-11.37-11.804-24.635-33.626-23.253-70.552c1.569-42.011,34.078-63.725,65.838-67.303
+	c2.174-0.245,11.989-0.21,14.394,0.081c31.538,3.813,63.588,25.516,65.149,67.223c1.381,36.926-11.884,58.749-23.255,70.552
+	c-13.183,13.686-30.739,21.223-49.437,21.223C127.222,159.241,109.665,151.704,96.482,138.018z M103.606,39.142
+	c12.324,4.938,26.963,7.822,42.313,8.235c15.351-0.413,29.989-3.297,42.312-8.235c-10.161-12.529-26.362-18.817-42.312-19.459
+	C129.968,20.325,113.766,26.613,103.606,39.142z M110.886,124.143c9.378,9.736,21.819,15.098,35.032,15.098
+	s25.654-5.362,35.033-15.098c12.446-12.921,18.558-32.261,17.672-55.93c-0.148-3.95-0.675-7.644-1.527-11.092
+	c-14.925,6.2-32.59,9.795-50.927,10.256c-0.083,0.002-0.167,0.003-0.251,0.003s-0.168-0.001-0.251-0.003
+	c-18.337-0.461-36.001-4.057-50.926-10.256c-0.851,3.448-1.379,7.141-1.526,11.091C92.33,91.882,98.44,111.222,110.886,124.143z
+	 M349.872,404.661H165.432c-5.522,0-10,4.477-10,10s4.478,10,10,10h184.439c5.522,0,10-4.477,10-10S355.394,404.661,349.872,404.661
+	z M170.331,273.287v103.276c0,5.523,4.354,10.098,9.877,10.098h154.886c5.522,0,10.237-4.575,10.237-10.098v-16.409
+	c0-5.523-4.478-10-10-10s-10,4.477-10,10v6.506h-135v-83h56.798c5.522,0,10-4.477,10-10s-4.478-10-10-10h-66.921
+	C174.685,263.661,170.331,267.764,170.331,273.287z M390.939,273.661c0,5.523-4.478,10-10,10h-10.61
+	c-0.784,2-1.876,5.198-3.25,7.651l7.513,7.322c3.905,3.905,3.913,10.237,0.007,14.142c-1.953,1.953-4.497,2.929-7.057,2.929
+	s-5.089-0.976-7.042-2.929l-7.45-7.509c-2.453,1.374-4.72,2.47-7.72,3.254v10.611c0,5.523-4.478,10-10,10s-10-4.477-10-10v-10.611
+	c-3-0.784-5.503-1.875-7.956-3.249l-7.628,7.516c-1.953,1.952-4.512,2.94-7.071,2.94s-5.118-0.953-7.071-2.905
+	c-3.905-3.905-3.905-10.191,0-14.096l7.511-7.418c-1.373-2.453-2.469-5.65-3.253-7.65h-10.613c-5.523,0-10.001-4.477-10.001-10
+	s4.477-10,9.999-10h10.614c0.784-3,1.887-5.572,3.261-8.026l-7.502-7.694c-3.905-3.905-3.892-10.236,0.013-14.142
+	c3.905-3.906,10.265-3.907,14.172-0.002l7.57,7.509c2.453-1.374,4.956-2.47,7.956-3.254v-10.611c0-5.523,4.478-10,10-10
+	s10,4.477,10,10v10.611c3,0.784,5.268,1.893,7.721,3.267l7.387-7.496c3.904-3.906,10.236-3.884,14.143,0.021
+	c3.905,3.905,3.906,10.283,0.002,14.189l-7.508,7.604c1.374,2.454,2.47,5.025,3.254,8.025h10.609
+	C386.461,263.661,390.939,268.138,390.939,273.661z M351.728,273.286c0-9.172-7.462-16.634-16.633-16.634
+	s-16.633,7.462-16.633,16.634c0,9.172,7.462,16.634,16.633,16.634S351.728,282.459,351.728,273.286z"/>
+                </svg>
+                <h3 className="text-xl font-bold my-4">Proven Expertise</h3>
+                <p>
+                  With years of experience in the e-commerce industry, we have the
+                  expertise to handle complex challenges and deliver solutions that maximize
+                  ROI.
+                </p>
+              </div>
+              <div
+                className="text-center flex flex-col items-center bg-white  p-4 shadow-lg rounded-md"
+                data-aos="fade-up"
+                data-aos-delay="400"
+              >
+                <svg width="60px" height="60px" viewBox="0 0 960 960" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 
                   <style>
                     {`
-          .st0 { display: none; }
-          .st1 { display: inline; opacity: 0.93; }
-          .st2 { display: inline; }
-          .st3 { fill: none; stroke: #000000; stroke-width: 15; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; }
-          .st4 { display: inline; fill: none; stroke: #000000; stroke-width: 15; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; }
-          .st5 { fill: #222222; }
-          .st6 { fill: #DDEDE7; }
-          .st7 { fill: #1A1D3F; }
-          .st8 { fill: #ED644E; }
-          .st9 { fill: #E9B44D; }
-          .st10 { fill: #3DC5A1; }
-          .st11 { fill: #494EDF; }
-        `}
+.st0 { display: none; }
+.st1 { display: inline; opacity: 0.93; }
+.st2 { display: inline; }
+.st3 { fill: none; stroke: #1476F2; stroke-width: 15; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; }
+.st4 { display: inline; fill: none; stroke: #1476F2; stroke-width: 15; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; }
+.st5 { fill: #1476F2; }
+.st6 { fill: #1476F2; }
+.st7 { fill: #1476F2; }
+.st8 { fill: #1476F2; }
+.st9 { fill: #1476F2; }
+.st10 { fill: #1476F2; }
+.st11 { fill: #1476F2; }
+`}
                   </style>
 
                   <g class="st0" id="guide" />
@@ -204,74 +272,7 @@ function Ecommerce() {
                   </g>
 
                 </svg>
-                <h3 className="text-xl font-bold mb-4">Tailored E-Commerce Solutions</h3>
-                <p>
-                  We understand that each business is unique. Our team works closely with
-                  you to create a custom e-commerce solution that perfectly fits your needs
-                  and goals.
-                </p>
-              </div>
-              <div
-                className="text-center bg-white p-8 shadow-lg rounded-md"
-                data-aos="fade-up"
-                data-aos-delay="200"
-              >
-<svg fill="#000000" height="80px" width="80px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
-	 viewBox="0 0 424.661 424.661" xml:space="preserve">
-<path d="M145.793,373.661c0,5.523-4.477,10-10,10H43.722c-2.971,0-5.788-1.321-7.688-3.605c-1.899-2.284-2.686-5.295-2.145-8.216
-	l23.567-127.233c6.697-36.158,38.392-61.429,80.746-64.382c19.813-1.381,39.71,2.562,56.036,11.103
-	c18.49,9.673,31.522,24.546,37.69,43.012c0.623,1.864,1.183,3.793,1.663,5.732c1.329,5.36-1.939,10.784-7.3,12.112
-	c-5.359,1.325-10.783-1.939-12.112-7.3c-0.354-1.426-0.765-2.841-1.221-4.207c-10.285-30.794-44.251-42.529-73.366-40.501
-	c-25.034,1.745-56.416,15.382-62.471,48.073L55.745,363.661h80.049C141.316,363.661,145.793,368.138,145.793,373.661z
-	 M96.482,138.018c-11.37-11.804-24.635-33.626-23.253-70.552c1.569-42.011,34.078-63.725,65.838-67.303
-	c2.174-0.245,11.989-0.21,14.394,0.081c31.538,3.813,63.588,25.516,65.149,67.223c1.381,36.926-11.884,58.749-23.255,70.552
-	c-13.183,13.686-30.739,21.223-49.437,21.223C127.222,159.241,109.665,151.704,96.482,138.018z M103.606,39.142
-	c12.324,4.938,26.963,7.822,42.313,8.235c15.351-0.413,29.989-3.297,42.312-8.235c-10.161-12.529-26.362-18.817-42.312-19.459
-	C129.968,20.325,113.766,26.613,103.606,39.142z M110.886,124.143c9.378,9.736,21.819,15.098,35.032,15.098
-	s25.654-5.362,35.033-15.098c12.446-12.921,18.558-32.261,17.672-55.93c-0.148-3.95-0.675-7.644-1.527-11.092
-	c-14.925,6.2-32.59,9.795-50.927,10.256c-0.083,0.002-0.167,0.003-0.251,0.003s-0.168-0.001-0.251-0.003
-	c-18.337-0.461-36.001-4.057-50.926-10.256c-0.851,3.448-1.379,7.141-1.526,11.091C92.33,91.882,98.44,111.222,110.886,124.143z
-	 M349.872,404.661H165.432c-5.522,0-10,4.477-10,10s4.478,10,10,10h184.439c5.522,0,10-4.477,10-10S355.394,404.661,349.872,404.661
-	z M170.331,273.287v103.276c0,5.523,4.354,10.098,9.877,10.098h154.886c5.522,0,10.237-4.575,10.237-10.098v-16.409
-	c0-5.523-4.478-10-10-10s-10,4.477-10,10v6.506h-135v-83h56.798c5.522,0,10-4.477,10-10s-4.478-10-10-10h-66.921
-	C174.685,263.661,170.331,267.764,170.331,273.287z M390.939,273.661c0,5.523-4.478,10-10,10h-10.61
-	c-0.784,2-1.876,5.198-3.25,7.651l7.513,7.322c3.905,3.905,3.913,10.237,0.007,14.142c-1.953,1.953-4.497,2.929-7.057,2.929
-	s-5.089-0.976-7.042-2.929l-7.45-7.509c-2.453,1.374-4.72,2.47-7.72,3.254v10.611c0,5.523-4.478,10-10,10s-10-4.477-10-10v-10.611
-	c-3-0.784-5.503-1.875-7.956-3.249l-7.628,7.516c-1.953,1.952-4.512,2.94-7.071,2.94s-5.118-0.953-7.071-2.905
-	c-3.905-3.905-3.905-10.191,0-14.096l7.511-7.418c-1.373-2.453-2.469-5.65-3.253-7.65h-10.613c-5.523,0-10.001-4.477-10.001-10
-	s4.477-10,9.999-10h10.614c0.784-3,1.887-5.572,3.261-8.026l-7.502-7.694c-3.905-3.905-3.892-10.236,0.013-14.142
-	c3.905-3.906,10.265-3.907,14.172-0.002l7.57,7.509c2.453-1.374,4.956-2.47,7.956-3.254v-10.611c0-5.523,4.478-10,10-10
-	s10,4.477,10,10v10.611c3,0.784,5.268,1.893,7.721,3.267l7.387-7.496c3.904-3.906,10.236-3.884,14.143,0.021
-	c3.905,3.905,3.906,10.283,0.002,14.189l-7.508,7.604c1.374,2.454,2.47,5.025,3.254,8.025h10.609
-	C386.461,263.661,390.939,268.138,390.939,273.661z M351.728,273.286c0-9.172-7.462-16.634-16.633-16.634
-	s-16.633,7.462-16.633,16.634c0,9.172,7.462,16.634,16.633,16.634S351.728,282.459,351.728,273.286z"/>
-</svg>
-                <h3 className="text-xl font-bold mb-4">Proven Expertise</h3>
-                <p>
-                  With years of experience in the e-commerce industry, we have the
-                  expertise to handle complex challenges and deliver solutions that maximize
-                  ROI.
-                </p>
-              </div>
-              <div
-                className="text-center bg-white p-8 shadow-lg rounded-md"
-                data-aos="fade-up"
-                data-aos-delay="400"
-              >
-<svg fill="#000000" width="80px" height="80px" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-
-<g data-name="30 ecommerce" id="_30_ecommerce">
-
-<path d="M34.218,54.6H30.052a1,1,0,0,0,0,2h4.166a1,1,0,0,0,0-2Z"/>
-
-<path d="M53.08,15.01a.974.974,0,0,0-.06-.34.59.59,0,0,1-.04-.08c-.02-.04-.03-.07-.05-.11L46.52,4.41a1.946,1.946,0,0,0-1.65-.91H19.13a1.946,1.946,0,0,0-1.65.91L11.07,14.48c-.02.04-.03.07-.05.11a.59.59,0,0,1-.04.08.974.974,0,0,0-.06.34l-.01.01v4.61a4.993,4.993,0,0,0,3.53,4.75V54.72a5.791,5.791,0,0,0,5.79,5.78H43.77a5.791,5.791,0,0,0,5.79-5.78V24.38a4.993,4.993,0,0,0,3.53-4.75V15.02ZM44.83,5.48l5.43,8.54H44.72L41.15,5.48Zm-5.85,0,3.57,8.54H36.91l-.93-8.53Zm4.07,10.54v3.61a3,3,0,0,1-3,3h-.03a3,3,0,0,1-3-3V16.02ZM30.03,5.49h3.94l.93,8.53H29.1ZM28.98,16.02h6.04v3.61a3,3,0,0,1-3,3h-.04a3,3,0,0,1-3-3ZM28.02,5.49l-.93,8.53H21.45L25.02,5.5ZM26.98,16.02v3.61a3,3,0,0,1-3,3h-.03a3,3,0,0,1-3-3V16.02ZM19.13,5.5h3.72l-3.57,8.52H13.73ZM15.95,22.63h-.04a3,3,0,0,1-3-3V16.02h6.04v3.61A3,3,0,0,1,15.95,22.63ZM47.56,54.72a3.792,3.792,0,0,1-3.79,3.78H20.23a3.792,3.792,0,0,1-3.79-3.78V52.71H47.56Zm0-4.01H16.44V24.58a4.959,4.959,0,0,0,3.51-1.98,4.966,4.966,0,0,0,4,2.03h.03a4.966,4.966,0,0,0,4-2.03,4.966,4.966,0,0,0,4,2.03h.04a4.966,4.966,0,0,0,4-2.03,4.966,4.966,0,0,0,4,2.03h.03a4.966,4.966,0,0,0,4-2.03,4.959,4.959,0,0,0,3.51,1.98Zm3.53-31.08a3,3,0,0,1-3,3h-.04a3,3,0,0,1-3-3V16.02h6.04Z"/>
-
-<path d="M42.25,44.06,36.9,38.71a8.417,8.417,0,1,0-3.73,3.73l5.35,5.35a2.638,2.638,0,0,0,3.73-3.73ZM29.39,41.34a6.415,6.415,0,1,1,4.53-1.88A6.376,6.376,0,0,1,29.39,41.34Zm11.45,5.03a.643.643,0,0,1-.9.01L34.86,41.3a4.907,4.907,0,0,0,.48-.43,6.142,6.142,0,0,0,.42-.47l5.08,5.07A.634.634,0,0,1,40.84,46.37Z"/>
-
-</g>
-
-</svg>
-                <h3 className="text-xl font-bold mb-4">Ongoing Support & Maintenance</h3>
+                <h3 className="text-xl font-bold my-4">Ongoing Support & Maintenance</h3>
                 <p>
                   We offer ongoing support and maintenance services to ensure your
                   e-commerce platform stays updated, secure, and continues to perform at
@@ -293,7 +294,7 @@ function Ecommerce() {
             </h4>
             <div className="grid md:grid-cols-3 gap-8">
               <div
-                className="text-center  p-8 shadow-lg rounded-md"
+                className="text-center bg-white p-8 shadow-lg rounded-md"
                 data-aos="fade-up"
               >
                 <h3 className="text-xl font-bold mb-4">Custom E-Commerce Design</h3>
@@ -302,7 +303,7 @@ function Ecommerce() {
                 </p>
               </div>
               <div
-                className="text-center  p-8 shadow-lg rounded-md"
+                className="text-center bg-white p-8 shadow-lg rounded-md"
                 data-aos="fade-up"
                 data-aos-delay="200"
               >
@@ -312,7 +313,7 @@ function Ecommerce() {
                 </p>
               </div>
               <div
-                className="text-center  p-8 shadow-lg rounded-md"
+                className="text-center bg-white p-8 shadow-lg rounded-md"
                 data-aos="fade-up"
                 data-aos-delay="400"
               >
@@ -324,7 +325,7 @@ function Ecommerce() {
             </div>
             <div className="grid md:grid-cols-3 gap-8 mt-8">
               <div
-                className="text-center  p-8 shadow-lg rounded-md"
+                className="text-center bg-white p-8 shadow-lg rounded-md"
                 data-aos="fade-up"
               >
                 <h3 className="text-xl font-bold mb-4">SEO Optimization</h3>
@@ -333,7 +334,7 @@ function Ecommerce() {
                 </p>
               </div>
               <div
-                className="text-center  p-8 shadow-lg rounded-md"
+                className="text-center bg-white p-8 shadow-lg rounded-md"
                 data-aos="fade-up"
                 data-aos-delay="200"
               >
@@ -343,7 +344,7 @@ function Ecommerce() {
                 </p>
               </div>
               <div
-                className="text-center  p-8 shadow-lg rounded-md"
+                className="text-center bg-white p-8 shadow-lg rounded-md"
                 data-aos="fade-up"
                 data-aos-delay="400"
               >
@@ -354,18 +355,6 @@ function Ecommerce() {
               </div>
             </div>
           </div>
-        </div>
-
-        <div className="bg-primary py-16 text-center text-black">
-          <h2 className="text-3xl font-bold mb-4">
-            Ready to Take Your Online Business to the Next Level?
-          </h2>
-          <p className="text-lg mb-6">
-            Join hands with SaturnX Digital Solutions today and start transforming your e-commerce platform into a high-performance, revenue-driving engine.
-          </p>
-          <button className="bg-white text-primary px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-all">
-            Get Started Today
-          </button>
         </div>
       </div>
     </>

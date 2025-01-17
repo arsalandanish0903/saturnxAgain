@@ -104,7 +104,7 @@ function Loader() {
                     <div class="pad four"></div>
                 </div>
             </div>
-            <div class="shadow"></div>
+            <div class="loader-shadow"></div>
         </div>
 
     )
